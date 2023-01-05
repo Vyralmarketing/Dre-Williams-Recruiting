@@ -15,3 +15,5 @@ group :jekyll_plugins do
   gem 'jekyll-picture-tag'
 	gem 'jekyll-admin'
 end
+
+gem "webrick", "~> 1.7"
