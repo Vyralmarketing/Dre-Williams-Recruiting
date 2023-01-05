@@ -13,22 +13,23 @@
 		<ul class="nav navbar-nav navbar-left">
 			<li><a href="/">Home</a></li>
 
-			<li><a href="{{site.data.settings.CTAS.cta1_link}}">{{site.data.settings.CTAS.cta1}}</a></li>
+      <li><a href="{{ site.baseurl }}{{site.data.settings.CTAS.cta1_link}}">{{site.data.settings.CTAS.cta1}}</a></li>
 
 
-			<li><a href="{{site.data.settings.CTAS.cta2_link}}">{{site.data.settings.CTAS.cta2}}</a></li>
+      <li><a href="{{ site.baseurl }}{{site.data.settings.CTAS.cta2_link}}">{{site.data.settings.CTAS.cta2}}</a></li>
 
 
-			<li><a href="{{site.data.settings.CTAS.cta3_link}}">{{site.data.settings.CTAS.cta3}}</a></li>
+      <li><a href="{{ site.baseurl }}{{site.data.settings.CTAS.cta3_link}}">{{site.data.settings.CTAS.cta3}}</a></li>
 
 
-			<li><a href="{{site.data.settings.CTAS.cta4_link}}" target="_blank">{{site.data.settings.CTAS.cta4}}</a></li>
+      <li><a href="{{ site.baseurl }}{{site.data.settings.CTAS.cta4_link}}"
+          target="_blank">{{site.data.settings.CTAS.cta4}}</a></li>
 
 
 
 			{% if site.data.settings.show_custom_links == true %}
 				{% for item in site.data.settings.custom_links %}
-      		<li><a href="{{ item.url}}">{{ item.title}}</a></li>
+          <li><a href="{{ site.baseurl }}{{ item.url}}">{{ item.title}}</a></li>
     		{% endfor %}
 			{% endif %}
 
