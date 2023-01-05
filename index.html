@@ -25,7 +25,7 @@ layout: default
 								{% if post.youtube_alternate_image != null %}
 	            		<img src="{{post.youtube_alternate_image}}" alt="{{post.title}}" class="post-image"/>
 								{% else %}
-									<img src="{{ site.data.settings.images.post_cover }}" alt="{{post.title}}" class="post-image"/>
+									<img src="{{ site.baseurl}}{{ site.data.settings.images.post_cover }}" alt="{{post.title}}" class="post-image"/>
 								{% endif %}
 	            {% endif %}
 	          </a>
