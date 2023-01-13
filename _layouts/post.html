@@ -9,10 +9,10 @@
 
   	<div class="container-fluid">
 
-				<div class="col-sm-12 visible-xs visible-sm sidebar">
+				<!-- <div class="col-sm-12 visible-xs visible-sm sidebar">
 					{% include socials.html %}
 					{% include search-box.html %}
-				</div>
+				</div> -->
 			<div class="col-lg-7 col-md-7 col-lg-offset-1">
 
 
@@ -23,7 +23,7 @@
           <h1 class="post-title" itemprop="name headline">{{page.title}}</h1>
         </a>
 				<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" style="display: none;">{{ page.date | date: "%b %-d, %Y" }}</time>
-				<p class="tag-container">
+				<!-- <p class="tag-container"> -->
 				<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 					<div class="twelve columns post-content"  itemprop="articleBody">
 						<p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
@@ -39,7 +39,7 @@
 				{% include search-box.html %}
 				{% include cta-sidebar.html %}
 				{% include blog-archive-category.html %}
-				{% include reviews.html %}
+				<!-- {% include reviews.html %} -->
 			</div>
 		</div>
 		{% include about.html%}

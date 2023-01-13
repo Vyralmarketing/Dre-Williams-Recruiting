@@ -3,10 +3,10 @@
   <channel>
     <title>-- market --'s Best Real Estate Training</title>
     <description>-- client name --, a top Real Estate Agent in -- market --, shares his/her own internal real estate agent training for free. His/Her Real Estate Training, Tips and Advice will help you sell more homes in less time.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 08 Mar 2022 07:33:11 -0600</pubDate>
-    <lastBuildDate>Tue, 08 Mar 2022 07:33:11 -0600</lastBuildDate>
+    <link>http://localhost:4000/recruiting-template/</link>
+    <atom:link href="http://localhost:4000/recruiting-template/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 12 Jan 2023 20:29:42 -0500</pubDate>
+    <lastBuildDate>Thu, 12 Jan 2023 20:29:42 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -41,9 +41,9 @@
 
 &lt;p&gt;Aliquet lectus proin nibh nisl. Felis eget velit aliquet sagittis id consectetur. Nunc pulvinar sapien et ligula. Ut aliquam purus sit amet luctus venenatis lectus magna fringilla.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 07 May 2020 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/this-is-a-test-post-2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/this-is-a-test-post-2.html</guid>
+        <pubDate>Thu, 07 May 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/recruiting-template/this-is-a-test-post-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recruiting-template/this-is-a-test-post-2.html</guid>
         
         <category>Lead Generation</category>
         
@@ -86,9 +86,9 @@
 
 &lt;p&gt;Aliquet lectus proin nibh nisl. Felis eget velit aliquet sagittis id consectetur. Nunc pulvinar sapien et ligula. Ut aliquam purus sit amet luctus venenatis lectus magna fringilla.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 07 May 2020 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/this-is-a-test-post.html</link>
-        <guid isPermaLink="true">http://localhost:4000/this-is-a-test-post.html</guid>
+        <pubDate>Thu, 07 May 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/recruiting-template/this-is-a-test-post.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recruiting-template/this-is-a-test-post.html</guid>
         
         <category>Lead Generation</category>
         

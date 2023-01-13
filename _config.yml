@@ -4,8 +4,8 @@ title: "Free Training"
 baseurl: "/recruiting-template"
 # the base hostname & protocol for your site. Don't let it end in '/' or you'll mess the links up
 # Change for production:
-# url: "localhost:4000"
-url: "https://joshcesana.github.io/recruiting-template"
+url: "localhost:4000"
+# url: "https://joshcesana.github.io/recruiting-template"
 
 #Handling Reading
 encoding: "utf-8"

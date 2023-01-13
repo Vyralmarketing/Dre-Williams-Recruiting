@@ -2,19 +2,26 @@
 	border: 1px solid #cfcfcf
 	border-radius: $button-radius
 	width: 100%
-	margin-bottom: 20px
-	margin-top: 20px
+	// max-width: 315px
+	margin: 0 auto 55px auto
 	h5
-		margin-left: 10px
+		font-size: 28px
+		margin-left: 15px
 	hr
 		margin-top: 0
 		margin-bottom: 10px
+		
 .catbloc
 	li
-		font-size: 20px
+		font-size: 26px
 		color: $brand
 		list-style: none
-		padding-left: 30px
+		padding: 3px 0 3px 15px
 
 label.tree-toggle
 	cursor: pointer
+
+@media (max-width : 480px)
+	.library-container
+		margin: 0 0 50px
+		max-width: 100%

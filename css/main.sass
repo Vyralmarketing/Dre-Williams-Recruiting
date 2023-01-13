@@ -16,6 +16,7 @@ $headerfont: 'Source Sans Pro', helvetica, arial, sans-serif
 // If this is a really light color, you're going to have to mess around with some other settings.
 $brand: {{site.data.settings.site_colors.brand_color}}
 $brand-light: lighten($brand, 20%)
+$brand-very-light: lighten($brand, 60%)
 $brand-dark: darken($brand, 10%)
 $theme: {{site.data.settings.site_colors.theme_color}}
 $theme-text: {{ site.data.settings.site_colors.theme_text_color }}
@@ -44,7 +45,6 @@ $footer-font-color: #353535
 $header-shadow: {{site.data.settings.header_shadow.h_shadow}} {{site.data.settings.header_shadow.w_shadow}} {{site.data.settings.header_shadow.shadow_spread}} {{site.data.settings.header_shadow.shadow_color}}
 $post-wrapper-border: #D8D8D8
 $footer-background: darken(#f3f3f3, 10%)
-$readmore-border-color: $footer-background
 $form-border-color: gray
 $form-focus-outline: $brand-light
 
@@ -94,3 +94,4 @@ $icon-fill: $light-text
 @import "forms"
 @import "buttons"
 @import "recruiting"
+@import "benefits"

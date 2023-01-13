@@ -1,4 +1,32 @@
-<div class="testimonial-area">
+<div class="testimonials-container-new">
+	<h2>Client Testimonials</h2>
+
+	{% for item in site.data.settings.testimonials %}
+		{% assign loopindex = forloop.index | modulo: 2 %}
+		
+			{% if loopindex == 1 %}
+			<div class="client-container">
+			<div class="client-testimonial">
+			{% else %}
+			<div class="client-container gray">
+			<div class="client-testimonial flipped">
+			{% endif %}
+
+				<div class="image-container">
+					<a href="{{ item.image_link }}" target="_blank"><img src="img/dummy-image.png" alt=""/></a>
+				</div>
+				<div class="quote">
+					<h3>"{{ item.quote }}"</h3>
+					<p class="name">- {{ item.name }}</p>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+
+</div>
+
+
+<!-- <div class="testimonial-area">
 		{% if site.data.testimonials.show_testimonials_section == true %}
 			<div class="testimonial-container">
 				<div class="testimonial-navigation">
@@ -37,4 +65,4 @@
 				</div>
 			</div>
 		{% endif %}
-</div>
+</div> -->

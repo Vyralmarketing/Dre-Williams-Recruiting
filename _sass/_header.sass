@@ -2,13 +2,41 @@
 	background-position: center
 	background-size: cover
 	height: 400px
+
+.hero-backdrop
+	background-color: rgba(0,0,0,0.6)
+	height: 400px
+
+.hero-text
+	text-align: center
+	position: relative
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%)
+	color: white
+
+	h1
+		font-size: 60px
+		font-weight: 600
+		margin-bottom: 5px
+
+	p
+		font-weight: normal
+		font-size: 28px
+		margin-bottom: 10px
+
+	button
+		padding: 10px 40px
+		font-size: 32px
+		font-weight: bold
+
 #hero
 	background-position: center
 	background-size: cover
 	background-attachment: fixed
 	background-repeat: no-repeat
 	text-align: center
-	padding-top: $nav-height + 2.5rem
+	padding-top: 51px
 
 .site-logo
 	width: 90%
@@ -19,39 +47,62 @@
 	color: $brand
 	text-align: center
 	font-weight: 400
-	padding-bottom: 2rem
-	margin-bottom: 0
+	padding: 2rem 0
+	margin: 30px 0
+	font-size: 3.5rem
 
+.nav-value-prop
+	z-index: 9999
+	font-size: 36px
+	font-weight: 600
+	text-align: center
+	position: fixed
+	top: 29px
+	left: 50%
+	transform: translate(-50%, -50%)
+	white-space: nowrap
 
 @media (max-width: 1100px)
 	.site-title
-		font-size: 5rem
+		font-size: 3.5rem
 
-@media (max-width: 1000px)
+@media (max-width: 992px)
 	.site-logo
 		max-width: 20rem
 
-@media (max-width: 760px)
-	#hero
-		padding-top: 5.5rem
+	.nav-value-prop
+		display: none
+
+@media (max-width: 768px)
 	.site-logo
 		max-width: 20rem
 		margin-top: 4rem
 	.site-title
-		font-size: 5rem
+		font-size: 3.5rem
+		margin: 0
+	.hero-img
+		height: 300px
+	.hero-text
+		& button
+			padding: 4px 30px
+			font-size: 26px
+			font-weight: bold
 
 @media (max-width: 600px)
-	#hero
-		// height: 31rem
 	.site-logo
 		max-width: 15rem
 		margin-top: 2rem
 	.site-title
-		font-size: 3.5rem
+		font-size: 26px
 	.cta
 		padding: 1rem
 @media (max-width: 400px)
-	#hero
-		// height: 25rem
 	.cta
 		padding: 0.5rem
+	.hero-text
+		padding: 2rem
+
+		& h1
+			font-size: 41px
+			font-weight: 800
+			line-height: 1

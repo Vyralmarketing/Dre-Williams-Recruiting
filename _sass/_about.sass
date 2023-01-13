@@ -1,52 +1,80 @@
 .client-image-container
 	border-radius: 50%
-	width: 200px
-	height: 200px
+	// width: 200px
+	// height: 200px
 	border: 3px solid $brand
 	// margin: 10px auto 0 6rem
 	overflow: hidden
 	display: inline-block
-	margin: auto
+	// margin: auto
+	margin: 10px 0 20px
+	width: 200px
+	height: 200px
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px
 
 .client-image
 	max-width: 200px
 
-.about-container
-	display: flex
-	// flex-direction: column
-	justify-content: center
-	padding: 0px 10px 40px
-	font-size: 18px
-	div
-		display: flex
-
 .about-text
 	display: flex
 	flex-direction: column
+	margin-bottom: 15px
 	p
 		vertical-align: middle
-		margin: auto 0
-		padding: 10px
+		margin: 0 0 25px
+		padding: 0 10px 0 0
+
 .gray
 	background: #ededed
 	div
 		div
 			h4
+				font-size: 36px
+				font-weight: bold
 				text-align: center
-				padding-top: 20px
+				margin: 35px 0 0
+			h5
+				font-size: 26px
+				font-weight: normal
+				text-align: center
+				margin: 5px 0 40px
+
 .contact-text
 	margin: auto
+	margin-bottom: 25px
 
-@media(max-width: 1000px)
-	.client-image-container
-		width: 150px
-		height: 150px
-	.client-image
-		max-width: 150px
+.contact-text-container
+	width: 100%
+	text-align: left
 
-@media(max-width: 450px)
-	.client-image-container
-		width: 100px
-		height: 100px
-	.client-image
-		max-width: 100px
+@media only screen and (max-width : 1200px)
+	.contact-text-container
+		text-align: center
+
+@media only screen and (max-width : 768px)
+	.about-text
+		margin-bottom: 0
+
+	.gray
+		background: #ededed
+		div
+			div
+				h4
+					font-size: 30px
+					font-weight: bold
+					text-align: center
+					margin: 25px 0 0
+				h5
+					font-size: 20px
+					font-weight: normal
+					text-align: center
+					margin: 5px 0 5px
+
+@media(max-width: 480px)
+	
+
+	.about-text
+		display: flex
+		flex-direction: column
+		p
+			vertical-align: middle

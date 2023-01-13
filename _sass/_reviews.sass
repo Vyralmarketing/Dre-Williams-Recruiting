@@ -15,11 +15,10 @@
 .review-button-wrapper
 	text-align: left
 	height: 75px
+	// max-width: 315px
+	margin: 0 auto 12px
 
 .review.button
-	svg
-		fill: $light-text
-		width: 100px
 	text-align: center
 	display: inline-block
 	width: 100%
@@ -28,6 +27,11 @@
 	font-size: 2rem
 	border-radius: $button-radius
 	@include transition(0.3s)
+
+	svg
+		fill: $light-text
+		width: 100px
+
 	&:hover
 		svg
 			fill: $brand
@@ -40,3 +44,7 @@
 @media (max-width: 990px)
 	.review-button-wrapper
 		text-align: center
+
+@media (max-width: 480px)
+	.review-button-wrapper
+		max-width: 100%
