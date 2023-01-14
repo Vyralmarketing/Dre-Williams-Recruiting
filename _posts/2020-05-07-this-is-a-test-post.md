@@ -11,9 +11,9 @@ layout: post
 title: This is a test post
 date: 2020-05-07
 tags:
-  - Lead Generation
-  - Lead Conversion
-  - Listing Presentation
+  - Category 1
+  - Category 2
+  - Category 3
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 enclosure:
 pullquote: This is an example of a pull quote
