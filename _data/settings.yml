@@ -2,9 +2,9 @@ title: "-- market --'s Best Real Estate Training"
 description: -- client name --, a top Real Estate Agent in -- market --, shares his/her own internal real estate agent training for free. His/Her Real Estate Training, Tips and Advice will help you sell more homes in less time.
 keywords: -- client name --, 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in -- market --, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
 
-nav_value_prop:
+nav_USP_statement:
   # 30 or so characters max:
-  text: WHAT MAKES YOU UNIQUE GOES HERE
+  text: What Makes You Unique Goes Here
   url: https://www.google.com
 
 CTAS:
@@ -22,25 +22,15 @@ CTAS:
     url: /
 
 sidebar_CTAs:
-  - title: Call to Action 1
-    image: img/dummy-image.png
-    text: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi cum eius beatae officia magni, tenetur natus quo adipisci dolores fuga hic dicta consequatur laudantium dolor?
-    button-text: Button Text
-    url: /
   - title: Call to Action 2
     image: img/dummy-image.png
     text: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi cum eius beatae officia magni, tenetur natus quo adipisci dolores fuga hic dicta consequatur laudantium dolor?
-    button-text: Button Text
+    button-text: CTA Button 2
     url: /
   - title: Call to Action 3
     image: img/dummy-image.png
     text: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi cum eius beatae officia magni, tenetur natus quo adipisci dolores fuga hic dicta consequatur laudantium dolor?
-    button-text: Button Text
-    url: /
-  - title: Call to Action 4
-    image: img/dummy-image.png
-    text: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi cum eius beatae officia magni, tenetur natus quo adipisci dolores fuga hic dicta consequatur laudantium dolor?
-    button-text: Button Text
+    button-text: CTA Button 3
     url: /
   
 show_custom_links: false
@@ -52,17 +42,13 @@ client:
   name: Josh Cesana
   title: Real Estate Agent
   license_number: 123456789
-  about_headline: This is a Headline 
-  about_subheadline: This is a subheadline
+  about_headline: Why Hire Us Headline 
+  about_subheadline: Why Hire Us Subheadline
   about_markdown: |
-    This is 200 words. mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae 
-    auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis 
-    a cras semper auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur 
-    purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque 
-    felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet 
-    facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis 
-    ut diam quam nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis 
-    natoque penatibus et magnis dis parturient montes nascetur.
+
+    This is 100 words. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.
+    
+    This is 100 words. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.
 
   brand: Test Brand
   brokerage: Test Brokerage
@@ -92,7 +78,15 @@ testimonials:
 forms:
   sitekey:
 
-mission: Our Mission on this site is to educate Real Estate Agents on how to sell more homes.
+mission: This is where you put the mission or purpose of your educational video blog.
+
+benefits_section:
+  header: MAIN BENEFIT STATEMENT GOES HERE
+  benefit_1: Benefit Statement 1 goes here with some logner text
+  benefit_2: Benefit Statement 2 goes here with some logner text
+  benefit_3: Benefit Statement 3 goes here with some logner text
+  benefit_4: Benefit Statement 4 goes here with some logner text
+  icon_image: checkmark.svg
 
 socials:
   review_sm_icons: false
@@ -123,13 +117,11 @@ hero:
   use_overlay: true
   # range from 0 - 1.0: (0.5 is default)
   overlay-intensity: 0.5
-  header: Test Main header
+  header: Primary Call to Action Headline
   header_color: 'white'
-  header_font_size: 60
-  subheader: This is a test subheader
+  subheader: Primary Call to Action Subheadline
   subheader_color: 'white'
-  subheader_font_size: 22
-  button_text: Contact
+  button_text: Primary CTA Button
   button_link: https://www.google.com
   open_new_tab: true
 
