@@ -26,7 +26,7 @@
 				<!-- <p class="tag-container"> -->
 				<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 					<div class="twelve columns post-content"  itemprop="articleBody">
-						<p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+						<p class="publish-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
 						{{ content }}
 					</div>
 				</article>
@@ -34,7 +34,7 @@
 		<!-- </div> -->
 	</main>
 			</div>
-			<div class="col-md-5 col-lg-3 hidden-sm hidden-xs sidebar">
+			<div class="col-md-5 col-lg-3 sidebar">
 				{% include socials.html %}
 				{% include search-box.html %}
 				{% include cta-sidebar.html %}
