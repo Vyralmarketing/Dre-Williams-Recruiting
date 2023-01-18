@@ -3,9 +3,8 @@ description: -- client name --, a top Real Estate Agent in -- market --, shares 
 keywords: -- client name --, 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in -- market --, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
 
 nav_USP_statement:
-  # 30 or so characters max:
+  # 35 characters max:
   text: What Makes You Unique Goes Here
-  url: https://www.google.com
 
 CTAS:
   - title: Call to Action 1

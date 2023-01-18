@@ -9,8 +9,8 @@
   </div>
 </header>
 
-{% if site.data.settings.nav_USP_statement %}
+{% if site.data.settings.nav_USP_statement.text %}
 <div class="nav-usp">
-  <a href="{{ site.data.settings.nav_USP_statement.url }}">{{ site.data.settings.nav_USP_statement.text }}</a>
+  {{ site.data.settings.nav_USP_statement.text }}
 </div>
 {% endif %}
