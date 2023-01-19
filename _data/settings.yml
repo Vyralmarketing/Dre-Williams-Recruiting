@@ -106,11 +106,12 @@ mission: This is where you put the mission or purpose of your educational video 
 
 benefits_section:
   header: Main Benefit Statement Goes Here
-  benefit_1: Benefit statement goes here
-  benefit_2: Benefit statement goes here
-  benefit_3: Benefit statement goes here
-  benefit_4: Benefit statement goes here
-  icon_image: checkmark.svg
+  subheader: Repeat what makes you unique to customers here in this subheadline
+  benefit_1: A top benefit of your service goes here
+  benefit_2: A top benefit of your service goes here
+  benefit_3: A top benefit of your service goes here
+  benefit_4: A top benefit of your service goes here
+  icon_image: checkmark.png
   svg_icon_color: gray
 
 socials:
