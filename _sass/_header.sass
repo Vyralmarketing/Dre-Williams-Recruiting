@@ -1,11 +1,11 @@
 .hero-img
 	background-position: center
 	background-size: cover
-	height: 400px
+	height: 500px
 
 .hero-backdrop
 	background-color: rgba(0,0,0,0.6)
-	height: 400px
+	height: 500px
 
 .hero-text
 	text-align: center
@@ -16,21 +16,23 @@
 	color: white
 
 	h1
-		font-size: 60px
+		font-size: 48px
 		font-weight: 600
 		margin-bottom: 13px
 		line-height: 1
+		letter-spacing: 0
 
 	p
-		font-weight: normal
-		font-size: 28px
-		margin-bottom: 15px
+		font-size: 24px
+		font-weight: 600
 		line-height: 1.2
+		margin: 35px auto 42px auto
+		max-width: 725px
 
 .cta-button
 	button
 		padding: 10px 40px
-		font-size: 32px
+		font-size: 24px
 		font-weight: bold
 
 #hero
@@ -77,6 +79,9 @@
 		font-size: 24px
 
 @media (max-width: 768px)
+	.hero-text
+		padding: 2rem
+		
 	.nav-usp
 		font-size: 18px
 
@@ -89,19 +94,19 @@
 		margin: 0
 
 	.hero-img
-		height: 300px
+		height: 600px
 
-	.hero-text
-		h1
-			font-size: 50px
-		p
-			font-size: 26px
+	// .hero-text
+	// 	h1
+	// 		font-size: 50px
+	// 	p
+	// 		font-size: 26px
 
 	.cta-button
 		button
-			padding: 4px 30px
-			font-size: 26px
-			font-weight: bold
+			padding: 10px 30px
+			white-space: normal
+			line-height: 1.2
 
 @media (max-width: 675px)
 	.nav-usp
@@ -122,8 +127,7 @@
 	.cta
 		padding: 0.5rem
 
-	.hero-text
-		padding: 2rem
+	
 
 		h1
 			font-size: 41px

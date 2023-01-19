@@ -30,19 +30,43 @@
 	padding: 5px 15px 40px
 	background-color: $brand
 	color: $theme-body-color
-	
+
+	.fluid-about-vid
+		padding: 0
+		margin: 15px auto 30px
+		max-width: 700px
+		height: 400px
+		position: relative
+		border: 3px solid white
+
 	div
 		div
 			h4
-				font-size: 56px
+				font-size: 50px
 				font-weight: bold
 				text-align: center
-				margin: 25px 0 -8px
+				margin: 25px 0 10px
 			h5
-				font-size: 38px
+				font-size: 30px
 				font-weight: normal
 				text-align: center
-				margin: 0 0 40px
+				margin: 0 0 30px
+
+
+	.cta-button
+		margin-top: 35px
+	
+		&.inverted
+			button
+				color: $brand
+				background: $light-text
+				border: 1px solid $brand
+				&:hover
+					background: $brand
+					border: 1px solid $brand
+					color: $light-text
+				&:visited
+					color: $brand
 
 .contact-text
 	margin: auto
@@ -51,6 +75,8 @@
 .contact-text-container
 	width: 100%
 	text-align: left
+
+
 
 @media only screen and (max-width : 1200px)
 	.contact-text-container

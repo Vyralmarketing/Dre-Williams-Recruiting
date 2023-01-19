@@ -1,27 +1,33 @@
 <div class="testimonials-container-new">
-	<h2>Client Testimonials</h2>
+	<div class="testimonials-header">
+		<h2>Client Testimonials</h2>
+	</div>
 
 	{% for item in site.data.settings.testimonials %}
 		{% assign loopindex = forloop.index | modulo: 2 %}
 		
 			{% if loopindex == 1 %}
-			<div class="client-container">
-			<div class="client-testimonial">
-			{% else %}
 			<div class="client-container gray">
-			<div class="client-testimonial flipped">
+				<div class="client-testimonial">
+			{% else %}
+			<div class="client-container">
+				<div class="client-testimonial flipped">
 			{% endif %}
 
 				<div class="image-container">
-					<a href="{{ item.image_link }}" target="_blank"><img src="img/dummy-image.png" alt=""/></a>
+					<a href="{{ item.image_link }}" target="_blank"><img src="{{ item.image }}" alt=""/></a>
 				</div>
 				<div class="quote">
-					<h3>"{{ item.quote }}"</h3>
+					{{ item.markdown_quote | markdownify }}
 					<p class="name">- {{ item.name }}</p>
 				</div>
 			</div>
 		</div>
 	{% endfor %}
+
+	<div class="cta-button-container">
+		{% include cta-button.html %}
+	</div>
 
 </div>
 

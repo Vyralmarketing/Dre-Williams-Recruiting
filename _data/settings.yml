@@ -41,14 +41,6 @@ client:
   name: Josh Cesana
   title: Real Estate Agent
   license_number: 123456789
-  about_headline: Why Hire Us Headline 
-  about_subheadline: Why Hire Us Subheadline
-  about_markdown: |
-
-    This is 100 words. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.
-    
-    This is 100 words. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.
-
   brand: Test Brand
   brokerage: Test Brokerage
   market: Test Market
@@ -60,18 +52,32 @@ client:
   email: reallylongemail@reallylongcompany.com
   url: www.testwebsite123.com
 
+about:
+  headline: Why Hire Us Headline 
+  subheadline: Why Hire Us Subheadline
+  youtube_code: NpEaa2P7qZI
+  markdown: |
+
+    This is 100 words. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.
+    
+    This is 100 words. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.
+
+
 testimonials:
-  - quote: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque debitis deserunt laboriosam ut quia. Aliquam,
+  - markdown_quote: |
+       ### You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it.**
     name: John Doe
-    image: /img/dummy-image.png
+    image: img/16x9-placeholder.png
     image_link: https://www.google.com
-  - quote: 				quia error pariatur molestiae, fugit voluptas eligendi sapiente quod molestias earum mollitia reprehenderit
+  - markdown_quote: |
+       ### You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it.**
     name: John Doe
-    image: /img/dummy-image.png
+    image: img/16x9-placeholder.png
     image_link: https://www.google.com
-  - quote: 				laudantium nobis.
+  - markdown_quote: |
+       ### You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it.**
     name: John Doe
-    image: /img/dummy-image.png
+    image: img/16x9-placeholder.png
     image_link: https://www.google.com
 
 forms:
@@ -80,12 +86,13 @@ forms:
 mission: This is where you put the mission or purpose of your educational video blog.
 
 benefits_section:
-  header: MAIN BENEFIT STATEMENT GOES HERE
-  benefit_1: Benefit Statement 1 goes here with some logner text
-  benefit_2: Benefit Statement 2 goes here with some logner text
-  benefit_3: Benefit Statement 3 goes here with some logner text
-  benefit_4: Benefit Statement 4 goes here with some logner text
+  header: Main Benefit Statement Goes Here
+  benefit_1: Benefit statement goes here
+  benefit_2: Benefit statement goes here
+  benefit_3: Benefit statement goes here
+  benefit_4: Benefit statement goes here
   icon_image: checkmark.svg
+  svg_icon_color: gray
 
 socials:
   review_sm_icons: false
@@ -116,11 +123,11 @@ hero:
   use_overlay: true
   # range from 0 - 1.0: (0.5 is default)
   overlay-intensity: 0.5
-  header: Primary Call to Action Headline
+  header: Sell Your House Fast As-Is for Cash
   header_color: 'white'
-  subheader: Primary Call to Action Subheadline
+  subheader: We'll buy your dated, damaged or unwanted home at 100% fair market value so you skip the hassle of a traditional sale.
   subheader_color: 'white'
-  button_text: Primary CTA Button
+  button_text: Get a Free Cash Offer Now
   button_link: https://www.google.com
   open_new_tab: true
 

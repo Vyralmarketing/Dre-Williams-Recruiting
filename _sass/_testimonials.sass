@@ -2,8 +2,11 @@
 	display: flex
 	flex-direction: column
 	align-items: center
-	padding: 0 0 30px
-	background-color: #f2f2f2
+	padding: 0
+
+	.testimonials-header, .gray
+		background-color: #f2f2f2
+		width: 100%
 
 	.client-container
 		width: 100%
@@ -12,9 +15,9 @@
 		padding: 50px 0
 
 	h2
-		font-size: 56px
+		font-size: 46px
 		font-weight: bold
-		margin: 40px auto 0
+		margin: 35px auto 0
 		text-align: center
 
 	.client-testimonial
@@ -30,6 +33,7 @@
 
 	img
 		width: 100%
+		border: 8px solid white
 		box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px
 
 	.quote 
@@ -43,13 +47,13 @@
 	h3
 		margin: 0
 		padding: 0
-		font-size: 34px
+		font-size: 26px
 		font-weight: normal
 		line-height: 1.2
 		letter-spacing: 0
 
 	.name
-		padding-top: 20px
+		padding-top: 10px
 		font-size: 22px
 		font-weight: 300
 	
@@ -57,22 +61,27 @@
 		padding: 0
 		margin: 0
 
+	.cta-button-container
+		margin: 40px 0 32px
+
 @media (max-width: 768px)
 	.testimonials-container-new
 		.client-testimonial
 			flex-direction: column
+			align-items: center
 			width: 100%
 
 		.client-container
-			padding: 25px 0
+			padding: 40px 0 25px
 
 		.image-container	
-			width: 100%
+			width: 70%
 
 		.quote
 			width: 100%
 		
 		.name
+			font-size: 18px
 			padding-top: 10px
 
 		h2
@@ -83,4 +92,9 @@
 
 		h3
 			padding-top: 25px
-			font-size: 28px
+			font-size: 22px
+
+@media (max-width: 480px)
+	.testimonials-container-new
+		.image-container	
+			width: 100%

@@ -1,45 +1,45 @@
 .benefits-section
-  padding: 25px 15px
+  padding: 35px 15px
 
   .headline
     h4
-      font-size: 56px
+      font-size: 46px
       font-weight: 600
       text-align: center
       width: 100%
       margin: 0 auto
-      padding: 20px 0
+      padding: 0
 
   .benefits
     display: flex
     flex-direction: row
     flex-wrap: wrap
     justify-content: center
-    margin-top: 25px
+    margin-top: 40px
 
   .benefit
     display: flex
     font-size: 38px
     font-weight: 400
     width: 50%
-    align-items: center
     padding: 0 0 25px
 
     &.end
       justify-content: flex-end
 
+    &.end > h5 
+      width: 285px
+
     h5
-      font-size: 30px
-      width: 406px
+      font-size: 28px
+      width: 315px
       font-weight: 600
-      line-height: 1.1
-      margin: 0
-      margin: 0 30px 10px 0
+      line-height: 1.2
+      margin: 0 0 10px 0
 
   .new-checkmark
-    max-width: 50px
-    margin-top: 9px
-    margin-right: 18px
+    max-width: 45px
+    margin: 0 18px 4px 0
 
     img
       width: 100%
@@ -53,16 +53,17 @@
     .benefit
       width: 100%
       justify-content: center
-      padding: 0 0 35px
+      padding: 0 0 25px
 
       &.end
         justify-content: center
 
-    .benefit
+      &.end > h5 
+        width: 315px
+
       h5
         font-size: 28px
 
-    .benefit
       p
         font-size: 36px
 
@@ -70,3 +71,21 @@
       h4
         font-size: 42px
         line-height: 1.2
+
+@media only screen and (max-width : 480px)
+  .benefits-section
+    .headline
+      h4
+        font-size: 36px
+        line-height: 1.2
+    
+    .benefits
+      padding: 0 20px
+
+    .benefit
+      h5
+        font-size: 24px
+
+    .new-checkmark
+      max-width: 35px
+      margin-right: 18px
