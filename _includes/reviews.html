@@ -1,35 +1,12 @@
 <div class="reviews-container">
-  <h4>5 star rating reviews goe here</h4>
-  <!-- <div class="review">
-    <img class="rating" src="img/5-stars.png" alt="5 stars" />
-    <div class="review-author">
-      <p>John Doe</p>
-    </div>
-    <img class="avatar" src="https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250">
-    <div class="review-text">
-      <p>“I got cash for my home very fast. What a great company to work with!”</p>
-    </div>
-  </div>
-  <div class="review">
-    <img class="rating" src="img/5-stars.png" alt="5 stars" />
-    <div class="review-author">
-      <p>John Doe</p>
-    </div>
-    <img class="avatar" src="https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250">
-    <div class="review-text">
-      <p>“I got cash for my home very fast. What a great company to work with!”</p>
-    </div>
-  </div>
-  <div class="review">
-    <img class="rating" src="img/5-stars.png" alt="5 stars" />
-    <div class="review-author">
-      <p>John Doe</p>
-    </div>
-    <img class="avatar" src="https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250">
-    <div class="review-text">
-      <p>“I got cash for my home very fast. What a great company to work with!”</p>
-    </div>
-  </div> -->
+  <div class="reviews">
 
+    {% for review in site.data.settings.5star_reviews %}
+    <div class="review">
+      <img src="img/5-stars.png" alt="5 star rating"/>
+      <p>"{{ review.text }}"</p>
+    </div>
+    {% endfor %}
 
+  </div>
 </div>

@@ -1,9 +1,15 @@
 .reviews-container
-	display: flex
-	align-items: center
-	justify-content: center
-	height: 150px
 	background-color: #f2f2f2
+
+	.reviews
+		display: flex
+		flex-wrap: wrap
+		align-items: center
+		justify-content: center
+
+	.review
+		padding: 20px
+		max-width: 260px
 
 	h4
 		font-weight: 600
@@ -11,18 +17,11 @@
 	
 	p
 		margin: 0
+		font-size: 15px
+		line-height: 1.4
+		letter-spacing: -0.2px
 
-	.review
-		// display: flex
-		max-width: 200px
-
-	img.rating
-		width: 100px
+	img
+		margin-bottom: 11px
+		width: 150px
 		height: auto
-
-	img.avatar
-		display: inline-block
-		width: 105px
-		height: 105px
-		border-radius: 50%
-		object-fit: cover
