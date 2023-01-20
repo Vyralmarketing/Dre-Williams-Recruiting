@@ -40,14 +40,10 @@
 		font-size: 2rem
 		border-radius: $button-radius
 		font-weight: 600
-		border: 1px solid $brand
-		@include transition(0.3s)
 		
 		&:hover
-			background: #fff
-			color: $brand
-			border: 1px solid $brand
-			
+			background: $brand-very-light
+						
 		&:active
 			box-shadow: 0 0 0 $brand
 			@include transform(translateY(0rem))
