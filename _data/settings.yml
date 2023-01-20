@@ -83,17 +83,17 @@ about:
 
 testimonials:
   - markdown_quote: |
-       ### You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it.**
+       ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
     name: John Doe
     image: img/16x9-placeholder.png
     image_link: https://www.google.com
   - markdown_quote: |
-       ### You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it.**
+       ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
     name: John Doe
     image: img/16x9-placeholder.png
     image_link: https://www.google.com
   - markdown_quote: |
-       ### You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it.**
+       ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
     name: John Doe
     image: img/16x9-placeholder.png
     image_link: https://www.google.com
