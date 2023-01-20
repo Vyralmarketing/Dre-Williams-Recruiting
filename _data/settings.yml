@@ -57,7 +57,7 @@ custom_links:
     url:
 
 client:
-  name: Josh Cesana
+  name: John Doe
   title: Real Estate Agent
   license_number: 123456789
   brand: Test Brand
@@ -80,7 +80,6 @@ about:
     This is 100 words. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.
     
     This is 100 words. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.
-
 
 testimonials:
   - markdown_quote: |
@@ -114,21 +113,6 @@ benefits_section:
   icon_image: checkmark.png
   svg_icon_color: gray
 
-socials:
-  review_sm_icons: false
-  show_socials_container: false
-  facebook_url: test.com
-  linkedin_url: test.com
-  youtube_url: test.com
-  twitter_url: test.com
-  instagram_url: test.com
-  pinterest_url: test.com
-  zillow_url: test.com
-  trulia_url: test.com
-  yelp_url:
-  podcast_url:
-  google_business_url:
-
 podcast:
   title: '-- market -- Real Estate Podcast with -- client name --'
   categories: Education
@@ -138,11 +122,9 @@ podcast:
   keywords: 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in -- market --, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
   author: '-- client name --'
 
-
-
 images:
-  client_headshot_path: /img/headshot.jpg
-  hero_logo_path: /img/logo.png
+  client_headshot_path: headshot.jpg
+  hero_logo_path: white-logo.png
   logo_width_number: 40
   hero_text: -- market -- Real Estate Video Blog
   hero_background_hex: '#999'
@@ -179,12 +161,52 @@ OG:
   image: /img/test-image.jpg
   fb-admins: test-fb-admins
 
-policies:
-  - title: Privacy Policy
-    url: /test-url
-  - title: Terms of Use
-    url: /test-url
-  - title: Accessibility Statement
-    url: /test-url
-  - title: DMCA Notice
-    url: /test-url
+footer: 
+  page_links:
+    - title: Page Link
+      url: /
+    - title: Page Link
+      url: /
+    - title: Page Link
+      url: /
+    - title: Page Link
+      url: /
+    - title: Page Link
+      url: /
+    - title: Page Link
+      url: /
+    - title: Page Link
+      url: /
+    - title: Page Link
+      url: /
+
+  contact_info:
+    company_name: Company Name, Inc.
+    address: 123 Elm Street
+    City: Omaha
+    State: Nebraska
+    zip: 68116
+    phone: 444-444-4444
+    email: info@companyname.com
+
+  socials:
+    - icon: youtube.png
+      url: https://www.youtube.com/
+    - icon: facebook.png
+      url: https://www.facebook.com/
+    - icon: linkedin.png
+      url: https://www.linkedin.com/
+    - icon: instagram.png 
+      url: https://www.instagram.com/
+    - icon: tiktok.png
+      url: https://www.tiktok.com/
+
+  policies:
+    - title: Privacy Policy
+      url: /test-url
+    - title: Terms of Use
+      url: /test-url
+    - title: Accessibility Statement
+      url: /test-url
+    - title: DMCA Notice
+      url: /test-url

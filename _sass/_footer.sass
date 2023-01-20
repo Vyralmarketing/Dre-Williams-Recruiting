@@ -1,75 +1,107 @@
-.footer
-	background: $theme
+footer
+	background: $brand
 	color: #fff
-	padding: 2rem 2rem 0
-	text-align: left
-	font-size: 18px
 
-	address
-		font-style: normal
+	&.container-fluid
+		padding: 0 25px 100px
 
-.policies
-	margin-top: 25px
-
-@media(max-width: 500px)
-	.footer
-		text-align: left
-		.vyral-logo
-			@include size(3rem)
-
-.attribution
-	text-align: center
-
-.vyral-logo
-	fill: #fff
-	display: inline
-	@include size(2rem)
-	position: relative
-	top: 0.5rem
-	margin-right: 0.1rem
-	&:hover
-		fill: $brand-light
-
-.fine-print
-	padding: 40px 0
-
-.footer-pad
-	padding-bottom: 40px
-
-.footer-title
-	text-transform: uppercase
-	font-size: 26px
-	font-weight: bold
-
-.footer-hr
-	width: 20%
-	margin: 1rem 0
-	align: left !important
-	border-top: 2px solid $brand
-
-.footer-container
-	width: 100%
-	max-width: 160rem
-	margin: 0 auto
-
-.footer-subcontainer
-	padding-bottom: 35px
-
-.footer-logo
-	display: block
-	margin: 2rem auto 0
-	max-width: 50px
-
-@media(max-width: 750px)
-	align: center !important
-
-.footer
-	color: #fff
-	.attribution
-		svg
-			fill: #fff
-	.socials
-		svg
-			fill: #fff
-	a
+	a, p
 		color: #fff
+
+	.links-container
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
+		gap: 2rem
+		margin: 55px auto 16px
+
+		a
+			color: #fff
+			text-decoration: underline
+
+			&:hover
+				color: #fff
+				text-decoration: none
+
+	.access-container
+		text-align: center
+		margin-bottom: 38px
+
+		p
+			max-width: 900px
+			margin: 0 auto
+
+	.contact-container
+		text-align: center
+		margin: 0 auto 45px
+
+		a
+			color: #fff
+			text-decoration: none
+
+			&:hover
+				color: #fff
+				text-decoration: underline
+
+	.socials-policy-container
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
+		gap: 2rem
+		margin: 0 auto
+
+		a
+			color: #fff
+			text-decoration: underline
+
+			&:hover
+				color: #fff
+				text-decoration: none
+
+		.logo
+			width: 250px
+
+			img
+				width: 100%
+
+		.socials
+			display: flex
+			align-items: center
+			margin: 15px 0 0
+			padding: 0
+
+			p 
+				margin: 0 25px 0 5px
+				padding: 0
+
+			.icons
+				display: flex
+				gap: 5px
+
+				img
+					width: 30px
+
+		.policies
+			display: flex
+			flex-wrap: wrap
+			align-items: center
+			margin-top: 11px
+
+			a
+				margin: 0 7px
+
+
+@media (max-width: 480px)
+	footer
+		&.container-fluid
+			padding: 0 25px 130px
+
+		.links-container
+			column-gap: 20px
+			row-gap: 1px
+
+		.access-container
+			padding: 0 10px
+
+		.policies
+			justify-content: center
