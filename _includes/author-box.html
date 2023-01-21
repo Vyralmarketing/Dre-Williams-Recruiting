@@ -1,0 +1,12 @@
+<div class="author-box">
+    <div class="image">
+        <img src="{{ site.baseurl }}/img/{{ page.author.image }}" alt="{{ page.author.name }} profile image"/>
+    </div>
+
+    {% if page.author.name_link != null %}
+    <p class="name">By <a href="{{ page.author.name_link }}">{{ page.author.name }}</a></p>
+    {% else %}
+    <p class="name">By {{ page.author.name }}</p>
+    {% endif %}
+    
+</div>

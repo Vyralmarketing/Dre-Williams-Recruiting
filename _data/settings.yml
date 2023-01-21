@@ -124,7 +124,8 @@ podcast:
 
 images:
   client_headshot_path: headshot.jpg
-  hero_logo_path: white-logo.png
+  hero_dark_logo_path: logo-dark.png
+  hero_light_logo_path: logo-light.png
   logo_width_number: 40
   hero_text: -- market -- Real Estate Video Blog
   hero_background_hex: '#999'
