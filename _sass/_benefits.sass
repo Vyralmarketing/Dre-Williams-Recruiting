@@ -1,0 +1,104 @@
+.benefits-section
+  padding: 35px 15px
+
+  .headline
+    h4
+      font-size: 42px
+      font-weight: 600
+      text-align: center
+      width: 100%
+      margin: 0 auto 5px
+      padding: 0
+
+    h5
+      font-size: 26px
+      font-weight: 400
+      text-align: center
+      width: 100%
+      margin: 0 auto 50px
+      padding: 0
+
+  .benefits
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    column-gap: 2rem
+    justify-content: center
+    margin: 0
+
+  .benefit
+    display: flex
+    align-items: center
+    font-weight: 400
+    width: 40%
+    padding: 0 0 10px
+
+    &.end
+      justify-content: flex-end
+
+    &.end > h5 
+      max-width: 400px
+
+    h5
+      font-size: 26px
+      max-width: 400px
+      font-weight: 600
+      line-height: 1.2
+      margin: 0
+
+  .new-checkmark
+    max-width: 35px
+    margin: 0 18px 4px
+
+    img
+      width: 100%
+      height: auto
+      background-color: white
+
+@media (max-width : 992px)
+  .benefits-section
+    .benefits
+      flex-direction: column
+
+    .benefit
+      width: 100%
+      justify-content: center
+      padding: 0 0 25px
+
+      &.end
+        justify-content: center
+
+      // &.end > h5 
+      //   width: 315px
+
+      h5
+        font-size: 28px
+
+      p
+        font-size: 36px
+
+    .headline
+      h4
+        font-size: 42px
+        line-height: 1.2
+      
+      h5
+        font-size: 24px
+
+@media only screen and (max-width : 480px)
+  .benefits-section
+    .headline
+      h4
+        font-size: 36px
+        line-height: 1.2
+    
+    .benefits
+      padding: 0 20px
+
+    .benefit
+      h5
+        font-size: 24px
+
+    .new-checkmark
+      max-width: 35px
+      margin-right: 18px

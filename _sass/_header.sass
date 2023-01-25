@@ -1,14 +1,47 @@
 .hero-img
 	background-position: center
 	background-size: cover
-	height: 400px
+	height: 500px
+
+.hero-backdrop
+	background-color: rgba(0,0,0,0.6)
+	height: 500px
+
+.hero-text
+	text-align: center
+	position: relative
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%)
+	color: white
+
+	h1
+		font-size: 48px
+		font-weight: 600
+		margin-bottom: 13px
+		line-height: 1
+		letter-spacing: 0
+
+	p
+		font-size: 24px
+		font-weight: 400
+		line-height: 1.2
+		margin: 35px auto 42px auto
+		max-width: 725px
+
+.cta-button
+	button
+		padding: 10px 40px
+		font-size: 24px
+		font-weight: bold
+
 #hero
 	background-position: center
 	background-size: cover
 	background-attachment: fixed
 	background-repeat: no-repeat
 	text-align: center
-	padding-top: $nav-height + 2.5rem
+	padding-top: 51px
 
 .site-logo
 	width: 90%
@@ -19,39 +52,84 @@
 	color: $brand
 	text-align: center
 	font-weight: 400
-	padding-bottom: 2rem
-	margin-bottom: 0
+	padding: 10px 0
+	margin: 0
+	font-size: 3.5rem
 
+.nav-usp
+	z-index: 9999
+	font-size: 28px
+	font-weight: 600
+	text-align: center
+	position: fixed
+	top: 31px
+	left: 50%
+	transform: translate(-50%, -50%)
+	white-space: nowrap
 
 @media (max-width: 1100px)
 	.site-title
-		font-size: 5rem
+		font-size: 3.5rem
 
-@media (max-width: 1000px)
+@media (max-width: 992px)
 	.site-logo
 		max-width: 20rem
 
-@media (max-width: 760px)
-	#hero
-		padding-top: 5.5rem
+	.nav-usp
+		font-size: 24px
+
+@media (max-width: 768px)
+	.hero-text
+		padding: 2rem
+		
+	.nav-usp
+		font-size: 18px
+
 	.site-logo
 		max-width: 20rem
 		margin-top: 4rem
+
 	.site-title
-		font-size: 5rem
+		font-size: 3.5rem
+		margin: 0
+
+	.hero-img
+		height: 600px
+
+	// .hero-text
+	// 	h1
+	// 		font-size: 50px
+	// 	p
+	// 		font-size: 26px
+
+	.cta-button
+		button
+			padding: 10px 30px
+			white-space: normal
+			line-height: 1.2
+
+@media (max-width: 675px)
+	.nav-usp
+		display: none
 
 @media (max-width: 600px)
-	#hero
-		// height: 31rem
 	.site-logo
 		max-width: 15rem
 		margin-top: 2rem
+
 	.site-title
-		font-size: 3.5rem
+		font-size: 26px
+
 	.cta
 		padding: 1rem
+
 @media (max-width: 400px)
-	#hero
-		// height: 25rem
 	.cta
 		padding: 0.5rem
+
+	
+
+		h1
+			font-size: 41px
+			font-weight: 800
+			line-height: 1

@@ -9,11 +9,6 @@ html
   -webkit-font-smoothing: subpixel-antialiased
   -webkit-text-size-adjust: none
 
-::selection
-  text-shadow: none
-  background: $brand
-  color: $light-text
-
 .site-logo, h1.site-title
   animation: 1s ease-in-out fadein
 
@@ -114,6 +109,9 @@ ol
   max-width: $main-width
   margin: 0 auto
 
+.container-fluid
+  padding: 0 25px
+
 a
   color: $brand
   text-decoration: none
@@ -156,6 +154,15 @@ a
     border-color: $brand-light
     color: $brand-light
 
+.pr-10px
+  padding-right: 10px
+
+.pl-10px
+  padding-left: 10px
+
+.pt-15px
+  padding-top: 15px
+
 table
   tr, td
     border-bottom: 1px solid gray
@@ -187,11 +194,13 @@ table
   background: red
   color: $light-text
 
-// .content-container
-//   background: $light-text
-//   border: 1px solid #cfcfcf
-//   border-radius: $button-radius
-//   transition: all .3s ease-in-out
-//   margin-top: 20px
-//   &:hover
-//     +shadow
+.sidebar-container
+  padding-left: 0
+
+@media (max-width: 992px)
+  .sidebar-container  
+    padding-left: 0
+
+@media (max-width: 480px)
+  .container-fluid
+    padding: 0 15px

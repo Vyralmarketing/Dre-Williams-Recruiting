@@ -1,52 +1,124 @@
 .client-image-container
 	border-radius: 50%
-	width: 200px
-	height: 200px
+	// width: 200px
+	// height: 200px
 	border: 3px solid $brand
 	// margin: 10px auto 0 6rem
 	overflow: hidden
 	display: inline-block
-	margin: auto
+	// margin: auto
+	margin: 10px 0 20px
+	width: 200px
+	height: 200px
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px
 
 .client-image
 	max-width: 200px
 
-.about-container
-	display: flex
-	// flex-direction: column
-	justify-content: center
-	padding: 0px 10px 40px
-	font-size: 18px
-	div
-		display: flex
-
 .about-text
-	display: flex
-	flex-direction: column
+	// display: flex
+	// flex-direction: column
+	// margin-bottom: 15px
 	p
+		font-size: 19px
+		font-weight: 300
+		line-height: 1.4
 		vertical-align: middle
-		margin: auto 0
-		padding: 10px
-.gray
-	background: #ededed
+		margin: 0 0 25px
+		padding: 0 10px 0 0
+
+.about-section
+	padding: 5px 15px 40px
+	background-color: $brand
+	color: $theme-body-color
+
+	.fluid-about-vid
+		padding: 0
+		margin: 15px auto 30px
+		max-width: 700px
+		height: 400px
+		position: relative
+		border: 3px solid white
+
 	div
 		div
 			h4
+				font-size: 42px
+				font-weight: bold
 				text-align: center
-				padding-top: 20px
+				margin: 25px 0 0px
+			h5
+				font-size: 26px
+				font-weight: normal
+				text-align: center
+				margin: 0 0 30px
+
+
+	.cta-button
+		margin-top: 35px
+	
+		&.inverted
+			button
+				color: $brand
+				background: $light-text
+				border: 1px solid $brand
+				&:hover
+					background: $off-white-text
+					color: $brand
+				&:visited
+					color: $brand
+
 .contact-text
 	margin: auto
+	margin-bottom: 25px
 
-@media(max-width: 1000px)
-	.client-image-container
-		width: 150px
-		height: 150px
-	.client-image
-		max-width: 150px
+.contact-text-container
+	width: 100%
+	text-align: left
 
-@media(max-width: 450px)
-	.client-image-container
-		width: 100px
-		height: 100px
-	.client-image
-		max-width: 100px
+
+
+@media only screen and (max-width : 1200px)
+	.contact-text-container
+		text-align: center
+
+@media only screen and (max-width : 992px)
+	.about-section
+		.fluid-about-vid
+			width: 100%
+			max-width: none
+			margin: 15px 0 30px
+			height: auto
+			aspect-ratio: 16/9
+
+@media only screen and (max-width : 768px)
+	.about-text
+		margin-bottom: 0
+
+	.about-section
+		padding: 5px 15px 40px
+		background-color: $brand
+		color: $theme-body-color
+
+		div
+			div
+				h4
+					font-size: 35px
+					font-weight: bold
+					line-height: 1.2
+					text-align: center
+					margin: 20px 0 5px
+				h5
+					font-size: 24px
+					font-weight: normal
+					text-align: center
+					margin: 0 0 25px
+					line-height: 1.2
+
+@media(max-width: 480px)
+
+	.about-text
+		display: flex
+		flex-direction: column
+		p
+			vertical-align: middle

@@ -1,19 +1,18 @@
 ---
-youtube_code:
-excerpt:
-enclosure:
-pullquote:
-enclosure_type: video/mp4
-enclosure_time:
-use_youtube_image: true
-youtube_alternate_image: /img/cover.jpg
 layout: post
-title: This is a test post
-date: 2020-05-07
+title: Your Post Title Goes Here 1
+subtitle: This is where you would put a subheadline or a description of a summary of the blog post.
+CTA_box_markdown: |
+  **Sign up for home selling tips**. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+author:
+  name: Jane Doe
+  name_link: mailto:johndoe@test.com
+  image: jane-doe.png
+  bio: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium voluptatum sequi sint maxime pariatur odio!
 tags:
-  - Lead Generation
-  - Lead Conversion
-  - Listing Presentation
+  - Category 1
+  - Category 2
+  - Category 3
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 enclosure:
 pullquote: This is an example of a pull quote
@@ -24,6 +23,10 @@ youtube_alternate_image:
 youtube_code: NpEaa2P7qZI
 ---
 {% include youtube.html %}
+
+{% include author-box.html %}
+
+{% include cta-box.html %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Velit egestas dui id ornare. Mattis vulputate enim nulla aliquet. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Id faucibus nisl tincidunt eget nullam non nisi est sit. A diam sollicitudin tempor id eu nisl nunc. Egestas sed sed risus pretium quam. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Vestibulum mattis ullamcorper velit sed.
 

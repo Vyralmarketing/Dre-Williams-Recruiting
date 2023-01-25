@@ -1,22 +1,46 @@
-<div class="photo-cta">
-  <img src="/img/cta-images/join_our_team.png" class="photo-cta-container"/>
-  <a href="{{site.data.settings.CTAS.cta1_link}}"><div class="cta-button">Apply Now</div></a>
+{% for item in site.data.settings.sidebar_CTAs %}
+<div class="cta-card">
+	<div class="cta-image-container">
+    <img src="img/dummy-image.png" alt="Dummy text"/>
+  </div>
+  <div class="cta-text-container">
+    <div class="cta-title">{{ item.title }}</div>
+    <div class="cta-text">{{ item.text }}</div>
+    <div class="cta-new-button">
+      <a href="/">{{ item.button-text }}</a>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+
+
+<!-- <div class="photo-cta">
+  <img src="{{ site.baseurl }}/img/cta-images/join_our_team.png" class="photo-cta-container" />
+  <a href="{{ site.baseurl }}{{site.data.settings.CTAS.cta1_link}}">
+    <div class="cta-button">Apply Now</div>
+  </a>
+</div> -->
+
+<!-- <div class="photo-cta">
+  <img src="{{ site.baseurl }}/img/cta-images/newsletter.png" class="photo-cta-container" />
+  <a href="{{ site.baseurl }}{{site.data.settings.CTAS.cta2_link}}">
+    <div class="cta-button">Sign Up Now</div>
+  </a>
 </div>
 
 
 <div class="photo-cta">
-  <img src="/img/cta-images/newsletter.png"  class="photo-cta-container"/>
-  <a href="{{site.data.settings.CTAS.cta2_link}}"><div class="cta-button">Sign Up Now</div></a>
+  <img src="{{ site.baseurl }}/img/cta-images/strategy_call.png" class="photo-cta-container" />
+  <a href="{{ site.baseurl }}{{site.data.settings.CTAS.cta3_link}}">
+    <div class="cta-button">Book a Call</div>
+  </a>
 </div>
 
 
 <div class="photo-cta">
-  <img src="/img/cta-images/strategy_call.png"  class="photo-cta-container"/>
-  <a href="{{site.data.settings.CTAS.cta3_link}}"><div class="cta-button">Book a Call</div></a>
-</div>
-
-
-<div class="photo-cta">
-  <img src="/img/cta-images/workshop.png"  class="photo-cta-container"/>
-  <a href="{{site.data.settings.CTAS.cta4_link}}"><div class="cta-button">Reserve Your Seat</div></a>
-</div>
+  <img src="{{ site.baseurl }}/img/cta-images/workshop.png" class="photo-cta-container" />
+  <a href="{{ site.baseurl }}{{site.data.settings.CTAS.cta4_link}}">
+    <div class="cta-button">Reserve Your Seat</div>
+  </a>
+</div> -->

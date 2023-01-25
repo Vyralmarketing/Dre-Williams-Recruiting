@@ -26,9 +26,9 @@ $(document).ready(function() {
   (function ( window, document, undefined ) {
 
     /*
-     * Grab all iframes on the page or return
+     * Grab all iframes with class of youtube on the page or return
      */
-    var iframes = document.getElementsByTagName( 'iframe' );
+    var iframes = document.getElementsByTagName( 'iframe.youtube' );
 
     /*
      * Loop through the iframes array
