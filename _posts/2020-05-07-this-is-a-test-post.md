@@ -8,6 +8,7 @@ author:
   name: John Doe
   name_link: mailto:johndoe@test.com
   image: john-doe.png
+  bio: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium voluptatum sequi sint maxime pariatur odio!
 tags:
   - Category 1
   - Category 2
