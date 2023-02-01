@@ -64,12 +64,12 @@ client:
   brokerage: Test Brokerage
   market: Test Market
   address: 123 Main St. New York, NY 12345
-  phone: 999-999-9999
+  phone: 999-555-1234
   phone_type: cell
-  phone2: 888-888-8888
+  phone2: 888-555-9876
   phone2_type: work
-  email: reallylongemail@reallylongcompany.com
-  url: www.testwebsite123.com
+  email: hello@companyname54321.com
+  url: www.clientwebsite.com
 
 about:
   headline: Why Hire Us Headline 
@@ -132,7 +132,7 @@ images:
   post_cover: /img/cover.jpg
 
 site_colors:
-  brand_color: 'black'
+  brand_color: '#0c0c0c'
   theme_color: '#999'
   theme_text_color: 'black'
   main_body_color: 'white'
@@ -163,29 +163,11 @@ OG:
   fb-admins: test-fb-admins
 
 footer: 
-  page_links:
-    - title: Page Link
-      url: /
-    - title: Page Link
-      url: /
-    - title: Page Link
-      url: /
-    - title: Page Link
-      url: /
-    - title: Page Link
-      url: /
-    - title: Page Link
-      url: /
-    - title: Page Link
-      url: /
-    - title: Page Link
-      url: /
-
   contact_info:
     company_name: Company Name, Inc.
     address: 123 Elm Street
-    City: Omaha
-    State: Nebraska
+    city: Omaha
+    state: Nebraska
     zip: 68116
     phone: 444-444-4444
     email: info@companyname.com
@@ -207,7 +189,4 @@ footer:
       url: /test-url
     - title: Terms of Use
       url: /test-url
-    - title: Accessibility Statement
-      url: /test-url
-    - title: DMCA Notice
-      url: /test-url
+

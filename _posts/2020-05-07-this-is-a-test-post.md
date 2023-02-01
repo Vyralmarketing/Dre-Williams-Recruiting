@@ -7,7 +7,7 @@ CTA_box_markdown: |
 author:
   name: John Doe
   name_link: mailto:johndoe@test.com
-  image: john-doe.png
+  image: profile-placeholder.jpg
   bio: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium voluptatum sequi sint maxime pariatur odio!
 tags:
   - Category 1

@@ -10,6 +10,9 @@
 	@include shadow
 	margin-left: 100px
 
+.sidebar
+	padding-top: 107px
+
 .post
 	.youtube
 		width: 100%
@@ -56,6 +59,7 @@
 	font-weight: 300
 	padding: 0 0 16px 7px
 	margin: 0
+	letter-spacing: -.01em
 
 .post-link
 	padding-left: 8px
@@ -143,8 +147,8 @@
 	position: relative
 
 .post-content
-	padding: 1rem
-	padding-top: 0
+	padding: 0 1rem 3rem
+	// padding-top: 0
 
 	.publish-date
 		margin: 0 0 20px
@@ -246,6 +250,14 @@
 		background: $light-text
 		border: 0
 		fill: #D73D32
+
+@media (max-width: 1200px)
+	.post-column
+		&.left
+			padding-right: 8px
+		
+	.sidebar
+		padding-left: 8px
 
 @media(max-width: 992px)
 	.six.columns.post-wrapper

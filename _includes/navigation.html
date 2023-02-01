@@ -1,14 +1,18 @@
 <nav role="navigation" class="navbar navbar-fixed-top navbar-andross">
 	<div class="navbar-header">
-		<a href="{{ site.baseurl }}/" class="navbar-brand visible-xs" data-target="#navbarCollapse" data-toggle="collapse">
-			<img src="{{ site.baseurl }}/img/{{ site.data.settings.images.hero_dark_logo_path }}" class="nav-logo-small"></a>
-		<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+		<a href="{{ site.baseurl }}/" class="navbar-brand visible-xs" data-target="#navbarCollapse"
+			data-toggle="collapse">
+			<img src="{{ site.baseurl }}/img/{{ site.data.settings.images.hero_light_logo_path }}"
+				class="nav-logo-small"></a>
+		<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle"
+			onclick="toggleNav()">
 			<span class="sr-only">Toggle navigation</span>
-			<i class="fa fa-bars fa-2x"></i>
+			<i class="fa fa-bars fa-2x" style="color: white;"></i>
 		</button>
 	</div>
-	
-	<a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/{{ site.data.settings.images.hero_dark_logo_path }}" class="nav-logo"></a>
+
+	<a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/{{ site.data.settings.images.hero_light_logo_path }}"
+			class="nav-logo"></a>
 	<div id="navbarCollapse" class="collapse navbar-collapse">
 		<ul class="nav navbar-nav navbar-right">
 			<li><a href="{{ site.baseurl }}/">Home</a></li>
@@ -51,4 +55,45 @@
 
 		</ul>
 	</div>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="close-button" onclick="toggleNav()">&times;</a>
+
+		<div class="call-button">
+			<a href="tel:{{site.data.settings.client.phone}}">
+				<!-- <img src="{{ site.baseurl }}/img/phone.svg" alt="Phone icon" /> -->
+				<i class="fa fa-phone"></i>
+				{{ site.data.settings.client.phone }}
+			</a>
+		</div>
+		<a href="{{ site.baseurl }}/">Home</a>
+
+		{% for item in site.data.settings.CTAS %}
+		<a href="{{ site.baseurl }}{{ item.url}}">{{ item.title}}</a>
+		{% endfor %}
+
+		{% if site.data.settings.show_custom_links == true %}
+		{% for item in site.data.settings.custom_links %}
+		<a href="{{ site.baseurl }}{{ item.url}}">{{ item.title}}</a>
+		{% endfor %}
+		{% endif %}
+
+		<div class="sidenav-contact-container">
+
+			<a class="ellipsis" href="mailto:{{site.data.settings.client.email}}">
+				<!-- <img src="{{ site.baseurl }}/img/envelope.svg" alt="Email icon" /> -->
+				{{ site.data.settings.client.email }}
+			</a>
+		</div>
+		
+	</div>
+	<div id="myOverlay" class="nav-overlay"></div>
+
+
+	{% if site.data.settings.nav_USP_statement.text %}
+
+	<div class="nav-usp">
+	{{ site.data.settings.nav_USP_statement.text }}
+	</div>
+
+	{% endif %}
 </nav>
