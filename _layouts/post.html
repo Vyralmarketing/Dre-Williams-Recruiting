@@ -3,36 +3,42 @@
 
 {% include head.html %}
 
-	<body>
-		{% include navigation.html %}
-		<!-- {% include header.html %} -->
+<body>
+	{% include navigation.html %}
+	<!-- {% include header.html %} -->
 
-  	<div class="container-fluid pt-7rem">
-			<div class="post-column col-lg-7 col-md-9 col-lg-offset-1 left">
+	<div class="container-fluid pt-7rem">
+		<div class="post-column col-lg-7 col-md-9 col-lg-offset-1 left">
 
-	<main>
-			<div class="row post-container">
-          <h1 class="post-title" itemprop="name headline">{{page.title}}</h1>
-		  <h2 class="post-subtitle" itemprop="description subheadline">{{page.subtitle}}</h2>
-				<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-					<div class="twelve columns post-content"  itemprop="articleBody">
-						{{ content }}
-					</div>
-				</article>
-			</div>
-	</main>
-			</div>
-			<div class="post-column col-md-3 col-lg-3 sidebar">
-				{% include socials.html %}
-				{% include cta-sidebar.html %}
-				{% include blog-archive-category.html %}
-			</div>
+			<main>
+				<div class="row post-container">
+
+					{% for tag in page.tags limit:1 %}
+					<p class="blog-category">{{ tag }}</p>
+					{% endfor %}
+					
+					<h1 class="post-title" itemprop="name headline">{{page.title}}</h1>
+					<h2 class="post-subtitle" itemprop="description subheadline">{{page.subtitle}}</h2>
+					<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+						<div class="twelve columns post-content" itemprop="articleBody">
+							{{ content }}
+						</div>
+					</article>
+				</div>
+			</main>
 		</div>
-		{% include about.html%}
-		{% include benefits.html %}
-		{% include testimonials.html %}
-		{% include top-button.html %}
-		{% include bottom-navigation.html %}
-		{% include footer.html %}
-  </body>
+		<div class="post-column col-md-3 col-lg-3 sidebar">
+			{% include socials.html %}
+			{% include cta-sidebar.html %}
+			{% include blog-archive-category.html %}
+		</div>
+	</div>
+	{% include about.html%}
+	{% include benefits.html %}
+	{% include testimonials.html %}
+	{% include top-button.html %}
+	{% include bottom-navigation.html %}
+	{% include footer.html %}
+</body>
+
 </html>

@@ -1,19 +1,22 @@
 ---
 layout: post
-title: Your Post Title Goes Here 2
+title: Another Blog Title That’s Between 8-12 Words
 subtitle: This is where you would put a subheadline or a description of a summary of the blog post.
 CTA_box_markdown: |
   **Sign up for home selling tips**. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+CTA_box_link:
+  title: Click Call To Action
+  url: https://www.google.com
 author:
   name: John Doe
   name_link: mailto:johndoe@test.com
   image: profile-placeholder.jpg
-  bio: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium voluptatum sequi sint maxime pariatur odio!
+  bio: This is where you have 1-2 sentences to explain why someone should listen to you.
 tags:
   - Category 1
   - Category 2
   - Category 3
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+excerpt: 'This is where you put the meta description for the blog post that’s between 50 - 160 characters to show up when you share the link.'
 enclosure:
 pullquote: This is an example of a pull quote
 enclosure_type: video/mp4

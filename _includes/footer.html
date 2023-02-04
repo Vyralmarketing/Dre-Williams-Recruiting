@@ -45,7 +45,7 @@
 
 		<div class="socials-policy-container">
 			<div class="logo">
-				<img src="{{ site.baseurl }}/img/{{ site.data.settings.images.hero_light_logo_path }}"
+				<img src="{{ site.baseurl }}{{ site.data.settings.images.hero_light_logo_path }}"
 					alt="Company logo" />
 			</div>
 			<div class="socials">
@@ -53,7 +53,7 @@
 				<div class="icons">
 					{% for social in site.data.settings.footer.socials %}
 					<a href="{{ social.url }}" target="_blank">
-						<img src="{{ site.baseurl }}/img/{{ social.icon }}" alt="" />
+						<img src="{{ site.baseurl }}{{ social.icon }}" alt="" />
 					</a>
 					{% endfor %}
 				</div>
@@ -67,6 +67,10 @@
 
 			</div>
 
+		</div>
+
+		<div class="vyral-container">
+			<p>Video Blog Website by <a href="https://www.getvyral.com">Vyral Marketing</a></p>
 		</div>
 
 	</div>

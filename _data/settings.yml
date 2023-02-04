@@ -10,11 +10,11 @@ hero:
   hero_image_path: /img/gray.png
   use_overlay: true
   overlay-intensity: 0.5
-  header: Sell Your House Fast As-Is for Cash
+  header: Main Benefit Driven Headline Goes Here
   header_color: 'white'
-  subheader: We'll buy your dated, damaged or unwanted home at 100% fair market value so you skip the hassle of a traditional sale.
+  subheader: This is where you put a clear description of your primary offer and why they should click the call to action button below.
   subheader_color: 'white'
-  button_text: Get a Free Cash Offer Now
+  button_text: "Call to Action Button #1"
   button_link: https://www.google.com
   open_new_tab: true
 
@@ -76,10 +76,14 @@ about:
   subheadline: Why Hire Us Subheadline
   youtube_code: NpEaa2P7qZI
   markdown: |
+    Do you have this specific problem? Are you struggling to find a solution to your pain? Well, you're not alone - 57% of people in your situation feel the same way. In fact, you can expect a lot of bad things to happen to you if you don't solve this problem. You may find yourself dealing with this bad thing or that bad thing. I've heard stories even that this terrible, terrible thing has happened when the problem does not go unsolved. My name is Bob and I'm here to help you solve this problem. This is what makes my solution different from everyone else's. I have a story here where I can relate to your situation and it's why I do what I do. Here is a list of the specific things we'll do for you:
+    1. Killer benefit goes here.
+    2. Killer benefit goes here.
+    3. Killer benefit goes here.
+    4. Killer benefit goes here.
+    5. Killer benefit goes here.
 
-    This is 100 words. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.
-    
-    This is 100 words. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.
+    The whole goal is for you to live a happier and easier life with less stress and hassle and without any worries. Those are the benefits. But don't take my word for it - we have several happy customers who have the same problem you may have who hired us to solve and can vouch for our systems. In fact, we even offer a 100% money-back guarantee to remove all the risk - you won't lose any money. I invite you to take **Call to Action #3** to learn more, **call to action #2** to really go deeper, or **Call to action #1** to get started on the solution to your problem. 
 
 testimonials:
   - markdown_quote: |
@@ -123,9 +127,9 @@ podcast:
   author: '-- client name --'
 
 images:
-  client_headshot_path: headshot.jpg
-  hero_dark_logo_path: logo-dark.png
-  hero_light_logo_path: logo-light.png
+  client_headshot_path: /img/headshot.jpg
+  hero_dark_logo_path: /img/logo-dark.png
+  hero_light_logo_path: /img/logo-light.png
   logo_width_number: 40
   hero_text: -- market -- Real Estate Video Blog
   hero_background_hex: '#999'
@@ -173,15 +177,15 @@ footer:
     email: info@companyname.com
 
   socials:
-    - icon: youtube.png
+    - icon: /img/icons/youtube.png
       url: https://www.youtube.com/
-    - icon: facebook.png
+    - icon: /img/icons/facebook.png
       url: https://www.facebook.com/
-    - icon: linkedin.png
+    - icon: /img/icons/linkedin.png
       url: https://www.linkedin.com/
-    - icon: instagram.png 
+    - icon: /img/icons/instagram.png 
       url: https://www.instagram.com/
-    - icon: tiktok.png
+    - icon: /img/icons/tiktok.png
       url: https://www.tiktok.com/
 
   policies:
@@ -190,3 +194,8 @@ footer:
     - title: Terms of Use
       url: /test-url
 
+bottom_mobile_cta:
+  cta_1_text: Call to Action 1
+  cta_1_link: https://www.google.com
+  cta_2_text: Call to Action 2
+  cta_2_link: https://www.google.com
