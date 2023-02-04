@@ -15,7 +15,7 @@
 			{% endif %}
 
 				<div class="image-container">
-					<a href="{{ item.image_link }}" target="_blank"><img src="{{ item.image }}" alt=""/></a>
+					<a href="{{ item.image_link }}" target="_blank"><img src="{{ site.baseurl }}{{ item.image }}" alt=""/></a>
 				</div>
 				<div class="quote">
 					{{ item.markdown_quote | markdownify }}

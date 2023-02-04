@@ -2,41 +2,46 @@
 layout: default
 ---
 <!-- blog feed -->
-      {% for post in paginator.posts %}
-			<div class="row content-container">
-				<!-- <div class="col-sm-12"> -->
-          <h2 class="post-overview-title"><a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncate:
-              70 }}</a></h2>
-					<!-- <span class="post-meta">
+{% for post in paginator.posts %}
+<div class="row content-container">
+	<!-- <div class="col-sm-12"> -->
+	<h2 class="post-overview-title"><a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title |
+			truncate:
+			70 }}</a></h2>
+	<!-- <span class="post-meta">
 						{{ post.date | date: "%b %-d, %Y" }}
 					</span> -->
-						<hr />
-					<!-- </div> -->
+	<hr />
+	<!-- </div> -->
 
-			    <ul class="post-list">
-      <li>
-        <div class="col-lg-6 post-image-container">
-          <div class="post-excerpts">
+	<ul class="post-list">
+		<li>
+			<div class="col-lg-6 post-image-container">
+				<div class="post-excerpts">
 
+					<a href="{{ site.baseurl }}{{post.url}}">
+						{% if post.use_youtube_image == true %}
+						<img src="https://img.youtube.com/vi/{{post.youtube_code | remove: 'https://youtu.be/' | remove: 'https://www.youtube.com/watch?v='}}/maxresdefault.jpg"
+							alt="{{post.title}}" class="post-image" />
+						{% else %}
 
-            <a href="{{ site.baseurl }}{{post.url}}">
-	            {% if post.use_youtube_image == true %}
-	            <img src="https://img.youtube.com/vi/{{post.youtube_code | remove: 'https://youtu.be/' | remove: 'https://www.youtube.com/watch?v='}}/maxresdefault.jpg" alt="{{post.title}}" class="post-image" />
-	            {% else %}
-								{% if post.youtube_alternate_image != null %}
-	            		<img src="{{post.youtube_alternate_image}}" alt="{{post.title}}" class="post-image"/>
-								{% else %}
-									<img src="{{ site.baseurl}}{{ site.data.settings.images.post_cover }}" alt="{{post.title}}" class="post-image"/>
-								{% endif %}
-	            {% endif %}
-	          </a>
-          </div>
-        </div>
-				<div class="col-lg-6">
-					{{ post.excerpt | strip_html | prepend: "<p class='excerpt'>" | append: "</p>" | truncate: 160 }}
-            <p class="readlink"><a href="{{ site.baseurl }}{{post.url}}">Watch More</a></p>
+						{% if post.youtube_alternate_image != null %}
+						<img src="{{ site.baseurl }}{{ post.youtube_alternate_image }}" alt="{{post.title}}" class="post-image" />
+						{% else %}
+						<img src="{{ site.baseurl}}{{ site.data.settings.images.post_cover }}" alt="{{post.title}}"
+							class="post-image" />
+						{% endif %}
+
+						{% endif %}
+					</a>
+					
 				</div>
-      </li>
-		</ul>
+			</div>
+			<div class="col-lg-6">
+				{{ post.excerpt | strip_html | prepend: "<p class='excerpt'>" | append: "</p>" | truncate: 160 }}
+				<p class="readlink"><a href="{{ site.baseurl }}{{post.url}}">Watch More</a></p>
+			</div>
+		</li>
+	</ul>
 </div>
-      {% endfor %}
+{% endfor %}

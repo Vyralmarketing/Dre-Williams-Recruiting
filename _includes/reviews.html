@@ -3,7 +3,7 @@
 
     {% for review in site.data.settings.5star_reviews %}
     <div class="review">
-      <img src="img/5-stars.png" alt="5 star rating"/>
+      <img src="{{ site.baseurl }}/img/5-stars.png" alt="5 star rating"/>
       <p>"{{ review.text }}"</p>
     </div>
     {% endfor %}

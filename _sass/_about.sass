@@ -28,9 +28,24 @@
 		padding: 0 10px 0 0
 
 .about-section
+	position: relative
 	padding: 5px 15px 40px
 	background-color: $brand
 	color: $theme-body-color
+	margin-top: 50px
+
+	&::before
+		background: inherit
+		bottom: 0
+		content: ''
+		display: block
+		height: 100%
+		left: 0
+		position: absolute
+		right: 0
+		transform: skewY(1.5deg)
+		transform-origin: 100%
+		z-index: -1
 
 	.fluid-about-vid
 		padding: 0
@@ -53,10 +68,9 @@
 				text-align: center
 				margin: 0 0 30px
 
-
 	.cta-button
 		margin-top: 35px
-	
+
 		&.inverted
 			button
 				color: $brand
@@ -75,8 +89,6 @@
 .contact-text-container
 	width: 100%
 	text-align: left
-
-
 
 @media only screen and (max-width : 1200px)
 	.contact-text-container
@@ -117,6 +129,9 @@
 
 @media(max-width: 480px)
 
+	.about-section
+		margin: 0
+		
 	.about-text
 		display: flex
 		flex-direction: column

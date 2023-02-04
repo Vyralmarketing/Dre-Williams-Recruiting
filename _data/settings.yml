@@ -41,13 +41,13 @@ CTAS:
 
 sidebar_CTAs:
   - title: Call to Action 2
-    image: img/dummy-image.png
-    text: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi cum eius beatae officia magni, tenetur natus quo adipisci dolores fuga hic dicta consequatur laudantium dolor?
+    image: /img/dummy-image.png
+    text: You have under 160 characters to explain exactly what someone will get when they take your call to an action.
     button-text: CTA Button 2
     url: /
   - title: Call to Action 3
-    image: img/dummy-image.png
-    text: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi cum eius beatae officia magni, tenetur natus quo adipisci dolores fuga hic dicta consequatur laudantium dolor?
+    image: /img/dummy-image.png
+    text: You have under 160 characters to explain exactly what someone will get when they take your call to an action.
     button-text: CTA Button 3
     url: /
   
@@ -73,7 +73,7 @@ client:
 
 about:
   headline: Why Hire Us Headline 
-  subheadline: Why Hire Us Subheadline
+  subheadline: Explain what you do in 1 short sentence
   youtube_code: NpEaa2P7qZI
   markdown: |
     Do you have this specific problem? Are you struggling to find a solution to your pain? Well, you're not alone - 57% of people in your situation feel the same way. In fact, you can expect a lot of bad things to happen to you if you don't solve this problem. You may find yourself dealing with this bad thing or that bad thing. I've heard stories even that this terrible, terrible thing has happened when the problem does not go unsolved. My name is Bob and I'm here to help you solve this problem. This is what makes my solution different from everyone else's. I have a story here where I can relate to your situation and it's why I do what I do. Here is a list of the specific things we'll do for you:
@@ -89,17 +89,17 @@ testimonials:
   - markdown_quote: |
        ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
     name: John Doe
-    image: img/16x9-placeholder.png
+    image: /img/16x9-placeholder.png
     image_link: https://www.google.com
   - markdown_quote: |
        ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
     name: John Doe
-    image: img/16x9-placeholder.png
+    image: /img/16x9-placeholder.png
     image_link: https://www.google.com
   - markdown_quote: |
        ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
     name: John Doe
-    image: img/16x9-placeholder.png
+    image: /img/16x9-placeholder.png
     image_link: https://www.google.com
 
 forms:

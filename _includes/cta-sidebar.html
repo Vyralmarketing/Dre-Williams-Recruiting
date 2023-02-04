@@ -1,7 +1,7 @@
 {% for item in site.data.settings.sidebar_CTAs %}
 <div class="cta-card">
 	<div class="cta-image-container">
-    <img src="img/dummy-image.png" alt="Dummy text"/>
+    <img src="{{ site.baseurl }}{{ item.image }}" alt="Dummy text"/>
   </div>
   <div class="cta-text-container">
     <div class="cta-title">{{ item.title }}</div>
