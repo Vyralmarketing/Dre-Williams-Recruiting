@@ -192,7 +192,6 @@ buttons:
   secondary_button_text_color: '#ffffff'
 
 OG:
-  image: /img/test-image.jpg
   fb-admins: test-fb-admins
 
 footer: 
