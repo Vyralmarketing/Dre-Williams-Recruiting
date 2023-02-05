@@ -43,7 +43,7 @@
   <meta property="og:image" content="https://img.youtube.com/vi/{{page.youtube_code | remove: 'https://youtu.be/' | remove: 'https://www.youtube.com/watch?v='}}/maxresdefault.jpg">
   {% else %}
   <meta property="og:description" content="{{site.data.settings.description | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand }}">
-  <meta property="og:image" content="{{site.data.settings.share_image}}">
+  <meta property="og:image" content="{{ site.baseurl }}{{site.data.settings.share_image}}">
   {% endif %}
 
   <!-- Oldschool meta content -->
