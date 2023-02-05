@@ -1,0 +1,34 @@
+{% assign posts = site.posts | where: "featured", "true" %}
+
+{% if posts %}
+<div class="featured-container">
+	<h5>Featured</h5>
+	<hr>
+	<ul>
+		{% for post in posts %}
+		<li>
+			<div class="blog-card">
+				<div class="image">
+					<a href="{{ site.baseurl }}{{post.url}}">
+
+						{% if post.use_youtube_image == true %}
+						<img src="https://img.youtube.com/vi/{{post.youtube_code | remove: 'https://youtu.be/' | remove: 'https://www.youtube.com/watch?v='}}/maxresdefault.jpg"
+							alt="{{post.title}}" class="post-image" />
+						{% else %}
+						<img src="{{ site.baseurl }}{{ post.youtube_alternate_image }}" alt="{{post.title}}"
+							class="post-image" />
+						{% endif %}
+
+					</a>
+				</div>
+				<div class="title">
+					<a href="{{ site.baseurl }}{{post.url}}">
+						<p>{{ post.title }}</p>
+					</a>
+				</div>
+			</div>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
+{% endif %}

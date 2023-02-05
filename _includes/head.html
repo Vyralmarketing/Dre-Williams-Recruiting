@@ -32,12 +32,19 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}">
   <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <meta property="og:description" content="{{site.data.settings.description | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand }}">
+
   <meta property="og:site_name" content="{{site.data.settings.title}}">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="{{site.data.settings.OG.image}}">
   <meta property="fb:admins" content="{{site.data.settings.OG.fb-admins}}">
   <meta property="og:rich_attachment" content="true">
+
+  {% if page.is_post %}
+  <meta property="og:description" content="{{ page.excerpt }}">
+  <meta property="og:image" content="https://img.youtube.com/vi/{{page.youtube_code | remove: 'https://youtu.be/' | remove: 'https://www.youtube.com/watch?v='}}/maxresdefault.jpg">
+  {% else %}
+  <meta property="og:description" content="{{site.data.settings.description | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand }}">
+  <meta property="og:image" content="{{site.data.settings.OG.image}}">
+  {% endif %}
 
   <!-- Oldschool meta content -->
   <meta itemprop="description" content="{{site.data.settings.description | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand }}">

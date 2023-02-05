@@ -71,6 +71,34 @@ client:
   email: hello@companyname54321.com
   url: www.clientwebsite.com
 
+blog:
+  CTA_main_box_markdown: |
+    **Primary Call to Action Here.** There is where you can explain your primary call to action again so they see it when the website loads on mobile.
+  CTA_main_box_link:
+    title: Click Call To Action
+    url: https://www.google.com
+  author:
+    name: John Doe
+    name_link: mailto:johndoe@test.com
+    image: john-doe.png
+    bio: This is where you have 1-2 sentences to explain why someone should listen to you.
+  CTA_content_box:
+    title_markdown: |
+      **Want to work with us?** Here are some ways to get involved.
+    items: 
+      - title: Call to Action 1
+        url: /
+        markdown: |
+          **Call to Action 1** is where you can explain what someone will get when they click the call to action button.
+      - title: Call to Action 2
+        url: /
+        markdown: |
+          **Call to Action 2** is where you can explain what someone will get when they click the call to action button.
+      - title: Call to Action 3
+        url: /
+        markdown: |
+          **Call to Action 3** is where you can explain what someone will get when they click the call to action button.
+
 about:
   headline: Why Hire Us Headline 
   subheadline: Explain what you do in 1 short sentence

@@ -1,3 +1,9 @@
+.flex
+	display: flex
+	justify-content: center
+	padding-left: 0
+	padding-right: 0
+
 .post-column
 	.search-box
 		margin: 46px auto 0
@@ -5,7 +11,15 @@
 
 	&.sidebar
 		padding-top: 145px
-	
+
+.full-width 
+	width: 100vw
+	position: relative
+	left: 50%
+	right: 50%
+	margin-left: -50vw
+	margin-right: -50vw
+
 .content-wrapper
 	position: relative
 	bottom: 5.5rem
@@ -27,11 +41,13 @@
 		width: 100%
 		height: auto
 		aspect-ratio: 16/9
-		margin-bottom: 18px
+		margin-bottom: 20px
 
 .post-container
-	padding-right: 10px
-
+	padding: 4rem 0 0
+	margin: 0 20px
+	max-width: 600px
+	
 .pad
 	padding: 0 2rem
 
@@ -56,22 +72,23 @@
 
 .post-title
 	font-family: $blogfont
-	font-size: 40px
+	font-size: 37px
 	text-align: left
 	font-weight: 600
-	line-height: 1.2
-	padding: 12px 0 6px 9px
+	line-height: 44px
 	margin: 0
+	padding: 0
 
 .post-subtitle
 	font-family: $blogfont
-	font-size: 17px
+	font-size: 20px
 	color: #363636
 	text-align: left
 	font-weight: 300
-	padding: 0 0 16px 7px
-	margin: 0
-	letter-spacing: -.01em
+	margin: 4px 0 20px 0
+	padding: 0
+	letter-spacing: -0.01em
+	line-height: 29px
 
 .post-link
 	padding-left: 8px
@@ -161,7 +178,7 @@
 
 .post-content
 	font-family: $blogfont
-	padding: 0 1rem 3rem
+	padding: 0 0 3rem
 	// padding-top: 0
 
 	.publish-date
@@ -173,10 +190,16 @@
 		font-weight: 300
 		line-height: 29px
 
+	h2
+		font-family: $blogfont
+		font-weight: 600
+		font-size: 26px
+
 	.blog-image 
 		width: 100%
 		height: auto 
 		margin: 0 0 10px
+		
 
 	.blog-image + em // image caption
 		font-family: $bodyfont
@@ -329,6 +352,9 @@
 		height: 685px
 
 @media (max-width: 775px)
+	.post-container
+		padding: 2rem 0
+
 	.content-wrapper
 		box-shadow: none
 
@@ -346,6 +372,14 @@
 		margin: 0
 		padding-bottom: 11px
 
+@media (max-width: 600px)
+	.post-content
+		.blog-image
+			width: calc(100% + 40px)
+			margin-left: calc(-20px)
+			margin-right: calc(-20px)
+			margin-bottom: 10px
+
 @media (max-width: 550px)
 	.six.columns.post-wrapper
 		height: 530px
@@ -359,9 +393,21 @@
 			display: none
 	.pullquote
 		max-width: 100%
-@media (max-width: 992px)
-	.post-container
-		padding-right: 0px
+
+
+
+
+@media (min-width: 1200px)
+	.post-column.col-lg-7
+		width: 62%
+		padding-right: 1px
+	
+	.post-column.col-lg-3 
+		width: 22%
+
+
+
+
 //thank you page
 .thankyou
 	text-align: center
@@ -388,12 +434,3 @@
 	font-size: 18px
 	text-align: center
 	margin-bottom: 2rem
-
-
-@media (min-width: 1200px)
-	.post-column.col-lg-7
-		width: 62%
-		padding-right: 1px
-	
-	.post-column.col-lg-3 
-		width: 22%
