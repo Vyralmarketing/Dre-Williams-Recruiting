@@ -1,6 +1,7 @@
-title: "Template"
-description: -- client name --, a top Real Estate Agent in -- market --, shares his/her own internal real estate agent training for free. His/Her Real Estate Training, Tips and Advice will help you sell more homes in less time.
-keywords: -- client name --, 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in -- market --, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
+title: "Your Website Title Goes Here"
+description: This is where you put a short description of your website, between 150-160 characters.
+keywords: "keyword1, keyword2, keyword3"
+share_image: /img/gray.png
 
 nav_USP_statement:
   # 35 characters max:
