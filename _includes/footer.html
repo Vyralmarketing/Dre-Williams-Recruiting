@@ -1,4 +1,4 @@
-<footer class="container-fluid">
+<footer class="container-fluid footer">
 	<div class="footer-container">
 
 		<div class="links-container">
@@ -31,15 +31,15 @@
 		</div>
 
 		<div class="contact-container">
-			<h4><strong>Want to talk to a person?</strong> Call us now at  <a href="tel:{{ site.data.settings.footer.contact_info.phone }}">{{ site.data.settings.footer.contact_info.phone }}</a> for a free, no-obligation consultation.</h4>
+			<h4><strong>Want to talk to a person?</strong> Call us now at  <a href="tel:1-{{ site.data.settings.client.phone }}">{{ site.data.settings.client.phone }}</a> for a free, no-obligation consultation.</h4>
 			<p>
-				<b>{{ site.data.settings.footer.contact_info.company_name }}</b> |
-				{{ site.data.settings.footer.contact_info.address }} |
-				{{ site.data.settings.footer.contact_info.city }}, {{ site.data.settings.footer.contact_info.state }} {{
-				site.data.settings.footer.contact_info.zip }} |
+				<b>{{ site.data.settings.client.brand }}</b> |
+				{{ site.data.settings.client.address }} |
+				{{ site.data.settings.client.city }}, {{ site.data.settings.client.state }} {{
+				site.data.settings.client.zip }} |
 				
-				<a href="mailto:{{ site.data.settings.footer.contact_info.email }}">{{
-					site.data.settings.footer.contact_info.email }}</a>
+				<a href="mailto:{{ site.data.settings.client.email }}">{{
+					site.data.settings.client.email }}</a>
 			</p>
 		</div>
 
@@ -125,3 +125,6 @@
 
 	
 </script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-63e0163362fbe878"></script>

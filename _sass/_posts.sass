@@ -41,7 +41,11 @@
 		width: 100%
 		height: auto
 		aspect-ratio: 16/9
-		margin-bottom: 20px
+		margin: 0
+
+	.addthis_inline_share_toolbox
+		margin-left: -3px
+		margin-bottom: 23px
 
 .post-container
 	padding: 4rem 0 0
@@ -198,16 +202,16 @@
 	.blog-image 
 		width: 100%
 		height: auto 
-		margin: 0 0 10px
+		margin: 0
 		
 
 	.blog-image + em // image caption
-		font-family: $bodyfont
 		display: block
+		margin-top: 8px
 		font-style: normal
-		font-weight: 700
-		font-size: 14px
-		line-height: 1.5 !important
+		font-weight: 200
+		font-size: 16px
+		line-height: 22px !important
 
 .pullquote
 	font-style: italic
@@ -365,12 +369,12 @@
 		height: 575px
 
 	.excerpt
-		font-size: 20px
+		font-size: 18px
 		padding: 10px 0
 
 	.readlink
 		margin: 0
-		padding-bottom: 11px
+		padding: 10px 0 3px
 
 @media (max-width: 600px)
 	.post-content
@@ -394,8 +398,13 @@
 	.pullquote
 		max-width: 100%
 
+	.post-overview-title
+		font-size: 2.5rem
+		padding: 10px 14px
 
-
+	.post-content
+		.blog-image + em // image caption
+			margin-top: 0
 
 @media (min-width: 1200px)
 	.post-column.col-lg-7

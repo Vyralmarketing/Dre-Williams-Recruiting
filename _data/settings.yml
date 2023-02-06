@@ -61,15 +61,18 @@ client:
   name: John Doe
   title: Real Estate Agent
   license_number: 123456789
-  brand: Test Brand
-  brokerage: Test Brokerage
+  brand: Company Name, Inc.
+  brokerage: Brokerage Name
   market: Test Market
-  address: 123 Main St. New York, NY 12345
+  address: 123 Elm Street
+  city: Omaha
+  state: Nebraska
+  zip: 68116
   phone: 999-555-1234
   phone_type: cell
   phone2: 888-555-9876
   phone2_type: work
-  email: hello@companyname54321.com
+  email: info@companyname.com
   url: www.clientwebsite.com
 
 blog:
@@ -194,16 +197,7 @@ buttons:
 OG:
   fb-admins: test-fb-admins
 
-footer: 
-  contact_info:
-    company_name: Company Name, Inc.
-    address: 123 Elm Street
-    city: Omaha
-    state: Nebraska
-    zip: 68116
-    phone: 444-444-4444
-    email: info@companyname.com
-
+footer:
   socials:
     - icon: /img/icons/youtube.png
       url: https://www.youtube.com/

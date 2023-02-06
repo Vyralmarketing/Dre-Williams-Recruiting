@@ -1,6 +1,23 @@
 footer
+	position: relative
 	background: $brand
 	color: #fff
+
+	&.footer
+		margin-top: 50px
+
+		&::before
+			background: inherit
+			bottom: 0
+			content: ""
+			display: block
+			height: 100%
+			left: 0
+			position: absolute
+			right: 0
+			transform: skewY(1.5deg)
+			transform-origin: 100%
+			z-index: -1
 
 	&.container-fluid
 		padding: 0 25px 100px
@@ -13,7 +30,8 @@ footer
 		display: flex
 		flex-wrap: wrap
 		justify-content: center
-		margin: 55px auto 25px
+		margin: 0 auto
+		padding: 35px 0 25px
 
 		a
 			color: #fff
@@ -81,10 +99,13 @@ footer
 				text-decoration: none
 
 		.logo
-			width: 250px
+			width: 125px
+			display: flex
+			align-items: center
 
 			img
 				width: 100%
+				height: auto
 
 		.socials
 			display: flex
@@ -92,7 +113,7 @@ footer
 			margin: 15px 0 0
 			padding: 0
 
-			p 
+			p
 				margin: 0 25px 0 5px
 				padding: 0
 
@@ -131,6 +152,14 @@ footer
 
 @media (max-width: 480px)
 	footer
+
+		&.footer
+			margin-top: 50px
+
+			&::before
+				bottom: -2vw
+				transform: scale(1.02) skewY(2deg)
+
 		.access-container
 			padding: 0 10px
 
