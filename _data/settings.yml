@@ -1,6 +1,7 @@
-title: "Template"
-description: -- client name --, a top Real Estate Agent in -- market --, shares his/her own internal real estate agent training for free. His/Her Real Estate Training, Tips and Advice will help you sell more homes in less time.
-keywords: -- client name --, 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in -- market --, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
+title: "Your Website Title Goes Here"
+description: This is where you put a short description of your website, between 150-160 characters.
+keywords: "keyword1, keyword2, keyword3"
+share_image: /img/gray.png
 
 nav_USP_statement:
   # 35 characters max:
@@ -10,11 +11,11 @@ hero:
   hero_image_path: /img/gray.png
   use_overlay: true
   overlay-intensity: 0.5
-  header: Sell Your House Fast As-Is for Cash
+  header: Main Benefit Driven Headline Goes Here
   header_color: 'white'
-  subheader: We'll buy your dated, damaged or unwanted home at 100% fair market value so you skip the hassle of a traditional sale.
+  subheader: This is where you put a clear description of your primary offer and why they should click the call to action button below.
   subheader_color: 'white'
-  button_text: Get a Free Cash Offer Now
+  button_text: "Call to Action Button #1"
   button_link: https://www.google.com
   open_new_tab: true
 
@@ -41,13 +42,13 @@ CTAS:
 
 sidebar_CTAs:
   - title: Call to Action 2
-    image: img/dummy-image.png
-    text: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi cum eius beatae officia magni, tenetur natus quo adipisci dolores fuga hic dicta consequatur laudantium dolor?
+    image: /img/dummy-image.png
+    text: You have under 160 characters to explain exactly what someone will get when they take your call to an action.
     button-text: CTA Button 2
     url: /
   - title: Call to Action 3
-    image: img/dummy-image.png
-    text: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi cum eius beatae officia magni, tenetur natus quo adipisci dolores fuga hic dicta consequatur laudantium dolor?
+    image: /img/dummy-image.png
+    text: You have under 160 characters to explain exactly what someone will get when they take your call to an action.
     button-text: CTA Button 3
     url: /
   
@@ -60,42 +61,77 @@ client:
   name: John Doe
   title: Real Estate Agent
   license_number: 123456789
-  brand: Test Brand
-  brokerage: Test Brokerage
+  brand: Company Name, Inc.
+  brokerage: Brokerage Name
   market: Test Market
-  address: 123 Main St. New York, NY 12345
-  phone: 999-999-9999
+  address: 123 Elm Street
+  city: Omaha
+  state: Nebraska
+  zip: 68116
+  phone: 999-555-1234
   phone_type: cell
-  phone2: 888-888-8888
+  phone2: 888-555-9876
   phone2_type: work
-  email: reallylongemail@reallylongcompany.com
-  url: www.testwebsite123.com
+  email: info@companyname.com
+  url: www.clientwebsite.com
+
+blog:
+  CTA_main_box_markdown: |
+    **Primary Call to Action Here.** There is where you can explain your primary call to action again so they see it when the website loads on mobile.
+  CTA_main_box_link:
+    title: Click Call To Action
+    url: https://www.google.com
+  author:
+    name: John Doe
+    name_link: mailto:johndoe@test.com
+    image: john-doe.png
+    bio: This is where you have 1-2 sentences to explain why someone should listen to you.
+  CTA_content_box:
+    title_markdown: |
+      **Want to work with us?** Here are some ways to get involved.
+    items: 
+      - title: Call to Action 1
+        url: /
+        markdown: |
+          **Call to Action 1** is where you can explain what someone will get when they click the call to action button.
+      - title: Call to Action 2
+        url: /
+        markdown: |
+          **Call to Action 2** is where you can explain what someone will get when they click the call to action button.
+      - title: Call to Action 3
+        url: /
+        markdown: |
+          **Call to Action 3** is where you can explain what someone will get when they click the call to action button.
 
 about:
   headline: Why Hire Us Headline 
-  subheadline: Why Hire Us Subheadline
+  subheadline: Explain what you do in 1 short sentence
   youtube_code: NpEaa2P7qZI
   markdown: |
+    Do you have this specific problem? Are you struggling to find a solution to your pain? Well, you're not alone - 57% of people in your situation feel the same way. In fact, you can expect a lot of bad things to happen to you if you don't solve this problem. You may find yourself dealing with this bad thing or that bad thing. I've heard stories even that this terrible, terrible thing has happened when the problem does not go unsolved. My name is Bob and I'm here to help you solve this problem. This is what makes my solution different from everyone else's. I have a story here where I can relate to your situation and it's why I do what I do. Here is a list of the specific things we'll do for you:
+    1. Killer benefit goes here.
+    2. Killer benefit goes here.
+    3. Killer benefit goes here.
+    4. Killer benefit goes here.
+    5. Killer benefit goes here.
 
-    This is 100 words. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.
-    
-    This is 100 words. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.
+    The whole goal is for you to live a happier and easier life with less stress and hassle and without any worries. Those are the benefits. But don't take my word for it - we have several happy customers who have the same problem you may have who hired us to solve and can vouch for our systems. In fact, we even offer a 100% money-back guarantee to remove all the risk - you won't lose any money. I invite you to take **Call to Action #3** to learn more, **call to action #2** to really go deeper, or **Call to action #1** to get started on the solution to your problem. 
 
 testimonials:
   - markdown_quote: |
        ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
     name: John Doe
-    image: img/16x9-placeholder.png
+    image: /img/16x9-placeholder.png
     image_link: https://www.google.com
   - markdown_quote: |
        ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
     name: John Doe
-    image: img/16x9-placeholder.png
+    image: /img/16x9-placeholder.png
     image_link: https://www.google.com
   - markdown_quote: |
        ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
     name: John Doe
-    image: img/16x9-placeholder.png
+    image: /img/16x9-placeholder.png
     image_link: https://www.google.com
 
 forms:
@@ -123,16 +159,16 @@ podcast:
   author: '-- client name --'
 
 images:
-  client_headshot_path: headshot.jpg
-  hero_dark_logo_path: logo-dark.png
-  hero_light_logo_path: logo-light.png
+  client_headshot_path: /img/headshot.jpg
+  hero_dark_logo_path: /img/logo-dark.png
+  hero_light_logo_path: /img/logo-light.png
   logo_width_number: 40
   hero_text: -- market -- Real Estate Video Blog
   hero_background_hex: '#999'
   post_cover: /img/cover.jpg
 
 site_colors:
-  brand_color: 'black'
+  brand_color: '#0c0c0c'
   theme_color: '#999'
   theme_text_color: 'black'
   main_body_color: 'white'
@@ -159,47 +195,19 @@ buttons:
   secondary_button_text_color: '#ffffff'
 
 OG:
-  image: /img/test-image.jpg
   fb-admins: test-fb-admins
 
-footer: 
-  page_links:
-    - title: Page Link
-      url: /
-    - title: Page Link
-      url: /
-    - title: Page Link
-      url: /
-    - title: Page Link
-      url: /
-    - title: Page Link
-      url: /
-    - title: Page Link
-      url: /
-    - title: Page Link
-      url: /
-    - title: Page Link
-      url: /
-
-  contact_info:
-    company_name: Company Name, Inc.
-    address: 123 Elm Street
-    City: Omaha
-    State: Nebraska
-    zip: 68116
-    phone: 444-444-4444
-    email: info@companyname.com
-
+footer:
   socials:
-    - icon: youtube.png
+    - icon: /img/icons/youtube.png
       url: https://www.youtube.com/
-    - icon: facebook.png
+    - icon: /img/icons/facebook.png
       url: https://www.facebook.com/
-    - icon: linkedin.png
+    - icon: /img/icons/linkedin.png
       url: https://www.linkedin.com/
-    - icon: instagram.png 
+    - icon: /img/icons/instagram.png 
       url: https://www.instagram.com/
-    - icon: tiktok.png
+    - icon: /img/icons/tiktok.png
       url: https://www.tiktok.com/
 
   policies:
@@ -207,7 +215,9 @@ footer:
       url: /test-url
     - title: Terms of Use
       url: /test-url
-    - title: Accessibility Statement
-      url: /test-url
-    - title: DMCA Notice
-      url: /test-url
+
+bottom_mobile_cta:
+  cta_1_text: Call to Action 1
+  cta_1_link: https://www.google.com
+  cta_2_text: Call to Action 2
+  cta_2_link: https://www.google.com

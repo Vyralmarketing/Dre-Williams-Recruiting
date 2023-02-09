@@ -3,37 +3,33 @@
 
 {% include head.html %}
 
-	<body>
-		{% include navigation.html %}
-		<!-- {% include header.html %} -->
+<body>
+	{% include navigation.html %}
 
-  	<div class="container-fluid pt-7rem">
-			<div class="post-column col-lg-7 col-md-7 col-lg-offset-1">
+	<div class="container-fluid pt-7rem flex">
+		<div class="new-post-column">
 
-	<main>
-			<div class="row post-container">
-          <h1 class="post-title" itemprop="name headline">{{page.title}}</h1>
-		  <h2 class="post-subtitle" itemprop="description subheadline">{{page.subtitle}}</h2>
-				<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-					<div class="twelve columns post-content"  itemprop="articleBody">
-						{{ content }}
-					</div>
-				</article>
-			</div>
-	</main>
-			</div>
-			<div class="post-column col-md-5 col-lg-3 sidebar">
-				{% include socials.html %}
-				{% include search-box.html %}
-				{% include cta-sidebar.html %}
-				{% include blog-archive-category.html %}
-			</div>
+			<main>
+				<div class="row post-container">
+
+					<h1 class="post-title" itemprop="name headline">{{page.title}}</h1>
+					<h2 class="post-subtitle" itemprop="description subheadline">{{page.subtitle}}</h2>
+					<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+						<div class="twelve columns post-content" itemprop="articleBody">
+							{{ content }}
+							{% include more-posts.html %}
+						</div>
+					</article>
+				</div>
+			</main>
 		</div>
-		{% include about.html%}
-		{% include benefits.html %}
-		{% include testimonials.html %}
-		{% include top-button.html %}
-		{% include bottom-navigation.html %}
-		{% include footer.html %}
-  </body>
+	</div>
+	{% include about.html%}
+	{% include benefits.html %}
+	{% include testimonials.html %}
+	{% include top-button.html %}
+	{% include bottom-navigation.html %}
+	{% include footer.html %}
+</body>
+
 </html>

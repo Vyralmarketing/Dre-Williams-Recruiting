@@ -1,16 +1,17 @@
-<nav class="navbar-andross-bottom navbar-fixed-bottom visible-xs">
-  <div class="container-fluid">
-    <ul class="nav navbar-nav">
-      <li>
-        <a href="tel:{{site.data.settings.client.phone}}">
-          <img src="{{ site.baseurl }}/img/phone.svg" alt="" />
-        </a>
-      </li>
-      <li>
-        <a href="/contact/" id="contact-bottom">
-          <img src="{{ site.baseurl }}/img/envelope.svg" alt="" />
-        </a>
-      </li>
-    </ul>
+<nav id="bottom-cta" class="bottom-cta">
+  <div class="close-button" onclick="closeButtonNav()">x</div>
+  <div class="bottom-cta-container">
+    <a class="phone-container" href="tel:1-{{ site.data.settings.client.phone }}">
+      <p>CALL</p>
+      <i class="fa fa-phone"></i>
+    </a>
+    <div class="cta-container">
+      <a class="cta" href="{{ site.data.settings.bottom_mobile_cta.cta_1_link }}">
+        <p>{{ site.data.settings.bottom_mobile_cta.cta_1_text }}</p>
+      </a>
+      <a class="cta" href="{{ site.data.settings.bottom_mobile_cta.cta_2_link }}">
+        <p>{{ site.data.settings.bottom_mobile_cta.cta_2_text }}</p>
+      </a>
+    </div>
   </div>
 </nav>

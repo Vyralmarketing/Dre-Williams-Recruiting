@@ -1,12 +1,18 @@
-<footer class="container-fluid">
+<footer class="container-fluid footer">
 	<div class="footer-container">
 
 		<div class="links-container">
 
-			{% for link in site.data.settings.footer.page_links %}
 			<div class="link">
 				<a href="/">
-					<p>Page Link</p>
+					<p>Home</p>
+				</a>
+			</div>
+			
+			{% for item in site.data.settings.CTAS %}
+			<div class="link">
+				<a href="{{ site.baseurl }}{{ item.url}}">
+					<p>{{ item.title}}</p>
 				</a>
 			</div>
 			{% endfor %}
@@ -16,34 +22,38 @@
 		<div class="access-container">
 			<p>We are committed to ensuring digital accessibility for those with disabilities. We are always working to
 				improve
-				the accessibility of our website for everyone, and we welcome feedback and accommodation requests. If you wish
+				the accessibility of our website for everyone, and we welcome feedback and accommodation requests. If
+				you wish
 				to
-				report an issue or seek an accommodation, <a href="mailto:{{ data.settings.footer.contact_info.email }}">please
+				report an issue or seek an accommodation, <a
+					href="mailto:{{ data.settings.footer.contact_info.email }}">please
 					let us know</a>.</p>
 		</div>
 
 		<div class="contact-container">
+			<h4><strong>Want to talk to a person?</strong> Call us now at  <a href="tel:1-{{ site.data.settings.client.phone }}">{{ site.data.settings.client.phone }}</a> for a free, no-obligation consultation.</h4>
 			<p>
-				<b>{{ site.data.settings.footer.contact_info.company_name }}</b> |
-				{{ site.data.settings.footer.contact_info.address }} |
-				{{ site.data.settings.footer.contact_info.city }}, {{ site.data.settings.footer.contact_info.state }} {{
-				site.data.settings.footer.contact_info.zip }} |
-				{{ site.data.settings.footer.contact_info.phone }} |
-				<a href="mailto:{{ site.data.settings.footer.contact_info.email }}">{{
-					site.data.settings.footer.contact_info.email }}</a>
+				<b>{{ site.data.settings.client.brand }}</b> |
+				{{ site.data.settings.client.address }} |
+				{{ site.data.settings.client.city }}, {{ site.data.settings.client.state }} {{
+				site.data.settings.client.zip }} |
+				
+				<a href="mailto:{{ site.data.settings.client.email }}">{{
+					site.data.settings.client.email }}</a>
 			</p>
 		</div>
 
 		<div class="socials-policy-container">
 			<div class="logo">
-				<img src="{{ site.baseurl }}/img/{{ site.data.settings.images.hero_light_logo_path }}" alt="Company logo" />
+				<img src="{{ site.baseurl }}{{ site.data.settings.images.hero_light_logo_path }}"
+					alt="Company logo" />
 			</div>
 			<div class="socials">
 				<p>Follow Us: </p>
 				<div class="icons">
 					{% for social in site.data.settings.footer.socials %}
 					<a href="{{ social.url }}" target="_blank">
-						<img src="{{ site.baseurl }}/img/{{ social.icon }}" alt="" />
+						<img src="{{ site.baseurl }}{{ social.icon }}" alt="" />
 					</a>
 					{% endfor %}
 				</div>
@@ -59,16 +69,62 @@
 
 		</div>
 
+		<div class="vyral-container">
+			<p>Video Blog Website by <a href="https://www.getvyral.com">Vyral Marketing</a></p>
+		</div>
+
 	</div>
 </footer>
 
 <!-- </footer> -->
 <script type="text/javascript" src="{{ site.baseurl }}/js/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.6.0/clipboard.min.js"></script>
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 	integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 <script type="text/javascript" src="https://use.fontawesome.com/3958139b47.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/script.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/jquery.jplayer.min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/media-player.js"></script>
+
+<script>
+	// function openNav() {
+	// 	// document.getElementById("mySidenav").style.width = "500px";
+	// 	const sideNav = document.getElementById("mySidenav");
+	// 	debugger;
+	// }
+
+	// function closeNav() {
+	// 	document.getElementById("mySidenav").style.width = "0";
+	// }
+
+	function toggleNav() {
+		const sideNav = document.getElementById("mySidenav");
+		const overlay = document.getElementById("myOverlay");
+		
+		sideNav.classList.toggle("open");
+		overlay.classList.toggle("open");
+		// console.log(sideNav.classList)
+
+		// When the user clicks anywhere outside of the modal, close nav
+		window.onclick = function (event) {
+			console.log('window clicked from: ' + event)
+			if (event.target == overlay) {
+				toggleNav();
+			}
+		}
+
+	}
+
+	function closeButtonNav() {
+		const bottomCta = document.getElementById("bottom-cta");
+		bottomCta.classList.toggle("closed");
+	}
+
+	
+</script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-63e0163362fbe878"></script>

@@ -1,8 +1,25 @@
+.flex
+	display: flex
+	justify-content: center
+	padding-left: 0
+	padding-right: 0
+
 .post-column
 	.search-box
 		margin: 46px auto 0
 		width: 100%
-	
+
+	&.sidebar
+		padding-top: 145px
+
+.full-width 
+	width: 100vw
+	position: relative
+	left: 50%
+	right: 50%
+	margin-left: -50vw
+	margin-right: -50vw
+
 .content-wrapper
 	position: relative
 	bottom: 5.5rem
@@ -10,16 +27,31 @@
 	@include shadow
 	margin-left: 100px
 
+.blog-category
+	font-size: 1.5rem
+	font-weight: 300
+	text-transform: uppercase
+	font-weight: 400
+	color: #464646
+	padding: 0 0 0 9px
+	margin: 17px 0 0px
+
 .post
 	.youtube
 		width: 100%
 		height: auto
 		aspect-ratio: 16/9
-		margin-bottom: 18px
+		margin: 0
+
+	.addthis_inline_share_toolbox
+		margin-left: -3px
+		margin-bottom: 23px
 
 .post-container
-	padding-right: 10px
-
+	padding: 4rem 0 0
+	margin: 0 20px
+	max-width: 600px
+	
 .pad
 	padding: 0 2rem
 
@@ -32,30 +64,35 @@
 		display: inline
 
 .post-overview-title
-	font-size: 3.5rem
+	font-size: 2.75rem
 	text-align: left
-	padding: 10px 0 10px 20px
+	padding: 10px 0 10px 14px
 	margin: 0
 	font-weight: bold
+	letter-spacing: -.05rem
 
 	a
 		padding: 0
 
 .post-title
-	font-size: 40px
+	font-family: $blogfont
+	font-size: 37px
 	text-align: left
 	font-weight: 600
-	line-height: 1.1
-	padding: 20px 0 6px 9px
+	line-height: 44px
 	margin: 0
+	padding: 0
 
 .post-subtitle
-	font-size: 17px
+	font-family: $blogfont
+	font-size: 20px
 	color: #363636
 	text-align: left
 	font-weight: 300
-	padding: 0 0 16px 7px
-	margin: 0
+	margin: 4px 0 20px 0
+	padding: 0
+	letter-spacing: -0.01em
+	line-height: 29px
 
 .post-link
 	padding-left: 8px
@@ -63,6 +100,7 @@
 
 .post-image
 	width: 100%
+	margin: 0
 
 .quarter-image
 	display: block
@@ -143,17 +181,37 @@
 	position: relative
 
 .post-content
-	padding: 1rem
-	padding-top: 0
+	font-family: $blogfont
+	padding: 0 0 3rem
+	// padding-top: 0
 
 	.publish-date
 		margin: 0 0 20px
 		padding: 0
 
 	p, li
-		font-size: 17px
+		font-size: 18px
 		font-weight: 300
-		line-height: 1.4
+		line-height: 29px
+
+	h2
+		font-family: $blogfont
+		font-weight: 600
+		font-size: 26px
+
+	.blog-image 
+		width: 100%
+		height: auto 
+		margin: 0
+		
+
+	.blog-image + em // image caption
+		display: block
+		margin-top: 8px
+		font-style: normal
+		font-weight: 200
+		font-size: 16px
+		line-height: 22px !important
 
 .pullquote
 	font-style: italic
@@ -247,21 +305,29 @@
 		border: 0
 		fill: #D73D32
 
+@media (max-width: 1200px)
+	.post-column
+		&.left
+			padding-right: 8px
+		
+	.sidebar
+		padding-left: 8px
+
 @media(max-width: 992px)
 	.six.columns.post-wrapper
 		width: 100%
 
-	// .post
-	// 	.site-logo
-	// 		margin-top: $nav-height
-	// 		margin-left: 1rem
-
 	.post-content
 		padding: 0
 
+	.blog-category
+		font-size: 1.25rem
+		padding: 0
+		margin: 14px 0 5px
+
 	.post-title
 		font-size: 36px
-		padding: 12px 0 9px
+		padding: 0 0 9px
 
 	.post-subtitle
 		padding: 0 0 16px 0
@@ -290,6 +356,9 @@
 		height: 685px
 
 @media (max-width: 775px)
+	.post-container
+		padding: 2rem 0
+
 	.content-wrapper
 		box-shadow: none
 
@@ -300,12 +369,20 @@
 		height: 575px
 
 	.excerpt
-		font-size: 20px
+		font-size: 18px
 		padding: 10px 0
 
 	.readlink
 		margin: 0
-		padding-bottom: 11px
+		padding: 10px 0 3px
+
+@media (max-width: 600px)
+	.post-content
+		.blog-image
+			width: calc(100% + 40px)
+			margin-left: calc(-20px)
+			margin-right: calc(-20px)
+			margin-bottom: 10px
 
 @media (max-width: 550px)
 	.six.columns.post-wrapper
@@ -320,9 +397,26 @@
 			display: none
 	.pullquote
 		max-width: 100%
-@media (max-width: 992px)
-	.post-container
-		padding-right: 0px
+
+	.post-overview-title
+		font-size: 2.5rem
+		padding: 10px 14px
+
+	.post-content
+		.blog-image + em // image caption
+			margin-top: 0
+
+@media (min-width: 1200px)
+	.post-column.col-lg-7
+		width: 62%
+		padding-right: 1px
+	
+	.post-column.col-lg-3 
+		width: 22%
+
+
+
+
 //thank you page
 .thankyou
 	text-align: center
@@ -349,12 +443,3 @@
 	font-size: 18px
 	text-align: center
 	margin-bottom: 2rem
-
-
-@media (min-width: 1200px)
-	.post-column.col-lg-7
-		width: 62%
-		padding-right: 1px
-	
-	.post-column.col-lg-3 
-		width: 22%

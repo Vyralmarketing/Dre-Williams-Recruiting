@@ -5,12 +5,14 @@
 
 $main-width: 120rem
 $nav-height: 5rem
+$sidenav-width: 415px
 
 li
 	font-size: 18px
 //fonts
 $bodyfont: 'Roboto', helvetica, arial, sans-serif
 $headerfont: 'Roboto', helvetica, arial, sans-serif
+$blogfont: 'Gelasio', serif
 
 //colors
 // If this is a really light color, you're going to have to mess around with some other settings.
@@ -79,11 +81,13 @@ $icon-fill: $light-text
 
 @import "author-box"
 @import "cta-sidebar"
-@import "cta-box"
+@import "cta-main-box"
+@import "cta-content-box"
 @import "media-player"
 @import "navigation"
 @import "bottom-navigation"
-@import "blog-archive"
+// @import "blog-archive"
+@import "blog-featured-sidebar"
 @import "header"
 @import "base"
 @import "pagination"
@@ -98,3 +102,4 @@ $icon-fill: $light-text
 @import "buttons"
 @import "recruiting"
 @import "benefits"
+@import "more-posts"

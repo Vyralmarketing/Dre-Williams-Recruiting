@@ -1,0 +1,33 @@
+{% assign posts = site.posts | where_exp:"post","post.url != page.url" %}
+
+{% if posts %}
+<div class="more-posts-container">
+    <h4 class="title">Watch More</h3>
+        <ul>
+            {% for post in posts limit:4 %}
+            <li>
+                <div class="blog-card">
+                    <div class="image">
+                        <a href="{{ site.baseurl }}{{post.url}}">
+    
+                            {% if post.use_youtube_image == true %}
+                            <img src="https://img.youtube.com/vi/{{post.youtube_code | remove: 'https://youtu.be/' | remove: 'https://www.youtube.com/watch?v='}}/maxresdefault.jpg"
+                                alt="{{post.title}}" class="post-image" />
+                            {% else %}
+                            <img src="{{ site.baseurl }}{{ post.youtube_alternate_image }}" alt="{{post.title}}"
+                                class="post-image" />
+                            {% endif %}
+    
+                        </a>
+                    </div>
+                    <div class="blog-title">
+                        <a href="{{ site.baseurl }}{{post.url}}">
+                            <p>{{ post.title }}</p>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+</div>
+{% endif %}

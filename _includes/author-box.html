@@ -1,16 +1,16 @@
 <div class="author-container">
     <div class="image">
-        <img src="{{ site.baseurl }}/img/{{ page.author.image }}" alt="{{ page.author.name }} profile image" />
+        <img src="{{ site.baseurl }}/img/{{ site.data.settings.blog.author.image }}" alt="{{ site.data.settings.blog.author.name }} profile image" />
     </div>
 
     <div class="author-info">
-        {% if page.author.name_link != null %}
-        <p class="name">By <a href="{{ page.author.name_link }}">{{ page.author.name }}</a></p>
+        {% if site.data.settings.blog.author.name_link != null %}
+        <p class="name">By <a href="{{ site.data.settings.blog.author.name_link }}">{{ site.data.settings.blog.author.name }}</a></p>
         {% else %}
-        <p class="name">By {{ page.author.name }}</p>
+        <p class="name">By {{ site.data.settings.blog.author.name }}</p>
         {% endif %}
 
-        <p class="bio">{{ page.author.bio }}</p>
+        <p class="bio">{{ site.data.settings.blog.author.bio }}</p>
     </div>
 
 

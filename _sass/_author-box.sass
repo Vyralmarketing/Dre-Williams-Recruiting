@@ -1,25 +1,29 @@
 .author-container
+    font-family: $bodyfont
     display: flex
-    margin-bottom: 25px
+    gap: 9px
+    margin: 30px 0
 
     .image
-        width: 55px
-        height: 55px
+        width: 52px
+        height: auto
         padding: 0
-        margin: 0 14px 0 0
+        margin: 0
 
     img
         width: 100%
         border-radius: 50%
 
     .author-info 
-        margin-top: -2px
+        margin-top: -6px
+        line-height: 22px
 
     .name
-        font-size: 14px
+        font-size: 15px
         font-weight: 500
         padding: 0 0 1px
         margin: 0
+        line-height: 24px
 
         a
             text-decoration: underline
@@ -28,7 +32,14 @@
 
     .bio
         max-width: 450px
-        font-size: 14px
+        font-size: 15px
         font-weight: 400
         padding: 0
         margin: 0
+        line-height: 22px
+
+
+@media (max-width: 500px)
+    .author-container
+        .image
+            width: 90px

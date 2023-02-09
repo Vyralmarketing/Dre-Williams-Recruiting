@@ -4,7 +4,7 @@
 	padding: 0
 	margin: 0
 	+shadow
-	
+
 	.container-fluid
 		padding: 0
 		.nav, .navbar-nav
@@ -34,3 +34,87 @@
 
 .navbar-andross-bottom .container-fluid
 	margin: 0
+
+.bottom-cta
+	display: none
+	position: fixed
+	width: 100%
+	bottom: 0
+	z-index: 100
+	background-color: $theme
+	color: #fff
+	padding: 10px
+	
+	&.closed	
+		display: none
+
+	.close-button
+		position: absolute
+		display: flex
+		background: $brand
+		height: 35px
+		width: 34px
+		top: -35px
+		right: 0
+		font-size: 2.25rem
+		align-items: center
+		justify-content: center
+		cursor: pointer
+		border-radius: 10px 0 0 0
+
+	.bottom-cta-container
+		display: flex
+		gap: 10px
+
+		a.phone-container
+			width: 35%
+			margin: 0
+			display: flex
+			padding: 0
+			justify-content: center
+			flex-direction: column
+			aspect-ratio: 10/10
+			background: $brand
+			gap: 5px
+
+			&:hover
+				background: $brand-light
+
+			p
+				font-size: 6vw
+				color: #fff
+				font-weight: 300
+				margin: 0 auto
+				padding: 0
+
+			i
+				font-size: 15vw
+				margin: 0 auto
+				color: #fff
+
+		.cta-container
+			display: flex
+			flex-direction: column
+			width: 65%
+			gap: 10px
+
+			a.cta
+				display: flex
+				justify-content: center
+				align-items: center
+				height: 100%
+				background: $brand-light
+
+				&:hover
+					background: $brand-very-light
+
+				p
+					margin: 0
+					padding: 0
+					font-size: 5vw
+					color: #fff
+					font-weight: 300
+
+@media (max-width: 480px)
+	.bottom-cta
+		display: block
