@@ -90,23 +90,12 @@
 <script type="text/javascript" src="{{ site.baseurl }}/js/media-player.js"></script>
 
 <script>
-	// function openNav() {
-	// 	// document.getElementById("mySidenav").style.width = "500px";
-	// 	const sideNav = document.getElementById("mySidenav");
-	// 	debugger;
-	// }
-
-	// function closeNav() {
-	// 	document.getElementById("mySidenav").style.width = "0";
-	// }
-
 	function toggleNav() {
 		const sideNav = document.getElementById("mySidenav");
 		const overlay = document.getElementById("myOverlay");
 		
 		sideNav.classList.toggle("open");
 		overlay.classList.toggle("open");
-		// console.log(sideNav.classList)
 
 		// When the user clicks anywhere outside of the modal, close nav
 		window.onclick = function (event) {
@@ -122,8 +111,6 @@
 		const bottomCta = document.getElementById("bottom-cta");
 		bottomCta.classList.toggle("closed");
 	}
-
-	
 </script>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
