@@ -33,12 +33,12 @@
 		<a href="{{ site.baseurl }}/">Home</a>
 
 		{% for item in site.data.settings.CTAS %}
-		<a href="{{ site.baseurl }}{{ item.url}}">{{ item.title}}</a>
+		<a href="{{ site.baseurl }}{{ item.url}}" target="_blank">{{ item.title}}</a>
 		{% endfor %}
 
 		{% if site.data.settings.show_custom_links == true %}
 		{% for item in site.data.settings.custom_links %}
-		<a href="{{ site.baseurl }}{{ item.url}}">{{ item.title}}</a>
+		<a href="{{ site.baseurl }}{{ item.url}}" target="_blank">{{ item.title}}</a>
 		{% endfor %}
 		{% endif %}
 
