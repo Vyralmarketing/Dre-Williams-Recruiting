@@ -19,7 +19,7 @@ hero:
   button_link: https://www.google.com
   open_new_tab: true
 
-5star_reviews:
+5star_reviews_14_words_max:
   - text: "...a few words here from a Google or Facebook review from a happy customer."
   - text: "...a few words here from a Google or Facebook review from a happy customer."
   - text: "...a few words here from a Google or Facebook review from a happy customer."
@@ -28,17 +28,17 @@ hero:
 
 CTAS:
   - title: Call to Action 1
-    url: /
+    url: https://www.google.com
   - title: Call to Action 2
-    url: /
+    url: https://www.google.com
   - title: Call to Action 3
-    url: /
+    url: https://www.google.com
   - title: YouTube Channel
-    url: /
-  - title: About us
-    url: /
+    url: https://www.google.com
+  - title: About us #(client's About Us, LinkedIn, or Zillow)
+    url: https://www.google.com
   - title: Reviews
-    url: /
+    url: https://www.google.com
 
 sidebar_CTAs:
   - title: Call to Action 2
