@@ -1,3 +1,18 @@
+.cta-button
+	button
+		color: $button-text
+		background-color: $button-background
+		border: 1px solid $button-border
+		padding: 10px 40px
+		font-size: 22px
+		font-weight: bold
+		transition: $button-transition
+
+	button:hover
+		color: $button_hover_text
+		background-color: $button-hover-background
+		border: 1px solid $button-hover-border
+	
 .cta
 	background: $button-background
 	color: $brand
@@ -5,6 +20,8 @@
 	text-transform: capitalize
 	font-size: 2rem
 	font-weight: 300
+	transition: $button-transition
+
 	&:hover
 		background: #eeeeee
 		color: $brand-dark

@@ -38,18 +38,21 @@
   margin: 15px auto 
 
 .cta-new-button > a
-  background: $brand
-  color: $light-text
+  background: $button-background
+  color: $button-text
+  border: 1px solid $button-border
   border-radius: $button-radius
   padding: 10px 20px
   margin: 0 
   text-align: center
   text-decoration: none
   font-size: 20px
+  transition: $button-transition
 
   &:hover
-    background: $brand-very-light
-    color: $light-text
+    background: $button-hover-background
+    color: $button_hover_text
+    border: 1px solid $button-hover-border
 
   &:active
     box-shadow: 0 0 0 $brand

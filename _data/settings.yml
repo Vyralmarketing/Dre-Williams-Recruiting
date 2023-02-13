@@ -159,12 +159,9 @@ podcast:
   author: '-- client name --'
 
 images:
-  client_headshot_path: /img/headshot.jpg
   hero_dark_logo_path: /img/logo-dark.png
   hero_light_logo_path: /img/logo-light.png
   logo_width_number: 40
-  hero_text: -- market -- Real Estate Video Blog
-  hero_background_hex: '#999'
   post_cover: /img/cover.jpg
 
 site_colors:
@@ -187,12 +184,24 @@ buttons:
   button_radius_number: 0
   button_padding_width_number: 10
   button_padding_height_number: 15
-  button_border_color: '#ffffff'
-  button_background_color: transparent
-  button_text_color: '#525252'
-  secondary_button_border_color: '#ffffff'
-  secondary_button_background_color: 'rgba(0, 0, 0, 0)'
-  secondary_button_text_color: '#ffffff'
+
+  button_border_color: '#000'
+  button_background_color: '#000'
+  button_text_color: '#fff'
+
+  button_hover_border_color: '#333'
+  button_hover_background_color: '#333'
+  button_hover_text_color: '#e0e0e0'
+
+  light_button_border_color: '#000'
+  light_button_background_color: '#fff'
+  light_button_text_color: '#000'
+
+  light_button_hover_border_color: '#000'
+  light_button_hover_background_color: '#e0e0e0'
+  light_button_hover_text_color: '#000'
+
+  transition: "all 0.3s ease"
 
 OG:
   fb-admins: test-fb-admins
