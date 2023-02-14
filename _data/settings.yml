@@ -23,19 +23,6 @@ hero:
   - text: "...a few words here from a Google or Facebook review from a happy customer."
   - text: "...a few words here from a Google or Facebook review from a happy customer."
 
-
-CTAS:
-  - title: "Call to Action #2"
-    url: https://www.google.com
-  - title: "Call to Action #3"
-    url: https://www.google.com
-  - title: YouTube Channel
-    url: https://www.google.com
-  - title: About Us
-    url: https://www.google.com
-  - title: Reviews
-    url: https://www.google.com
-
 sidebar_CTAs:
   - title: "Call to Action #2 "
     image: /img/dummy-image.png
@@ -46,6 +33,14 @@ sidebar_CTAs:
     image: /img/dummy-image.png
     text: You have under 160 characters to explain exactly what someone will get when they take your call to an action.
     button-text: "CTA Button #3"
+    url: https://www.google.com
+
+CTAS:
+  - title: YouTube Channel
+    url: https://www.google.com
+  - title: About Us
+    url: https://www.google.com
+  - title: Reviews
     url: https://www.google.com
   
 client:
