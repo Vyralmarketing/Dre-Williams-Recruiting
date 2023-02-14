@@ -3,12 +3,12 @@
 
     <ul>
         {% for item in site.data.settings.blog.CTA_content_box.items %}
-            <li>
-                <a href="{{ item.url }}" target="_blank">
-                    {{ item.markdown | markdownify }}
-                </a>
-            </li>
+        <li>
+            <a href="{{ item.url }}">
+                {{ item.markdown | markdownify }}
+            </a>
+        </li>
         {% endfor %}
     </ul>
-    
+
 </div>

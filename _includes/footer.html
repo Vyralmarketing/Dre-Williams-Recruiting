@@ -8,7 +8,7 @@
 					<p>Home</p>
 				</a>
 			</div>
-			
+
 			{% for item in site.data.settings.CTAS %}
 			<div class="link">
 				<a href="{{ site.baseurl }}{{ item.url}}">
@@ -31,30 +31,31 @@
 		</div>
 
 		<div class="contact-container">
-			<h4><strong>Want to talk to a person?</strong> Call us now at  <a href="tel:1-{{ site.data.settings.client.phone }}">{{ site.data.settings.client.phone }}</a> for a free, no-obligation consultation.</h4>
+			<h4><strong>Want to talk to a person?</strong> Call us now at <a
+					href="tel:1-{{ site.data.settings.client.phone }}">{{ site.data.settings.client.phone }}</a> for a
+				free, no-obligation consultation.</h4>
 			<p>
 				<b>{{ site.data.settings.client.brand }}</b> |
 				{{ site.data.settings.client.address }} |
 				{{ site.data.settings.client.city }}, {{ site.data.settings.client.state }} {{
 				site.data.settings.client.zip }} |
-				
+
 				<a href="mailto:{{ site.data.settings.client.email }}">{{
 					site.data.settings.client.email }}</a>
 			</p>
 		</div>
 
 		<div class="logo">
-			<img src="{{ site.baseurl }}{{ site.data.settings.images.hero_light_logo_path }}"
-				alt="Company logo" />
+			<img src="{{ site.baseurl }}{{ site.data.settings.images.hero_light_logo_path }}" alt="Company logo" />
 		</div>
 
 		<div class="socials-policy-container">
-			
+
 			<div class="socials">
 				<p>Follow Us: </p>
 				<div class="icons">
 					{% for social in site.data.settings.footer.socials %}
-					<a href="{{ social.url }}" target="_blank">
+					<a href="{{ social.url }}">
 						<img src="{{ site.baseurl }}{{ social.icon }}" alt="" />
 					</a>
 					{% endfor %}
@@ -83,7 +84,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.6.0/clipboard.min.js"></script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-	integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	crossorigin="anonymous"></script>
 
 <script type="text/javascript" src="https://use.fontawesome.com/3958139b47.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/script.js"></script>
@@ -95,7 +97,7 @@
 	function toggleNav() {
 		const sideNav = document.getElementById("mySidenav");
 		const overlay = document.getElementById("myOverlay");
-		
+
 		sideNav.classList.toggle("open");
 		overlay.classList.toggle("open");
 
