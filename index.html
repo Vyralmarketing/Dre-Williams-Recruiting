@@ -4,7 +4,6 @@ layout: default
 <!-- blog feed -->
 {% for post in paginator.posts limit:3 %}
 <div class="row content-container">
-	<!-- <div class="col-sm-12"> -->
 	<h2 class="post-overview-title"><a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title |
 			truncate:
 			70 }}</a></h2>
@@ -12,7 +11,6 @@ layout: default
 						{{ post.date | date: "%b %-d, %Y" }}
 					</span> -->
 	<hr />
-	<!-- </div> -->
 
 	<ul class="post-list">
 		<li>
@@ -26,7 +24,8 @@ layout: default
 						{% else %}
 
 						{% if post.youtube_alternate_image != null %}
-						<img src="{{ site.baseurl }}{{ post.youtube_alternate_image }}" alt="{{post.title}}" class="post-image" />
+						<img src="{{ site.baseurl }}{{ post.youtube_alternate_image }}" alt="{{post.title}}"
+							class="post-image" />
 						{% else %}
 						<img src="{{ site.baseurl}}{{ site.data.settings.images.post_cover }}" alt="{{post.title}}"
 							class="post-image" />
@@ -34,7 +33,7 @@ layout: default
 
 						{% endif %}
 					</a>
-					
+
 				</div>
 			</div>
 			<div class="col-lg-6">
