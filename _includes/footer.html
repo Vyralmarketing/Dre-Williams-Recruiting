@@ -9,6 +9,14 @@
 				</a>
 			</div>
 
+			{% for item in site.data.settings.sidebar_CTAs %}
+			<div class="link">
+				<a href="{{ site.baseurl }}{{ item.url}}">
+					<p>{{ item.title}}</p>
+				</a>
+			</div>
+			{% endfor %}
+
 			{% for item in site.data.settings.CTAS %}
 			<div class="link">
 				<a href="{{ site.baseurl }}{{ item.url}}">

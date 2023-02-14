@@ -30,14 +30,18 @@
 				{{ site.data.settings.client.phone }}
 			</a>
 		</div>
+
 		<a href="{{ site.baseurl }}/">Home</a>
 
+		{% for item in site.data.settings.sidebar_CTAs %}
+		<a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+		{% endfor %}
+
 		{% for item in site.data.settings.CTAS %}
-		<a href="{{ site.baseurl }}{{ item.url}}" target="_blank">{{ item.title}}</a>
+		<a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
 		{% endfor %}
 
 		<div class="sidenav-contact-container">
-
 			<a class="ellipsis" href="mailto:{{site.data.settings.client.email}}">
 				<!-- <img src="{{ site.baseurl }}/img/envelope.svg" alt="Email icon" /> -->
 				{{ site.data.settings.client.email }}
