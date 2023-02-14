@@ -24,7 +24,7 @@
 		</div>
 
 		<div class="call-button">
-			<a href="tel:1-{{site.data.settings.client.phone}}">
+			<a href="tel:{{site.data.settings.client.phone}}">
 				<!-- <img src="{{ site.baseurl }}/img/phone.svg" alt="Phone icon" /> -->
 				<i class="fa fa-phone"></i>
 				{{ site.data.settings.client.phone }}
@@ -35,12 +35,6 @@
 		{% for item in site.data.settings.CTAS %}
 		<a href="{{ site.baseurl }}{{ item.url}}" target="_blank">{{ item.title}}</a>
 		{% endfor %}
-
-		{% if site.data.settings.show_custom_links == true %}
-		{% for item in site.data.settings.custom_links %}
-		<a href="{{ site.baseurl }}{{ item.url}}" target="_blank">{{ item.title}}</a>
-		{% endfor %}
-		{% endif %}
 
 		<div class="sidenav-contact-container">
 
@@ -60,7 +54,7 @@
 		{{ site.data.settings.nav_USP_statement.text }}
 	</div>
 	<div class="nav-phone">
-		<a href="tel:1-{{site.data.settings.client.phone}}">
+		<a href="tel:{{site.data.settings.client.phone}}">
 			<i class="fa fa-phone"></i>
 			{{ site.data.settings.client.phone }}
 		</a>

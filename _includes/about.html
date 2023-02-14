@@ -18,9 +18,8 @@
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 about-text">
 			{{site.data.settings.about.markdown | markdownify }}
 			<div class="cta-button inverted" style="text-align: center">
-				<a href="{{ site.data.settings.hero.button_link }}" {% if site.data.settings.hero.open_new_tab %} target="_blank"
-					{% endif %}></a>
-				<button>{{ site.data.settings.hero.button_text }}</button>
+				<a href="{{ site.data.settings.hero.button_link }}">
+					<button>{{ site.data.settings.hero.button_text }}</button>
 				</a>
 			</div>
 		</div>
