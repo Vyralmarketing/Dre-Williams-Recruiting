@@ -33,6 +33,8 @@
 
 		<a href="{{ site.baseurl }}/">Home</a>
 
+		<a href="{{ site.data.settings.hero.button_link }}">{{ site.data.settings.hero.button_text }}</a>
+
 		{% for item in site.data.settings.sidebar_CTAs %}
 		<a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
 		{% endfor %}
