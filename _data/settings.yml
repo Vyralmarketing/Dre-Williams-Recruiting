@@ -1,13 +1,13 @@
 title: "Your Website Title Goes Here"
 description: This is where you put a short description of your website, between 150-160 characters.
 keywords: "keyword1, keyword2, keyword3"
-share_image: img/gray.png
+share_image: /img/gray.png
 
 nav_USP_statement:
   text: What Makes You Unique Goes Here
 
 hero:
-  hero_image: img/gray.png
+  hero_image: /img/gray.png
   use_overlay: true
   overlay-intensity: 0.5
   header: Main Benefit Driven Headline Goes Here
@@ -25,12 +25,12 @@ hero:
 
 sidebar_CTAs:
   - title: "Call to Action #2 "
-    image: img/dummy-image.png
+    image: /img/dummy-image.png
     text: You have under 160 characters to explain exactly what someone will get when they take your call to an action.
     button-text: "CTA Button #2"
     url: https://www.google.com
   - title: "Call to Action #3"
-    image: img/dummy-image.png
+    image: /img/dummy-image.png
     text: You have under 160 characters to explain exactly what someone will get when they take your call to an action.
     button-text: "CTA Button #3"
     url: https://www.google.com
@@ -64,7 +64,7 @@ blog:
   author:
     name: John Doe
     name_link: mailto:johndoe@test.com
-    image: img/john-doe.png
+    image: /img/john-doe.png
     bio: This is where you have 1-2 sentences to explain why someone should listen to you.
   CTA_content_box:
     title_markdown: |
@@ -101,17 +101,17 @@ testimonials:
   - markdown_quote: |
        ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
     name: John Doe
-    image: img/16x9-placeholder.png
+    image: /img/16x9-placeholder.png
     image_link: https://www.google.com
   - markdown_quote: |
        ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
     name: John Doe
-    image: img/16x9-placeholder.png
+    image: /img/16x9-placeholder.png
     image_link: https://www.google.com
   - markdown_quote: |
        ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
     name: John Doe
-    image: img/16x9-placeholder.png
+    image: /img/16x9-placeholder.png
     image_link: https://www.google.com
 
 benefits_section:
@@ -121,23 +121,23 @@ benefits_section:
   benefit_2: A top benefit of your service goes here
   benefit_3: A top benefit of your service goes here
   benefit_4: A top benefit of your service goes here
-  icon_image: img/checkmark.png
+  icon_image: /img/checkmark.png
   svg_icon_color: gray
 
 podcast:
   title: '-- market -- Real Estate Podcast with -- client name --'
   categories: Education
-  image: img/podcast.jpg
+  image: /img/podcast.jpg
   subtitle: 'Learn all the tips, tricks and more for buyers and sellers in the -- market -- Area Real Estate Market'
   description: 'If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from -- client brand -- - your professional -- market -- Real Estate Agents.'
   keywords: 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in -- market --, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
   author: '-- client name --'
 
 images:
-  hero_dark_logo_path: img/logo-dark.png
-  hero_light_logo_path: img/logo-light.png
+  hero_dark_logo_path: /img/logo-dark.png
+  hero_light_logo_path: /img/logo-light.png
   logo_width_number: 40
-  post_cover: img/cover.jpg
+  post_cover: /img/cover.jpg
   sidenav-logo-width: 200
   footer-logo-width: 250
 
@@ -182,23 +182,23 @@ OG:
 
 footer:
   socials:
-    - icon: img/icons/youtube.png
+    - icon: /img/icons/youtube.png
       url: https://www.youtube.com/
-    - icon: img/icons/facebook.png
+    - icon: /img/icons/facebook.png
       url: https://www.facebook.com/
-    - icon: img/icons/linkedin.png
+    - icon: /img/icons/linkedin.png
       url: https://www.linkedin.com/
-    - icon: img/icons/instagram.png 
+    - icon: /img/icons/instagram.png 
       url: https://www.instagram.com/
-    - icon: img/icons/tiktok.png
+    - icon: /img/icons/tiktok.png
       url: https://www.tiktok.com/
-    - icon: img/icons/twitter.png
+    - icon: /img/icons/twitter.png
       url: https://twitter.com/
-    - icon: img/icons/pinterest.png
+    - icon: /img/icons/pinterest.png
       url: https://www.pinterest.com/
-    - icon: img/icons/gmb.png
+    - icon: /img/icons/gmb.png
       url: https://www.google.com/business
-    - icon: img/icons/whatsapp.png
+    - icon: /img/icons/whatsapp.png
       url: https://www.whatsapp.com/
 
   policies:
