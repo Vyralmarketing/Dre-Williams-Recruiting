@@ -63,9 +63,11 @@
 				<p>Follow Us: </p>
 				<div class="icons">
 					{% for social in site.data.settings.footer.socials %}
+					{% if social.url %}
 					<a href="{{ social.url }}">
 						<img src="{{ site.baseurl }}{{ social.icon }}" alt="" />
 					</a>
+					{% endif %}
 					{% endfor %}
 				</div>
 			</div>
