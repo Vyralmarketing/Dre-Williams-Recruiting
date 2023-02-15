@@ -70,16 +70,13 @@ blog:
     title_markdown: |
       **Want to work with us?** Here are some ways to get involved.
     items: 
-      - title: "Call to Action #1"
-        url: /
+      - url: https://www.google.com
         markdown: |
           **Call to Action #1** is where you can explain what someone will get when they click the call to action button.
-      - title: "Call to Action #2"
-        url: /
+      - url: https://www.google.com
         markdown: |
           **Call to Action #2** is where you can explain what someone will get when they click the call to action button.
-      - title: "Call to Action #3"
-        url: /
+      - url: https://www.google.com
         markdown: |
           **Call to Action #3** is where you can explain what someone will get when they click the call to action button.
 
