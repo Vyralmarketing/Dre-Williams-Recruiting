@@ -81,6 +81,7 @@ blog:
           **Call to Action #3** is where you can explain what someone will get when they click the call to action button.
 
 about:
+  background_color: "#000"
   headline: Why Hire Us Headline 
   subheadline: Explain what you do in 1 short sentence
   youtube_code: NpEaa2P7qZI
@@ -95,21 +96,23 @@ about:
     The whole goal is for you to live a happier and easier life with less stress and hassle and without any worries. Those are the benefits. But don't take my word for it - we have several happy customers who have the same problem you may have who hired us to solve and can vouch for our systems. In fact, we even offer a 100% money-back guarantee to remove all the risk - you won't lose any money. I invite you to take **Call to Action #3** to learn more, **call to action #2** to really go deeper, or **Call to action #1** to get started on the solution to your problem. 
 
 testimonials:
-  - markdown_quote: |
-       ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
-    name: John Doe
-    image: /img/16x9-placeholder.png
-    image_link: https://www.google.com
-  - markdown_quote: |
-       ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
-    name: John Doe
-    image: /img/16x9-placeholder.png
-    image_link: https://www.google.com
-  - markdown_quote: |
-       ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
-    name: John Doe
-    image: /img/16x9-placeholder.png
-    image_link: https://www.google.com
+  font_color: "#000"
+  quotes:
+    - markdown_quote: |
+        ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
+      name: John Doe
+      image: /img/16x9-placeholder.png
+      image_link: https://www.google.com
+    - markdown_quote: |
+        ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
+      name: John Doe
+      image: /img/16x9-placeholder.png
+      image_link: https://www.google.com
+    - markdown_quote: |
+        ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
+      name: John Doe
+      image: /img/16x9-placeholder.png
+      image_link: https://www.google.com
 
 benefits_section:
   header: Main Benefit Statement Goes Here
@@ -178,6 +181,7 @@ OG:
   fb-admins: test-fb-admins
 
 footer:
+  font_color: '#fff'
   socials:
     - icon: /img/icons/youtube.png
       url: https://www.youtube.com/
