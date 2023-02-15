@@ -1,7 +1,7 @@
 title: "Your Website Title Goes Here"
 description: This is where you put a short description of your website, between 150-160 characters.
 keywords: "keyword1, keyword2, keyword3"
-share_image: /img/gray.png
+share_image: /img/share-image.jpg
 
 nav_USP_statement:
   text: What Makes You Unique Goes Here
@@ -14,7 +14,7 @@ hero:
   header_color: 'white'
   subheader: This is where you put a clear description of your primary offer and why they should click the call to action button below.
   subheader_color: 'white'
-  button_text: "Call to Action Button #1"
+  button_text: "Call to Action #1"
   button_link: https://www.google.com
 
 5star_review_excerpts:
@@ -156,11 +156,11 @@ buttons:
   button_padding_width_number: 10
   button_padding_height_number: 15
 
-  button_border_color: '#000'
+  button_border_color: '#fff'
   button_background_color: '#000'
   button_text_color: '#fff'
 
-  button_hover_border_color: '#333'
+  button_hover_border_color: '#e0e0e0'
   button_hover_background_color: '#333'
   button_hover_text_color: '#e0e0e0'
 
