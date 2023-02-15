@@ -64,7 +64,7 @@ blog:
   author:
     name: John Doe
     name_link: mailto:johndoe@test.com
-    image: john-doe.png
+    image: /img/john-doe.png
     bio: This is where you have 1-2 sentences to explain why someone should listen to you.
   CTA_content_box:
     title_markdown: |
