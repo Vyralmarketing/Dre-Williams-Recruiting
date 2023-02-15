@@ -121,7 +121,7 @@ benefits_section:
   benefit_2: A top benefit of your service goes here
   benefit_3: A top benefit of your service goes here
   benefit_4: A top benefit of your service goes here
-  icon_image: checkmark.png
+  icon_image: img/checkmark.png
   svg_icon_color: gray
 
 podcast:
