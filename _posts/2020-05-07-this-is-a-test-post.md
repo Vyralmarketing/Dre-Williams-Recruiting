@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Another Blog Title That’s Between 8-12 Words
+title: Image Test Post
 featured: true
 subtitle: This is where you would put a subheadline or a description of a summary of the blog post.
 excerpt: "This is where you put the meta description for the blog post that’s between 50 - 160 characters to show up when you share the link."
