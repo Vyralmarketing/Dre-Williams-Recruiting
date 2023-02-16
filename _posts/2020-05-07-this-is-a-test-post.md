@@ -2,8 +2,12 @@
 layout: post
 title: Image Test Post
 featured: true
-subtitle: This is where you would put a subheadline or a description of a summary of the blog post.
-excerpt: "This is where you put the meta description for the blog post that’s between 50 - 160 characters to show up when you share the link."
+subtitle: >-
+  This is where you would put a subheadline or a description of a summary of the
+  blog post.
+excerpt: >-
+  This is where you put the meta description for the blog post that’s between 50
+  - 160 characters to show up when you share the link.
 enclosure:
 pullquote: This is an example of a pull quote
 enclosure_type: video/mp4
@@ -12,7 +16,6 @@ use_youtube_image: true
 youtube_alternate_image: /img/blog-placeholder-image.jpg
 youtube_code: NpEaa2P7qZI
 ---
-
 {% include youtube.html %}
 
 {% include author-box.html %}
@@ -21,18 +24,17 @@ youtube_code: NpEaa2P7qZI
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Velit egestas dui id ornare. Mattis vulputate enim nulla aliquet. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Id faucibus nisl tincidunt eget nullam non nisi est sit. A diam sollicitudin tempor id eu nisl nunc. Egestas sed sed risus pretium quam. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Vestibulum mattis ullamcorper velit sed.
 
-![Your Image Alt Text]({{ site.baseurl}}/img/blog-placeholder-image.jpg "Your Image Title"){: class="blog-image"}
-_Your caption goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua._
+![](/Vyral-template/uploads/safe-sunscreen.jpg){: width="920" height="600"}
 
 ## Sample Sub Header
 
-_Orci a scelerisqu_ [ In est ante in nibh mauris cursus mattis molestie.]('http://google.com') Molestie a iaculis at erat pellentesque. Ipsum nunc aliquet bibendum enim facilisis. Mi bibendum neque egestas congue quisque egestas diam in. Diam vel quam elementum pulvinar. Lectus proin nibh nisl condimentum. Enim ut tellus elementum sagittis vitae et. Libero enim sed faucibus turpis in eu mi bibendum neque. Morbi tristique senectus et netus et malesuada fames ac turpis. Leo in vitae turpis massa sed. Maecenas volutpat blandit aliquam etiam erat. Est velit egestas dui id ornare. Eu mi bibendum neque egestas congue quisque egestas. Quis imperdiet massa tincidunt nunc pulvinar sapien et. Eget est lorem ipsum dolor sit amet consectetur.
+*Orci a scelerisqu* [In est ante in nibh mauris cursus mattis molestie.]('http://google.com') Molestie a iaculis at erat pellentesque. Ipsum nunc aliquet bibendum enim facilisis. Mi bibendum neque egestas congue quisque egestas diam in. Diam vel quam elementum pulvinar. Lectus proin nibh nisl condimentum. Enim ut tellus elementum sagittis vitae et. Libero enim sed faucibus turpis in eu mi bibendum neque. Morbi tristique senectus et netus et malesuada fames ac turpis. Leo in vitae turpis massa sed. Maecenas volutpat blandit aliquam etiam erat. Est velit egestas dui id ornare. Eu mi bibendum neque egestas congue quisque egestas. Quis imperdiet massa tincidunt nunc pulvinar sapien et. Eget est lorem ipsum dolor sit amet consectetur.
 
--   list item
--   list item
--   list item
--   list item
--   list item
+* list item
+* list item
+* list item
+* list item
+* list item
 
 1. list item
 2. list item
