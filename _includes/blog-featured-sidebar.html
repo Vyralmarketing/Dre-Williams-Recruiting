@@ -1,6 +1,6 @@
 {% assign posts = site.posts | where: "featured", "true" %}
 
-{% if posts %}
+{% if posts.size > 0 %}
 <div class="featured-container">
 	<h5>Featured</h5>
 	<hr>
