@@ -19,9 +19,13 @@ hero:
 
 5star_review_excerpts:
   - text: "...a few words here from a Google or Facebook review from a happy customer."
+    name: "John Doe"
   - text: "...a few words here from a Google or Facebook review from a happy customer."
+    name: "John Doe"
   - text: "...a few words here from a Google or Facebook review from a happy customer."
+    name: "John Doe"
   - text: "...a few words here from a Google or Facebook review from a happy customer."
+    name: "John Doe"
 
 sidebar_CTAs:
   - title: "Call to Action #2 "
