@@ -14,4 +14,8 @@ youtube_code:
 ---
 {% include youtube.html %}
 
+{% include author-box.html %}
+
+{% include cta-main-box.html %}
+
 {% include pullquote.html %}
