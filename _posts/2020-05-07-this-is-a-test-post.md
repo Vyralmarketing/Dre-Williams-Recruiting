@@ -50,8 +50,6 @@ Faucibus vitae aliquet nec ullamcorper sit amet. Urna nunc id cursus metus aliqu
 
 Augue neque gravida in fermentum et sollicitudin ac. Tortor condimentum lacinia quis vel eros donec ac odio. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Turpis egestas integer eget aliquet. Mi proin sed libero enim sed faucibus. Vel turpis nunc eget lorem dolor sed viverra ipsum. Diam sit amet nisl suscipit adipiscing bibendum est. Lorem ipsum dolor sit amet consectetur. Cras sed felis eget velit aliquet sagittis id consectetur. Mi tempus imperdiet nulla malesuada pellentesque elit. Semper quis lectus nulla at volutpat diam ut venenatis. Mi eget mauris pharetra et ultrices neque ornare aenean euismod. Diam ut venenatis tellus in metus vulputate eu scelerisque. Nulla facilisi nullam vehicula ipsum a.
 
-{% include blog-image.html image_path="/img/blog-placeholder-image.jpg" alt_text="Test alt text" title="Test title" caption="This is a test caption." %}
-
 ## Sample Sub Header
 
 Aliquet lectus proin nibh nisl. Felis eget velit aliquet sagittis id consectetur. Nunc pulvinar sapien et ligula. Ut aliquam purus sit amet luctus venenatis lectus magna fringilla.
