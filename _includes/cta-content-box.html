@@ -4,9 +4,12 @@
     <ul>
         {% for item in site.data.settings.blog.CTA_content_box.items %}
         <li>
-            <a href="{{ item.url }}">
-                {{ item.markdown | markdownify }}
-            </a>
+            <p>
+                {{ item.markdown | markdownify | remove: '<p>' | remove: '</p>' }}
+                <a href="{{ item.url }}">
+                    {{ item.title }}
+                </a>
+            </p>
         </li>
         {% endfor %}
     </ul>

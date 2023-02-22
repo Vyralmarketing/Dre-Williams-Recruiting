@@ -73,17 +73,20 @@ blog:
   CTA_content_box:
     title_markdown: |
       **Want to work with us?** Here are some ways to get involved.
-    items: 
-      - url: https://www.google.com
-        markdown: |
+    items:
+      - title: How Much Is My Home Worth?
+        url: https://www.google.com
+        markdown: >-
           **Call to Action #1** is where you can explain what someone will get when they click the call to action button.
-      - url: https://www.google.com
-        markdown: |
+      - title: Latest Housing Market Insights
+        url: https://www.google.com
+        markdown: >-
           **Call to Action #2** is where you can explain what someone will get when they click the call to action button.
-      - url: https://www.google.com
-        markdown: |
+          a house.
+      - title: Get a Cash Offer Now
+        url: https://www.google.com
+        markdown: >-
           **Call to Action #3** is where you can explain what someone will get when they click the call to action button.
-
 about:
   background_color: "#000"
   headline: Why Hire Us Headline 
