@@ -1,25 +1,46 @@
 .post-content
+    --line-height: 22px
+
     .cta-content-box
         font-family: $bodyfont
         margin: 4rem 0 4rem 0
         padding: 1.5rem
         border: 1px solid #c6c6c6
+        line-height: var(--line-height)
 
         ul
             padding: 0
             margin: 0.2rem 0 0 1.8rem
+            line-height: var(--line-height)
 
-            li 
+            li
                 list-style-position: outside
-                padding: 0.25rem 0 0 0.1rem
+                padding: 0.5rem 0 .5rem 0.1rem
                 margin: 0
+                line-height: var(--line-height)
+
+
+            li > *
+                vertical-align: text-top
+                line-height: var(--line-height)
 
         p
+            display: inline-block
             padding: 0
             margin: 0
             font-size: 1.6rem
             font-weight: 300
-            line-height: 2.25rem
-        
+            line-height: var(--line-height)
+
+        a
+            font-size: 1.6rem
+            font-weight: 600
+            line-height: var(--line-height)
+            text-decoration: underline
+
+            &:hover
+                text-decoration: none
+                color: $brand-dark
+
         .cta
             font-weight: 600
