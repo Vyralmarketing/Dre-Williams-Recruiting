@@ -1,11 +1,11 @@
 title: "Your Website Title Goes Here"
-  comment: This is the title of your website that will show up in the browser tab.
 description: This is where you put a short description of your website, between 150-160 characters.
 keywords: "keyword1, keyword2, keyword3"
 share_image: /img/share-image.jpg
 
 nav_USP_statement:
   text: What Makes You Unique Goes Here
+    comment: Test comment
 
 hero:
   hero_image: /img/gray.png
