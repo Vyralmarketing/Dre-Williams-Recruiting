@@ -5,7 +5,6 @@ share_image: /img/share-image.jpg
 
 nav_USP_statement:
   text: What Makes You Unique Goes Here
-    comment: Test comment
 
 hero:
   hero_image: /img/gray.png
