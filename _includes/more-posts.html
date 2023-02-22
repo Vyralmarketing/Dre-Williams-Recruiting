@@ -1,6 +1,6 @@
 {% assign posts = site.posts | where_exp:"post","post.url != page.url" %}
 
-{% if posts %}
+{% if posts.size > 0 %}
 <div class="more-posts-container">
     <h4 class="title">Watch More</h3>
         <ul>
