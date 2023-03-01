@@ -71,7 +71,7 @@
 					{% for social in site.data.settings.footer.socials %}
 					{% if social.url %}
 					<a href="{{ social.url }}" aria-label="Link to {{ social.url }}">
-						<img src="{{ site.baseurl }}{{ social.icon }}" alt="" width="35" height="35" />
+						<img src="{{ site.baseurl }}{{ social.icon }}" alt="" width="35" height="35" loading="lazy" />
 					</a>
 					{% endif %}
 					{% endfor %}
