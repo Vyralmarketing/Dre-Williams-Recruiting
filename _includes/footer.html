@@ -4,20 +4,20 @@
 		<div class="links-container">
 
 			<div class="link">
-				<a href="/">
+				<a href="/" aria-label="Home">
 					<p>Home</p>
 				</a>
 			</div>
 
 			<div class="link">
-				<a href="{{ site.data.settings.hero.button_link }}">
+				<a href="{{ site.data.settings.hero.button_link }}" aria-label="{{ site.data.settings.hero.button_text }}">
 					<p>{{ site.data.settings.hero.button_text }}</p>
 				</a>
 			</div>
 
 			{% for item in site.data.settings.sidebar_CTAs %}
 			<div class="link">
-				<a href="{{ site.baseurl }}{{ item.url}}">
+				<a href="{{ site.baseurl }}{{ item.url}}" aria-label="{{ item.title }}">
 					<p>{{ item.title}}</p>
 				</a>
 			</div>
@@ -25,7 +25,7 @@
 
 			{% for item in site.data.settings.CTAS %}
 			<div class="link">
-				<a href="{{ site.baseurl }}{{ item.url}}">
+				<a href="{{ site.baseurl }}{{ item.url}}" aria-label="{{ item.title }}">
 					<p>{{ item.title}}</p>
 				</a>
 			</div>
@@ -40,13 +40,13 @@
 				you wish
 				to
 				report an issue or seek an accommodation, <a
-					href="mailto:{{ data.settings.footer.contact_info.email }}">please
+					href="mailto:{{ data.settings.footer.contact_info.email }}" aria-label="Email">please
 					let us know</a>.</p>
 		</div>
 
 		<div class="contact-container">
 			<h4><strong>Want to talk to a person?</strong> Call us now at <a
-					href="tel:1-{{ site.data.settings.client.phone }}">{{ site.data.settings.client.phone }}</a> for a
+					href="tel:1-{{ site.data.settings.client.phone }}" aria-label="Phone">{{ site.data.settings.client.phone }}</a> for a
 				free, <span style="white-space: nowrap">no-obligation</span> consultation.</h4>
 			<p>
 				<b>{{ site.data.settings.client.brand }}</b> |
@@ -54,7 +54,7 @@
 				{{ site.data.settings.client.city }}, {{ site.data.settings.client.state }} {{
 				site.data.settings.client.zip }} |
 
-				<a href="mailto:{{ site.data.settings.client.email }}">{{
+				<a href="mailto:{{ site.data.settings.client.email }}" aria-label="Email">{{
 					site.data.settings.client.email }}</a>
 			</p>
 		</div>
@@ -70,7 +70,7 @@
 				<div class="icons">
 					{% for social in site.data.settings.footer.socials %}
 					{% if social.url %}
-					<a href="{{ social.url }}">
+					<a href="{{ social.url }}" aria-label="Link to {{ social.url }}">
 						<img src="{{ site.baseurl }}{{ social.icon }}" alt="" width="35" height="35" />
 					</a>
 					{% endif %}
@@ -80,7 +80,7 @@
 			<div class="policies">
 				{% for policy in site.data.settings.footer.policies %}
 				<div class="policy">
-					<a href="{{ policy.url }}">{{ policy.title }}</a> {% unless forloop.last %}|{% endunless %}
+					<a href="{{ policy.url }}" aria-label="{{ policy.title }}">{{ policy.title }}</a> {% unless forloop.last %}|{% endunless %}
 				</div>
 				{% endfor %}
 
@@ -89,7 +89,7 @@
 		</div>
 
 		<div class="vyral-container">
-			<p>Video Blog Website by <a href="https://www.getvyral.com">Vyral Marketing</a></p>
+			<p>Video Blog Website by <a href="https://www.getvyral.com" aria-label="Vyral Marketing">Vyral Marketing</a></p>
 		</div>
 
 	</div>

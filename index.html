@@ -4,7 +4,7 @@ layout: default
 <!-- blog feed -->
 {% for post in paginator.posts limit:3 %}
 <div class="row content-container">
-	<h2 class="post-overview-title"><a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title |
+	<h2 class="post-overview-title"><a class="post-link" href="{{ site.baseurl }}{{ post.url }}" aria-label="{{ post.title }}">{{ post.title |
 			truncate:
 			70 }}</a></h2>
 	<!-- <span class="post-meta">
@@ -17,7 +17,7 @@ layout: default
 			<div class="col-lg-6 post-image-container">
 				<div class="post-excerpts">
 
-					<a href="{{ site.baseurl }}{{post.url}}">
+					<a href="{{ site.baseurl }}{{post.url}}" aria-label="{{ post.title }}">
 						{% if post.use_youtube_image == true %}
 						<img src="https://img.youtube.com/vi/{{post.youtube_code | remove: 'https://youtu.be/' | remove: 'https://www.youtube.com/watch?v='}}/maxresdefault.jpg"
 							alt="{{post.title}}" class="post-image" />
@@ -38,7 +38,7 @@ layout: default
 			</div>
 			<div class="col-lg-6">
 				{{ post.excerpt | strip_html | prepend: "<p class='excerpt'>" | append: "</p>" | truncate: 160 }}
-				<p class="readlink"><a href="{{ site.baseurl }}{{post.url}}">Watch More</a></p>
+				<p class="readlink"><a href="{{ site.baseurl }}{{post.url}}" aria-label="Watch More">Watch More</a></p>
 			</div>
 		</li>
 	</ul>
