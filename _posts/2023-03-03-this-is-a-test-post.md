@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Image Test Post
-featured: true
+title: An Interesting Blog Title That’s Between 8-12 Words
+featured: false
 subtitle: >-
   This is where you would put a subheadline or a description of a summary of the
   blog post.
