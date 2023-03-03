@@ -1,10 +1,6 @@
 title: Your Website Title Goes Here
 
 description: This is where you put a short description of your website, between 150-160 characters.
-_inputs:
-  description:
-    type: text
-    comment: Short description of the website, between 150-160 characters.
 
 keywords: keyword1, keyword2, keyword3
 _inputs:
