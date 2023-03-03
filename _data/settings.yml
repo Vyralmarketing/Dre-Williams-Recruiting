@@ -2,12 +2,16 @@ title: Your Website Title Goes Here
 description: This is where you put a short description of your website, between 150-160 characters.
 keywords: keyword1, keyword2, keyword3
 share_image: /img/share-image.jpg
+_inputs:
+  share_image:
+    type: image
+    comment: "Image for OG/social media sharing"
 
 fb-admins:
 _inputs:
   fb-admins:
     type: number
-    comment: Optional - enter numeric Facebook user ID for Facebook Insights...
+    comment: Optional - enter numeric Facebook user ID for Facebook Insights
 
 nav_USP_statement:
   text: What Makes You Unique Goes Here
