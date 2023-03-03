@@ -2,6 +2,7 @@ title: "Your Website Title Goes Here"
 description: This is where you put a short description of your website, between 150-160 characters.
 keywords: "keyword1, keyword2, keyword3"
 share_image: /img/share-image.jpg
+fb-admins:
 
 nav_USP_statement:
   text: What Makes You Unique Goes Here
@@ -132,20 +133,10 @@ benefits_section:
   icon_image: /img/checkmark.png
   svg_icon_color: gray
 
-podcast:
-  title: '-- market -- Real Estate Podcast with -- client name --'
-  categories: Education
-  image: /img/podcast.jpg
-  subtitle: 'Learn all the tips, tricks and more for buyers and sellers in the -- market -- Area Real Estate Market'
-  description: 'If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from -- client brand -- - your professional -- market -- Real Estate Agents.'
-  keywords: 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in -- market --, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
-  author: '-- client name --'
-
 images:
   hero_dark_logo_path: /img/logo-dark.png
   hero_light_logo_path: /img/logo-light.png
   logo_width_number: 40
-  post_cover: /img/cover.jpg
   sidenav-logo-width: 200
   footer-logo-width: 250
 
@@ -184,9 +175,6 @@ buttons:
   light_button_hover_text_color: '#000'
 
   transition: "all 0.3s ease"
-
-OG:
-  fb-admins: test-fb-admins
 
 footer:
   font_color: '#fff'
