@@ -1,11 +1,17 @@
 title: Your Website Title Goes Here
 description: This is where you put a short description of your website, between 150-160 characters.
+
 keywords: keyword1, keyword2, keyword3
+_inputs:
+  keywords:
+    type: text
+    comment: Comma separated list of keywords for SEO
+
 share_image: /img/share-image.jpg
 _inputs:
   share_image:
     type: image
-    comment: "Image for OG/social media sharing"
+    comment: Image for OG/social media sharing
 
 fb-admins:
 _inputs:
