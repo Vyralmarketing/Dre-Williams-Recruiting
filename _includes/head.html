@@ -35,7 +35,11 @@
 
   <meta property="og:site_name" content="{{site.data.settings.title}}">
   <meta property="og:locale" content="en_US">
-  <meta property="fb:admins" content="{{site.data.settings.fb-admins}}">
+
+  {% if site.data.settings.fb-admins %}
+  <meta property="fb:admins" content="{{ site.data.settings.fb-admins }}">
+  {% endif %}
+
   <meta property="og:rich_attachment" content="true">
 
   {% if page.is_post %}
