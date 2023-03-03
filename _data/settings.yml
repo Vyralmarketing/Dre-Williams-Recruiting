@@ -104,6 +104,11 @@ blog:
         markdown: >-
           **Call to Action #3** is where you can explain what someone will get when they click the call to action button.
 about:
+  background_image:
+    enable_background_image: true
+    background_image: /img/gray.png
+    background_image_overlay_color: "#000"
+    background_image_overlay_intensity: 0.5
   background_color: "#000"
   headline: Why Hire Us Headline 
   subheadline: Explain what you do in 1 short sentence
@@ -188,6 +193,10 @@ buttons:
   light_button_hover_border_color: '#000'
   light_button_hover_background_color: '#e0e0e0'
   light_button_hover_text_color: '#000'
+
+  scroll_to_top_button_background_color: '#000'
+  scroll_to_top_button_border_color: '#000'
+  scroll_to_top_button_arrow_color: '#fff'
 
   transition: "all 0.3s ease"
 
