@@ -3,9 +3,11 @@ description: This is where you put a short description of your website, between 
 keywords: "keyword1, keyword2, keyword3"
 share_image: /img/share-image.jpg
 fb-admins:
+
 _inputs:
-  type: number
-  comment: This is a test comment.
+  fb-admins:
+    type: number
+    comment: This is a test comment.
 
 nav_USP_statement:
   text: What Makes You Unique Goes Here
