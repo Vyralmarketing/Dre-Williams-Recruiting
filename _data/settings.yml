@@ -105,10 +105,9 @@ blog:
           **Call to Action #3** is where you can explain what someone will get when they click the call to action button.
 about:
   background_image:
-    enable_background_image: true
-    background_image: /img/gray.png
-    background_image_overlay_color: "#000"
-    background_image_overlay_intensity: 0.5
+    enabled: true
+    image: /img/stone-wall.jpg
+    overlay_color: rgba(0, 0, 0, 80%)
   background_color: "#000"
   headline: Why Hire Us Headline 
   subheadline: Explain what you do in 1 short sentence

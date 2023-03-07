@@ -1,4 +1,9 @@
+{% if site.data.settings.about.background_image.enabled %}
+<div class="container-fluid about-section-bg-image" >
+{% else %}
 <div class="container-fluid about-section">
+{% endif %}
+
 	<div class="row">
 		<div class="col-lg-10 col-lg-offset-1 main-container">
 			<h4>{{site.data.settings.about.headline}}</h4>

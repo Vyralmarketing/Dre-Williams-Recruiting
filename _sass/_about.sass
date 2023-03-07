@@ -91,6 +91,77 @@
 					background: $light-button-hover-background
 					border: 1px solid $light-button-hover-border
 
+.about-section-bg-image
+	position: relative
+	padding: 1.5rem 1.5rem 3.5rem
+	color: $theme-body-color
+	margin-top: 5rem
+	background-image: $about-section-bg-image
+	background-size: cover
+	background-color: $about-section-bg-image-overlay-color
+	background-blend-mode: multiply
+
+	&::before
+		background: inherit
+		bottom: -1.25vw
+		content: ""
+		display: block
+		height: 100%
+		left: 0
+		position: absolute
+		right: 0
+		transform: scale(1.04) skewY(1.5deg)
+		transform-origin: 100%
+		z-index: -1
+		background-image: $about-section-bg-image
+		background-size: cover
+		background-color: $about-section-bg-image-overlay-color
+		background-blend-mode: multiply
+
+	.main-container
+		padding: 0 2rem
+
+	.fluid-about-vid
+		padding: 0
+		margin: 1.5rem auto 3rem
+		max-width: 105rem
+		aspect-ratio: 7 / 4
+		position: relative
+		border: 3px solid white
+
+	div
+		div
+			h4
+				font-family: $bodyfont
+				font-size: 4.2rem
+				font-weight: bold
+				text-align: center
+				margin: 0
+			h5
+				font-family: $bodyfont
+				font-size: 2.6rem
+				font-weight: normal
+				text-align: center
+				margin: 0 0 3rem
+
+	.cta-button
+		margin-top: 3.5rem
+
+		&.inverted
+			margin-top: 4.1rem
+			
+			button
+				color: $light-button-text
+				background: $light-button-background
+				border: 1px solid $light-button-border
+				transition: $button-transition
+
+				&:hover
+					color: $light-button-hover-text
+					background: $light-button-hover-background
+					border: 1px solid $light-button-hover-border
+
+
 .contact-text
 	margin: auto
 	margin-bottom: 2.5rem
