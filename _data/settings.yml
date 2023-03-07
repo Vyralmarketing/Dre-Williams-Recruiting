@@ -232,3 +232,14 @@ bottom_mobile_cta:
   cta_1_link: https://www.google.com
   cta_2_text: "Call to Action #2"
   cta_2_link: https://www.google.com
+
+
+  _inputs:
+    about:
+      background_images:
+        image:
+          _label: Background image for About Us section
+          _type: image
+        overlay_color:
+          _label: Overlay color & opacity
+          _type: rgba
