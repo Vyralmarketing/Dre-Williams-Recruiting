@@ -236,7 +236,7 @@ bottom_mobile_cta:
 
   _inputs:
     about:
-      background_images:
+      background_image:
         image:
           _label: Background image for About Us section
           _type: image
