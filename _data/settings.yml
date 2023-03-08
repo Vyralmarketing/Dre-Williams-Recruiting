@@ -235,8 +235,8 @@ bottom_mobile_cta:
 
 _inputs:
   about.background_image.image:
-    type: path
+    type: image_path
     comment: Background image for About Us section
   about.background_image.overlay_color:
-    type: rgba
+    type: color
     comment: Overlay color & opacity
