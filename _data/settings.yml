@@ -107,7 +107,7 @@ about:
   background_image:
     enabled: true
     image: /img/stone-wall.jpg
-    overlay_color: rgba(0, 0, 0, 80%)
+    overlay_color: rgba(0, 0, 0, 0.8)
   background_color: "#000"
   headline: Why Hire Us Headline 
   subheadline: Explain what you do in 1 short sentence
@@ -238,7 +238,7 @@ _inputs:
     type: file
     comment: Background image for About Us section
   about.background_image.overlay_color:
-    comment: Overlay color & opacity
+    comment: Overlay color & opacity (0.0 - 1.0)
     type: color
     options:
       format: rgb
