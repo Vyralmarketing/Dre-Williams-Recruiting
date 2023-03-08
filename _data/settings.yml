@@ -240,7 +240,6 @@ _inputs:
   about.background_image.overlay_color:
     comment: Overlay color & opacity
     type: color
-      options:
-        format: rgb
-        alpha: true 
-    
+    options:
+      format: rgb
+      alpha: true 
