@@ -234,6 +234,8 @@ _inputs:
     options:
       format: rgb
       alpha: true 
+  footer.socials:
+    comment: Test comment
   footer.socials.icon:
     comment: Social icon image (do not change)
   footer.socials.url:
