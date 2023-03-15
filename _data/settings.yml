@@ -31,7 +31,7 @@ hero:
   subheader: This is where you put a clear description of your primary offer and why they should click the call to action button below.
   subheader_color: 'white'
   button_text: "Call to Action #1"
-  button_link: https://www.google.com
+  button_link: "#"
 
 5star_review_excerpts:
   - text: "...a few words here from a Google or Facebook review from a happy customer."
@@ -48,20 +48,20 @@ sidebar_CTAs:
     image: /img/dummy-image.png
     text: You have under 160 characters to explain exactly what someone will get when they take your call to an action.
     button-text: "CTA Button #2"
-    url: https://www.google.com
+    url: "#"
   - title: "Call to Action #3"
     image: /img/dummy-image.png
     text: You have under 160 characters to explain exactly what someone will get when they take your call to an action.
     button-text: "CTA Button #3"
-    url: https://www.google.com
+    url: "#"
 
 CTAS:
   - title: YouTube Channel
-    url: https://www.google.com
+    url: "#"
   - title: About Us
-    url: https://www.google.com
+    url: "#"
   - title: Reviews
-    url: https://www.google.com
+    url: "#"
   
 client:
   name: John Doe
@@ -80,7 +80,7 @@ blog:
     **Primary Call to Action Here.** There is where you can explain your primary call to action again so they see it when the website loads on mobile.
   CTA_main_box_link:
     title: Click Call To Action
-    url: https://www.google.com
+    url: "#"
   author:
     name: John Doe
     name_link: mailto:johndoe@test.com
@@ -91,16 +91,16 @@ blog:
       **Want to work with us?** Here are some ways to get involved.
     items:
       - title: How Much Is My Home Worth?
-        url: https://www.google.com
+        url: "#"
         markdown: >-
           **Call to Action #1** is where you can explain what someone will get when they click the call to action button.
       - title: Latest Housing Market Insights
-        url: https://www.google.com
+        url: "#"
         markdown: >-
           **Call to Action #2** is where you can explain what someone will get when they click the call to action button.
           a house.
       - title: Get a Cash Offer Now
-        url: https://www.google.com
+        url: "#"
         markdown: >-
           **Call to Action #3** is where you can explain what someone will get when they click the call to action button.
 about:
@@ -130,17 +130,17 @@ testimonials:
         ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
       name: John Doe
       image: /img/16x9-placeholder.png
-      image_link: https://www.google.com
+      image_link: "#"
     - markdown_quote: |
         ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
       name: John Doe
       image: /img/16x9-placeholder.png
-      image_link: https://www.google.com
+      image_link: "#"
     - markdown_quote: |
         ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
       name: John Doe
       image: /img/16x9-placeholder.png
-      image_link: https://www.google.com
+      image_link: "#"
 
 benefits_section:
   header: Main Benefit Statement Goes Here
@@ -229,9 +229,9 @@ footer:
 
 bottom_mobile_cta:
   cta_1_text: "Call to Action #1"
-  cta_1_link: https://www.google.com
+  cta_1_link: "#"
   cta_2_text: "Call to Action #2"
-  cta_2_link: https://www.google.com
+  cta_2_link: "#"
 
 _inputs:
   about.background_image.image:
