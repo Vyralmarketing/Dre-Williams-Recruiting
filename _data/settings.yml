@@ -1,23 +1,40 @@
 title: Your Website Title Goes Here
 description: This is where you put a short description of your website, between 150-160 characters.
-
 keywords: keyword1, keyword2, keyword3
-_inputs:
-  keywords:
-    type: text
-    comment: Comma separated list of keywords for SEO
-
 share_image: /img/share-image.jpg
-_inputs:
-  share_image:
-    type: image
-    comment: Image for OG/social media sharing
-
 fb-admins:
-_inputs:
-  fb-admins:
-    type: number
-    comment: Optional - enter numeric Facebook user ID for Facebook Insights
+
+client:
+  name: John Doe
+  brand: Company Name, Inc.
+  market: Test Market
+  address: 123 Elm Street
+  city: Omaha
+  state: Nebraska
+  zip: 68116
+  phone: 1-999-555-1234
+  email: info@companyname.com
+  url: www.clientwebsite.com
+
+CTAS:
+  - title: YouTube Channel
+    url: "#"
+  - title: About Us
+    url: "#"
+  - title: Reviews
+    url: "#"
+
+sidebar_CTAs:
+  - title: "Call to Action #2 "
+    image: /img/dummy-image.png
+    text: You have under 160 characters to explain exactly what someone will get when they take your call to an action.
+    button-text: "CTA Button #2"
+    url: "#"
+  - title: "Call to Action #3"
+    image: /img/dummy-image.png
+    text: You have under 160 characters to explain exactly what someone will get when they take your call to an action.
+    button-text: "CTA Button #3"
+    url: "#"
 
 nav_USP_statement:
   text: What Makes You Unique Goes Here
@@ -33,7 +50,9 @@ hero:
   button_text: "Call to Action #1"
   button_link: "#"
 
-5star_review_excerpts:
+5star_reviews:
+  enabled: true
+  excerpts:
   - text: "...a few words here from a Google or Facebook review from a happy customer."
     name: "John Doe"
   - text: "...a few words here from a Google or Facebook review from a happy customer."
@@ -42,38 +61,6 @@ hero:
     name: "John Doe"
   - text: "...a few words here from a Google or Facebook review from a happy customer."
     name: "John Doe"
-
-sidebar_CTAs:
-  - title: "Call to Action #2 "
-    image: /img/dummy-image.png
-    text: You have under 160 characters to explain exactly what someone will get when they take your call to an action.
-    button-text: "CTA Button #2"
-    url: "#"
-  - title: "Call to Action #3"
-    image: /img/dummy-image.png
-    text: You have under 160 characters to explain exactly what someone will get when they take your call to an action.
-    button-text: "CTA Button #3"
-    url: "#"
-
-CTAS:
-  - title: YouTube Channel
-    url: "#"
-  - title: About Us
-    url: "#"
-  - title: Reviews
-    url: "#"
-  
-client:
-  name: John Doe
-  brand: Company Name, Inc.
-  market: Test Market
-  address: 123 Elm Street
-  city: Omaha
-  state: Nebraska
-  zip: 68116
-  phone: 1-999-555-1234
-  email: info@companyname.com
-  url: www.clientwebsite.com
 
 blog:
   CTA_main_box_markdown: |
@@ -103,7 +90,9 @@ blog:
         url: "#"
         markdown: >-
           **Call to Action #3** is where you can explain what someone will get when they click the call to action button.
+          
 about:
+  enabled: true
   background_image:
     enabled: true
     image: /img/stone-wall.jpg
@@ -122,7 +111,19 @@ about:
 
     The whole goal is for you to live a happier and easier life with less stress and hassle and without any worries. Those are the benefits. But don't take my word for it - we have several happy customers who have the same problem you may have who hired us to solve and can vouch for our systems. In fact, we even offer a 100% money-back guarantee to remove all the risk - you won't lose any money. I invite you to take **Call to Action #3** to learn more, **call to action #2** to really go deeper, or **Call to action #1** to get started on the solution to your problem. 
 
+benefits_section:
+  enabled: true
+  header: Main Benefit Statement Goes Here
+  subheader: Repeat what makes you unique to customers here in this subheadline
+  benefit_1: A top benefit of your service goes here
+  benefit_2: A top benefit of your service goes here
+  benefit_3: A top benefit of your service goes here
+  benefit_4: A top benefit of your service goes here
+  icon_image: /img/checkmark.png
+  svg_icon_color: gray
+
 testimonials:
+  enabled: true
   header_text: Client Testimonials
   font_color: "#000"
   quotes:
@@ -141,16 +142,6 @@ testimonials:
       name: John Doe
       image: /img/16x9-placeholder.png
       image_link: "#"
-
-benefits_section:
-  header: Main Benefit Statement Goes Here
-  subheader: Repeat what makes you unique to customers here in this subheadline
-  benefit_1: A top benefit of your service goes here
-  benefit_2: A top benefit of your service goes here
-  benefit_3: A top benefit of your service goes here
-  benefit_4: A top benefit of your service goes here
-  icon_image: /img/checkmark.png
-  svg_icon_color: gray
 
 images:
   hero_dark_logo_path: /img/logo-dark.png
