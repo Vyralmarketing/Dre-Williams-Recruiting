@@ -194,21 +194,21 @@ footer:
   font_color: '#fff'
   socials:
     - icon: /img/icons/youtube.png
-      url: https://www.youtube.com/
+      url:
     - icon: /img/icons/facebook.png
-      url: https://www.facebook.com/
+      url:
     - icon: /img/icons/linkedin.png
-      url: https://www.linkedin.com/
+      url:
     - icon: /img/icons/instagram.png 
-      url: https://www.instagram.com/
+      url:
     - icon: /img/icons/tiktok.png
-      url: https://www.tiktok.com/
+      url:
     - icon: /img/icons/twitter.png
       url:
     - icon: /img/icons/pinterest.png
       url:
     - icon: /img/icons/gmb.png
-      url: https://www.google.com/business
+      url:
     - icon: /img/icons/whatsapp.png
       url:
 
@@ -236,4 +236,4 @@ _inputs:
       alpha: true 
   footer.socials:
     comment: Leave the URL blank to hide that specific social network
-    
+
