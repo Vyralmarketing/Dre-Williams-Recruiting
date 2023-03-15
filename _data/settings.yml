@@ -234,3 +234,7 @@ _inputs:
     options:
       format: rgb
       alpha: true 
+  footer.socials.icon:
+    comment: Social icon image (do not change)
+  footer.socials.url:
+    comment: Social URL (leave blank to hide this social network)
