@@ -3,6 +3,7 @@ description: This is where you put a short description of your website, between 
 keywords: keyword1, keyword2, keyword3
 share_image: /img/share-image.jpg
 fb-admins:
+meta_pixel_code:
 
 client:
   name: John Doe
@@ -194,23 +195,19 @@ footer:
   font_color: '#fff'
   socials:
     - icon: /img/icons/youtube.png
-      url:
+      url: https://www.youtube.com/
     - icon: /img/icons/facebook.png
-      url:
+      url: https://www.facebook.com/
     - icon: /img/icons/linkedin.png
-      url:
+      url: https://www.linkedin.com/
     - icon: /img/icons/instagram.png 
-      url:
+      url: https://www.instagram.com/
     - icon: /img/icons/tiktok.png
-      url:
+      url: https://www.tiktok.com/
     - icon: /img/icons/twitter.png
       url:
-    - icon: /img/icons/pinterest.png
-      url:
     - icon: /img/icons/gmb.png
-      url:
-    - icon: /img/icons/whatsapp.png
-      url:
+      url: https://www.google.com/business
 
   policies:
     - title: Privacy Policy
@@ -236,4 +233,7 @@ _inputs:
       alpha: true 
   footer.socials:
     comment: Leave the URL blank to hide that specific social network
+  meta_pixel_code.code:
+    type: textarea
+    comment: Paste your pixel code here
 
