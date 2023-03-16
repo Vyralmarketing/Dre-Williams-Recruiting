@@ -5,18 +5,18 @@
   <link data-cms-original-href="css/main.css" href="/css/main.css?_cchid=d2511d5ab16580ce610a9ba0cdd32672"
     rel="stylesheet">
 
-  <title>{{ page.title | escape }}</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}</title>
   <meta name="description"
     content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.settings.description | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand }}{% endif %}">
 
   <meta content="index, follow" name="robots">
   <meta content="index, follow" name="googlebot">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
   <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
   <meta charset="utf-8">
 
   {% if site.data.settings.meta_pixel_code %}
-  {{ site.data.settings.meta_pixel_code }}
+    {{ site.data.settings.meta_pixel_code }}
   {% endif %}
 
   <!--OPEN GRAPH TAGS FOR SOCIAL MEDIA SHARING -->
