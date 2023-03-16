@@ -248,8 +248,8 @@ _inputs:
   meta_pixel_code.code:
     type: textarea
     comment: Paste your pixel code here
-  favicions.images_files:
-    comment: Upload all files from realfavicongenerator.net here (without folder)
+  favicions.images_files.file:
+    comment: Upload all files from realfavicongenerator.net here
     type: file
     options:
       uploads_dir: /
