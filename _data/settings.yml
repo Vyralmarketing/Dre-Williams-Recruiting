@@ -221,6 +221,9 @@ bottom_mobile_cta:
   cta_2_text: "Call to Action #2"
   cta_2_link: "#"
 
+favicons:
+  images_files:
+
 _inputs:
   about.background_image.image:
     type: file
@@ -236,4 +239,7 @@ _inputs:
   meta_pixel_code.code:
     type: textarea
     comment: Paste your pixel code here
+  favicions.images_files:
+    comment: Upload all files from realfavicongenerator.net here (without folder)
+    type: file
 
