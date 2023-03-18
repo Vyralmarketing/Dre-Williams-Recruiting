@@ -233,6 +233,11 @@ favicons:
   site.webmanifest: /site.webmanifest
 
 _inputs:
+  fb-admins:
+    comment: (Optional) Facebook Admin ID
+  meta_pixel_code:
+    type: textarea
+    comment: (Optional) Paste your pixel code here
   about.background_image.image:
     type: file
     comment: Background image for About Us section
@@ -244,9 +249,6 @@ _inputs:
       alpha: true 
   footer.socials:
     comment: Leave the URL blank to hide that specific social network
-  meta_pixel_code.code:
-    type: textarea
-    comment: (Optional) Paste your pixel code here
   favicons:
     comment: Place all resulting files from realfavicongenerator.net here (use high res square image)
   favicons.android-chrome-192x192.png:
