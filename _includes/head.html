@@ -47,7 +47,7 @@
     gtag('config', 'AW-679563641');
   </script>
 
-  <!-- Hotjar Tracking Code for my site -->
+  <!-- Hotjar -->
   <script>
     (function (h, o, t, j, a, r) {
       h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
@@ -59,8 +59,14 @@
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
   </script>
 
-  {% if site.data.settings.meta_pixel_code %}
-  {{ site.data.settings.meta_pixel_code }}
+  {% if site.data.settings.code.hellobar_code %}
+  <!-- Hellobar -->
+  {{ site.data.settings.code.hellobar_code }}
+  {% endif %}
+
+  {% if site.data.settings.code.meta_pixel_code %}
+  <!-- client Meta Pixel -->
+  {{ site.data.settings.code.meta_pixel_code }}
   {% endif %}
 
   <!--OPEN GRAPH TAGS FOR SOCIAL MEDIA SHARING -->
