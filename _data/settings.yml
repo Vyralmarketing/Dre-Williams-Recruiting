@@ -248,7 +248,7 @@ _inputs:
     type: textarea
     comment: Paste your pixel code here
   favicons:
-    comment: Place all resulting files from realfavicongenerator.net here (use high res image)
+    comment: Place all resulting files from realfavicongenerator.net here (use high res square image)
   favicons.android-chrome-192x192.png:
     type: file
     options:
