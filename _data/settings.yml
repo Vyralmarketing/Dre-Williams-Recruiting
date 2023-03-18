@@ -222,8 +222,15 @@ bottom_mobile_cta:
   cta_2_link: "#"
 
 favicons:
-  file-1: /android-chrome-192x192.png
-
+  android-chrome-192x192.png: /android-chrome-192x192.png
+  android-chrome-512x512.png: /android-chrome-512x512.png
+  apple-touch-icon.png: /apple-touch-icon.png
+  browserconfig.xml: /browserconfig.xml
+  favicon-16x16.png: /favicon-16x16.png
+  favicon-32x32.png: /favicon-32x32.png
+  favicon.ico: /favicon.ico
+  mstile-150x150.png: /mstile-150x150.png
+  site.webmanifest: /site.webmanifest
 
 _inputs:
   about.background_image.image:
@@ -240,9 +247,7 @@ _inputs:
   meta_pixel_code.code:
     type: textarea
     comment: Paste your pixel code here
-  favicons.file-1:
-    comment: Upload all files from realfavicongenerator.net here
-    type: file
-    options:
-      uploads_dir: /
+  favicons:
+    comment: Place all resulting files from realfavicongenerator.net here (use high res image)
+
 
