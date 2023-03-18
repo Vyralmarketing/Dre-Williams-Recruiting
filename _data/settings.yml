@@ -3,7 +3,6 @@ description: This is where you put a short description of your website, between 
 keywords: keyword1, keyword2, keyword3
 share_image: /img/share-image.jpg
 fb-admins:
-meta_pixel_code:
 
 client:
   name: John Doe
@@ -232,12 +231,13 @@ favicons:
   mstile-150x150.png: /mstile-150x150.png
   site.webmanifest: /site.webmanifest
 
+code:
+  meta_pixel_code:
+  hellobar_code: '<script src="https://my.hellobar.com/3637f5c1b3822971be9cc062632ab7c7c1b1e46b.js" type="text/javascript" charset="utf-8" async="async"> </script>'
+
 _inputs:
   fb-admins:
     comment: (Optional) Facebook Admin ID
-  meta_pixel_code:
-    type: textarea
-    comment: (Optional) Paste your pixel code here
   about.background_image.image:
     type: file
     comment: Background image for About Us section
@@ -249,6 +249,12 @@ _inputs:
       alpha: true 
   footer.socials:
     comment: Leave the URL blank to hide that specific social network
+  code.meta_pixel_code:
+    type: textarea
+    comment: (Optional) Paste your pixel code here
+  code.hellobar_code:
+    type: textarea
+    comment: Paste your hellobar.com code here
   favicons:
     comment: Place all resulting files from realfavicongenerator.net here (use high res square image)
   favicons.android-chrome-192x192.png:
