@@ -2,7 +2,7 @@
 layout: default
 ---
 <!-- blog feed -->
-{% for post in paginator.posts limit:3 %}
+{% for post in paginator.posts %}
 <div class="row content-container">
 	<h2 class="post-overview-title"><a class="post-link" href="{{ site.baseurl }}{{ post.url }}" aria-label="{{ post.title }}">{{ post.title |
 			truncate:
