@@ -11,26 +11,39 @@
 	{% if loopindex == 1 %}
 	<div class="client-container off-color">
 		<div class="client-testimonial">
-			{% else %}
-			<div class="client-container">
-				<div class="client-testimonial flipped">
-					{% endif %}
+	{% else %}
+	<div class="client-container">
+		<div class="client-testimonial flipped">
+	{% endif %}
 
-					<div class="image-container">
-						<a href="{{ item.image_link }}" aria-label="Client testimonial link"><img src="{{ site.baseurl }}{{ item.image }}" alt="" /></a>
-					</div>
-					<div class="quote">
-						{{ item.markdown_quote | markdownify }}
-						<p class="name">- {{ item.name }}</p>
-					</div>
+			{% if item.video.enabled == true %}
+			<div class="video-container">
+				<div class="video-wrapper">
+					<!-- <a href="{{ item.link }}" aria-label="Client testimonial link"> -->
+						<video src="{{ item.video.file }}" playsinline autoplay muted loop></video>
+					<!-- </a> -->
 				</div>
 			</div>
-			{% endfor %}
-
-			<div class="cta-button-container">
-				{% include cta-button.html %}
+			{% else %}
+			<div class="image-container">
+				<a href="{{ item.link }}" aria-label="Client testimonial link">
+					<img src="{{ site.baseurl }}{{ item.image }}" alt="" />
+				</a>
 			</div>
+			{% endif %}
 
+			<div class="quote">
+				{{ item.markdown_quote | markdownify }}
+				<p class="name">- {{ item.name }}</p>
+			</div>
 		</div>
+	</div>
+	{% endfor %}
+
+		<div class="cta-button-container">
+			{% include cta-button.html %}
+		</div>
+
+	</div>
 
 {% endif %}
