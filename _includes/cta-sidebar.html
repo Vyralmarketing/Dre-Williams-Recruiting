@@ -1,8 +1,19 @@
 {% for item in site.data.settings.sidebar_CTAs %}
 <div class="cta-card">
-	<div class="cta-image-container">
-    <img src="{{ site.baseurl }}{{ item.image }}" alt="Dummy text"/>
+
+  {% if item.video.enabled == true %}
+  <div class="video-container">
+    <div class="video-wrapper">
+
+      <video src="{{ item.video.file }}" playsinline autoplay muted loop></video>
+    </div>
   </div>
+  {% else %}
+  <div class="cta-image-container">
+    <img src="{{ site.baseurl }}{{ item.image }}" alt="Dummy text" />
+  </div>
+  {% endif %}
+
   <div class="cta-text-container">
     <div class="cta-title">{{ item.title }}</div>
     <div class="cta-text">{{ item.text }}</div>

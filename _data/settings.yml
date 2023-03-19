@@ -27,6 +27,9 @@ CTAS:
     url: '#'
 sidebar_CTAs:
   - title: 'Call to Action #2 '
+    video:
+      enabled: true 
+      file: /uploads/CTA2.mp4
     image: /img/dummy-image.png
     text: >-
       You have under 160 characters to explain exactly what someone will get
@@ -34,6 +37,9 @@ sidebar_CTAs:
     button-text: 'CTA Button #2'
     url: '#'
   - title: 'Call to Action #3'
+    video:
+      enabled: true 
+      file: /uploads/CTA3.mp4
     image: /img/dummy-image.png
     text: >-
       You have under 160 characters to explain exactly what someone will get
