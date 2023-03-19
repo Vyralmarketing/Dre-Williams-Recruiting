@@ -108,7 +108,7 @@ about:
   enabled: true
   background_image:
     enabled: true
-    image: /uploads/house.jpg
+    image: /img/stone-wall.jpg
     overlay_color: rgba(0, 0, 0, 0.8)
   background_color: '#000000'
   headline: Why Hire Us Headline
