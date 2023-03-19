@@ -249,11 +249,15 @@ footer:
       url: /test-url
     - title: Terms of Use
       url: /test-url
-bottom_mobile_cta:
-  cta_1_text: 'Call to Action #1'
-  cta_1_link: '#'
-  cta_2_text: 'Call to Action #2'
-  cta_2_link: '#'
+bottom_mobile:
+  background_color: '#999'
+  button_color: '#0c0c0c'
+  font_color: '#fff'
+  CTAs:
+    cta_1_text: 'Call to Action #1'
+    cta_1_link: '#'
+    cta_2_text: 'Call to Action #2'
+    cta_2_link: '#'
 favicons:
   android-chrome-192x192.png: /android-chrome-192x192.png
   android-chrome-512x512.png: /android-chrome-512x512.png

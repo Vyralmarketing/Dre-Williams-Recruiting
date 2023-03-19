@@ -41,8 +41,7 @@
 	width: 100%
 	bottom: 0
 	z-index: 100
-	background-color: $theme
-	color: #fff
+	background-color: $bottom-mobile-background-color
 	padding: 1rem
 	
 	&.closed	
@@ -51,7 +50,8 @@
 	.close-button
 		position: absolute
 		display: flex
-		background: $brand
+		background: $bottom-mobile-button-color
+		color: $bottom-mobile-font-color
 		height: 3.5rem
 		width: 3.4rem
 		top: -3.5rem
@@ -74,7 +74,7 @@
 			justify-content: center
 			flex-direction: column
 			aspect-ratio: 10/10
-			background: $brand
+			background: $bottom-mobile-button-color
 			gap: 0.5rem
 
 			&:hover
@@ -82,7 +82,7 @@
 
 			p
 				font-size: 6vw
-				color: #fff
+				color: $bottom-mobile-font-color
 				font-weight: 300
 				margin: 0 auto
 				padding: 0
@@ -90,7 +90,7 @@
 			i
 				font-size: 13vw
 				margin: 0 auto
-				color: #fff
+				color: $bottom-mobile-font-color
 
 		.cta-container
 			display: flex
@@ -103,16 +103,16 @@
 				justify-content: center
 				align-items: center
 				height: 100%
-				background: $brand-light
+				background: $bottom-mobile-button-color-light
 
 				&:hover
-					background: $brand-very-light
+					background: $bottom-mobile-button-color-very-light
 
 				p
 					margin: 0
 					padding: 0
 					font-size: 5vw
-					color: #fff
+					color: $bottom-mobile-font-color
 					font-weight: 300
 
 @media (max-width: 480px)
