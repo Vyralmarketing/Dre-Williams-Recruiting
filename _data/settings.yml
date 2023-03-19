@@ -1,9 +1,10 @@
 title: Your Website Title Goes Here
-description: This is where you put a short description of your website, between 150-160 characters.
+description: >-
+  This is where you put a short description of your website, between 150-160
+  characters.
 keywords: keyword1, keyword2, keyword3
 share_image: /img/share-image.jpg
 fb-admins:
-
 client:
   name: John Doe
   brand: Company Name, Inc.
@@ -15,102 +16,136 @@ client:
   phone: 1-999-555-1234
   email: info@companyname.com
   url: www.clientwebsite.com
-
 CTAS:
   - title: YouTube Channel
-    url: "#"
+    url: '#'
   - title: About Us
-    url: "#"
+    url: '#'
   - title: Reviews
-    url: "#"
-
+    url: '#'
 sidebar_CTAs:
-  - title: "Call to Action #2 "
+  - title: 'Call to Action #2 '
     image: /img/dummy-image.png
-    text: You have under 160 characters to explain exactly what someone will get when they take your call to an action.
-    button-text: "CTA Button #2"
-    url: "#"
-  - title: "Call to Action #3"
+    text: >-
+      You have under 160 characters to explain exactly what someone will get
+      when they take your call to an action.
+    button-text: 'CTA Button #2'
+    url: '#'
+  - title: 'Call to Action #3'
     image: /img/dummy-image.png
-    text: You have under 160 characters to explain exactly what someone will get when they take your call to an action.
-    button-text: "CTA Button #3"
-    url: "#"
-
+    text: >-
+      You have under 160 characters to explain exactly what someone will get
+      when they take your call to an action.
+    button-text: 'CTA Button #3'
+    url: '#'
 nav_USP_statement:
   text: What Makes You Unique Goes Here
-
 hero:
   hero_image: /img/gray.png
   use_overlay: true
   overlay-intensity: 0.5
   header: Main Benefit Driven Headline Goes Here
-  header_color: 'white'
-  subheader: This is where you put a clear description of your primary offer and why they should click the call to action button below.
-  subheader_color: 'white'
-  button_text: "Call to Action #1"
-  button_link: "#"
-
+  header_color: white
+  subheader: >-
+    This is where you put a clear description of your primary offer and why they
+    should click the call to action button below.
+  subheader_color: white
+  button_text: 'Call to Action #1'
+  button_link: '#'
 5star_reviews:
   enabled: true
   excerpts:
-  - text: "...a few words here from a Google or Facebook review from a happy customer."
-    name: "John Doe"
-  - text: "...a few words here from a Google or Facebook review from a happy customer."
-    name: "John Doe"
-  - text: "...a few words here from a Google or Facebook review from a happy customer."
-    name: "John Doe"
-  - text: "...a few words here from a Google or Facebook review from a happy customer."
-    name: "John Doe"
-
+    - text: >-
+        ...a few words here from a Google or Facebook review from a happy
+        customer.
+      name: John Doe
+    - text: >-
+        ...a few words here from a Google or Facebook review from a happy
+        customer.
+      name: John Doe
+    - text: >-
+        ...a few words here from a Google or Facebook review from a happy
+        customer.
+      name: John Doe
+    - text: >-
+        ...a few words here from a Google or Facebook review from a happy
+        customer.
+      name: John Doe
 blog:
-  CTA_main_box_markdown: |
-    **Primary Call to Action Here.** There is where you can explain your primary call to action again so they see it when the website loads on mobile.
+  CTA_main_box_markdown: >
+    **Primary Call to Action Here.** There is where you can explain your primary
+    call to action again so they see it when the website loads on mobile.
   CTA_main_box_link:
     title: Click Call To Action
-    url: "#"
+    url: '#'
   author:
     name: John Doe
     name_link: mailto:johndoe@test.com
     image: /img/john-doe.png
-    bio: This is where you have 1-2 sentences to explain why someone should listen to you.
+    bio: >-
+      This is where you have 1-2 sentences to explain why someone should listen
+      to you.
   CTA_content_box:
     title_markdown: |
       **Want to work with us?** Here are some ways to get involved.
     items:
       - title: How Much Is My Home Worth?
-        url: "#"
+        url: '#'
         markdown: >-
-          **Call to Action #1** is where you can explain what someone will get when they click the call to action button.
+          **Call to Action #1** is where you can explain what someone will get
+          when they click the call to action button.
       - title: Latest Housing Market Insights
-        url: "#"
+        url: '#'
         markdown: >-
-          **Call to Action #2** is where you can explain what someone will get when they click the call to action button.
-          a house.
+          **Call to Action #2** is where you can explain what someone will get
+          when they click the call to action button. a house.
       - title: Get a Cash Offer Now
-        url: "#"
+        url: '#'
         markdown: >-
-          **Call to Action #3** is where you can explain what someone will get when they click the call to action button.
-          
+          **Call to Action #3** is where you can explain what someone will get
+          when they click the call to action button.
 about:
   enabled: true
   background_image:
     enabled: true
-    image: /img/stone-wall.jpg
+    image: /uploads/house.jpg
     overlay_color: rgba(0, 0, 0, 0.8)
-  background_color: "#000"
-  headline: Why Hire Us Headline 
+  background_color: '#000000'
+  headline: Why Hire Us Headline
   subheadline: Explain what you do in 1 short sentence
   youtube_code: NpEaa2P7qZI
-  markdown: |
-    Do you have this specific problem? Are you struggling to find a solution to your pain? Well, you're not alone - 57% of people in your situation feel the same way. In fact, you can expect a lot of bad things to happen to you if you don't solve this problem. You may find yourself dealing with this bad thing or that bad thing. I've heard stories even that this terrible, terrible thing has happened when the problem does not go unsolved. My name is Bob and I'm here to help you solve this problem. This is what makes my solution different from everyone else's. I have a story here where I can relate to your situation and it's why I do what I do. Here is a list of the specific things we'll do for you:
+  markdown: >-
+    Do you have this specific problem? Are you struggling to find a solution to
+    your pain? Well, you're not alone - 57% of people in your situation feel the
+    same way. In fact, you can expect a lot of bad things to happen to you if
+    you don't solve this problem. You may find yourself dealing with this bad
+    thing or that bad thing. I've heard stories even that this terrible,
+    terrible thing has happened when the problem does not go unsolved. My name
+    is Bob and I'm here to help you solve this problem. This is what makes my
+    solution different from everyone else's. I have a story here where I can
+    relate to your situation and it's why I do what I do. Here is a list of the
+    specific things we'll do for you:
+
+
     1. Killer benefit goes here.
+
     2. Killer benefit goes here.
+
     3. Killer benefit goes here.
+
     4. Killer benefit goes here.
+
     5. Killer benefit goes here.
 
-    The whole goal is for you to live a happier and easier life with less stress and hassle and without any worries. Those are the benefits. But don't take my word for it - we have several happy customers who have the same problem you may have who hired us to solve and can vouch for our systems. In fact, we even offer a 100% money-back guarantee to remove all the risk - you won't lose any money. I invite you to take **Call to Action #3** to learn more, **call to action #2** to really go deeper, or **Call to action #1** to get started on the solution to your problem. 
 
+    The whole goal is for you to live a happier and easier life with less stress
+    and hassle and without any worries. Those are the benefits. But don't take
+    my word for it - we have several happy customers who have the same problem
+    you may have who hired us to solve and can vouch for our systems. In fact,
+    we even offer a 100% money-back guarantee to remove all the risk - you won't
+    lose any money. I invite you to take **Call to Action \#3** to learn more,
+    **call to action \#2** to really go deeper, or **Call to action \#1** to get
+    started on the solution to your problem.&nbsp;
 benefits_section:
   enabled: true
   header: Main Benefit Statement Goes Here
@@ -121,75 +156,69 @@ benefits_section:
   benefit_4: A top benefit of your service goes here
   icon_image: /img/checkmark.png
   svg_icon_color: gray
-
 testimonials:
   enabled: true
   header_text: Client Testimonials
-  font_color: "#000"
+  font_color: '#000'
   quotes:
-    - markdown_quote: |
-        ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
+    - markdown_quote: >
+        ### "You'll put a client testimonial here of one of your best customers
+        that shares the problem they had before they hired you **and the
+        benefits of you solving it."**
       name: John Doe
       image: /img/16x9-placeholder.png
-      image_link: "#"
-    - markdown_quote: |
-        ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
+      image_link: '#'
+    - markdown_quote: >
+        ### "You'll put a client testimonial here of one of your best customers
+        that shares the problem they had before they hired you **and the
+        benefits of you solving it."**
       name: John Doe
       image: /img/16x9-placeholder.png
-      image_link: "#"
-    - markdown_quote: |
-        ### "You'll put a client testimonial here of one of your best customers that shares the problem they had before they hired you **and the benefits of you solving it."**
+      image_link: '#'
+    - markdown_quote: >
+        ### "You'll put a client testimonial here of one of your best customers
+        that shares the problem they had before they hired you **and the
+        benefits of you solving it."**
       name: John Doe
       image: /img/16x9-placeholder.png
-      image_link: "#"
-
+      image_link: '#'
 images:
   hero_dark_logo_path: /img/logo-dark.png
   hero_light_logo_path: /img/logo-light.png
   logo_width_number: 40
   sidenav-logo-width: 200
   footer-logo-width: 250
-
 site_colors:
   brand_color: '#0c0c0c'
   theme_color: '#999'
-  theme_text_color: 'black'
-  main_body_color: 'white'
+  theme_text_color: black
+  main_body_color: white
   main_body_text_color: '#212121'
-
 header_shadow:
   h_shadow: 0px
   w_shadow: 2px
   shadow_spread: 7px
   shadow_color: transparent
-
 buttons:
   button_radius_number: 0
   button_padding_width_number: 10
   button_padding_height_number: 15
-
   button_border_color: '#fff'
   button_background_color: '#000'
   button_text_color: '#fff'
-
   button_hover_border_color: '#e0e0e0'
   button_hover_background_color: '#333'
   button_hover_text_color: '#e0e0e0'
-
   light_button_border_color: '#000'
   light_button_background_color: '#fff'
   light_button_text_color: '#000'
-
   light_button_hover_border_color: '#000'
   light_button_hover_background_color: '#e0e0e0'
   light_button_hover_text_color: '#000'
-
   scroll_to_top_button_background_color: '#000'
   scroll_to_top_button_border_color: '#000'
   scroll_to_top_button_arrow_color: '#fff'
-
-  transition: "all 0.3s ease"
-
+  transition: all 0.3s ease
 footer:
   font_color: '#fff'
   socials:
@@ -199,7 +228,7 @@ footer:
       url: https://www.facebook.com/
     - icon: /img/icons/linkedin.png
       url: https://www.linkedin.com/
-    - icon: /img/icons/instagram.png 
+    - icon: /img/icons/instagram.png
       url: https://www.instagram.com/
     - icon: /img/icons/tiktok.png
       url: https://www.tiktok.com/
@@ -207,19 +236,16 @@ footer:
       url:
     - icon: /img/icons/gmb.png
       url: https://www.google.com/business
-
   policies:
     - title: Privacy Policy
       url: /test-url
     - title: Terms of Use
       url: /test-url
-
 bottom_mobile_cta:
-  cta_1_text: "Call to Action #1"
-  cta_1_link: "#"
-  cta_2_text: "Call to Action #2"
-  cta_2_link: "#"
-
+  cta_1_text: 'Call to Action #1'
+  cta_1_link: '#'
+  cta_2_text: 'Call to Action #2'
+  cta_2_link: '#'
 favicons:
   android-chrome-192x192.png: /android-chrome-192x192.png
   android-chrome-512x512.png: /android-chrome-512x512.png
@@ -230,11 +256,12 @@ favicons:
   favicon.ico: /favicon.ico
   mstile-150x150.png: /mstile-150x150.png
   site.webmanifest: /site.webmanifest
-
 code:
   meta_pixel_code:
-  hellobar_code: '<script src="https://my.hellobar.com/3637f5c1b3822971be9cc062632ab7c7c1b1e46b.js" type="text/javascript" charset="utf-8" async="async"> </script>'
-
+  hellobar_code: >-
+    <script
+    src="https://my.hellobar.com/3637f5c1b3822971be9cc062632ab7c7c1b1e46b.js"
+    type="text/javascript" charset="utf-8" async="async"> </script>
 _inputs:
   fb-admins:
     comment: (Optional) Facebook Admin ID
@@ -246,7 +273,7 @@ _inputs:
     type: color
     options:
       format: rgb
-      alpha: true 
+      alpha: true
   footer.socials:
     comment: Leave the URL blank to hide that specific social network
   code.meta_pixel_code:
@@ -256,7 +283,9 @@ _inputs:
     type: textarea
     comment: Paste your hellobar.com code here
   favicons:
-    comment: Place all resulting files from realfavicongenerator.net here (use high res square image)
+    comment: >-
+      Place all resulting files from realfavicongenerator.net here (use high res
+      square image)
   favicons.android-chrome-192x192.png:
     type: file
     options:
