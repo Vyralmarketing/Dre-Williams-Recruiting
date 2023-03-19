@@ -150,6 +150,8 @@ about:
     started on the solution to your problem.&nbsp;
 benefits_section:
   enabled: true
+  background_color: 'white'
+  font_color: '#212121'
   header: Main Benefit Statement Goes Here
   subheader: Repeat what makes you unique to customers here in this subheadline
   benefit_1: A top benefit of your service goes here
@@ -161,6 +163,8 @@ benefits_section:
 testimonials:
   enabled: true
   header_text: Client Testimonials
+  background_color_1: '#f2f2f2'
+  background_color_2: 'white'
   font_color: '#000'
   quotes:
     - markdown_quote: >
@@ -196,6 +200,7 @@ site_colors:
   theme_text_color: black
   main_body_color: white
   main_body_text_color: '#212121'
+  nav_color: '#0c0c0c'
 header_shadow:
   h_shadow: 0px
   w_shadow: 2px
@@ -222,6 +227,7 @@ buttons:
   scroll_to_top_button_arrow_color: '#fff'
   transition: all 0.3s ease
 footer:
+  background_color: '#0c0c0c'
   font_color: '#fff'
   socials:
     - icon: /img/icons/youtube.png
