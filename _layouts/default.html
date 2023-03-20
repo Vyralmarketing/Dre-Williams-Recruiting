@@ -19,6 +19,10 @@
 				{{ content }}
 			</div>
 
+			<div class="device-only">
+				{% include pagination.html %}
+			</div>
+
 			<!-- Sidebar Content -->
 			<div class="col-lg-3 col-md-4 col-sm-12 sidebar pl-10px">
 				<div class="sidebar-container">
@@ -30,7 +34,11 @@
 		</div>
 
 	</div>
-	{% include pagination.html %}
+
+	<div class="desktop-only">
+		{% include pagination.html %}
+	</div>
+	
 	{% include about.html %}
 	{% include benefits.html %}
 	{% include testimonials.html %}
