@@ -11,10 +11,16 @@
 			<h4>{{site.data.settings.about.headline}}</h4>
 			<h5>{{site.data.settings.about.subheadline}}</h5>
 
-			{% if site.data.settings.about.youtube_code != null %}
+			{% if site.data.settings.about.video.enabled == true and site.data.settings.about.video.youtube_code != null %}
 			<div class="fluid-about-vid">
-				<div class="youtube-player" data-id="{{site.data.settings.about.youtube_code | remove: 'https://youtu.be/' | remove: 'https://www.youtube.com/watch?v='}}"></div>
+				<div class="youtube-player" data-id="{{site.data.settings.about.video.youtube_code | remove: 'https://youtu.be/' | remove: 'https://www.youtube.com/watch?v='}}"></div>
 			</div>
+
+			{% elsif site.data.settings.about.image.enabled == true and site.data.settings.about.image.file != null %}
+			<div class="image-container">
+				<img src="{{ site.baseurl }}{{ site.data.settings.about.image.file }}" alt="Why Hire Us">
+			</div>
+
 			{% endif %}
 
 		</div>

@@ -126,7 +126,12 @@ about:
   background_color: '#000000'
   headline: Why Hire Us Headline
   subheadline: Explain what you do in 1 short sentence
-  youtube_code: NpEaa2P7qZI
+  video:
+    enabled: false
+    youtube_code: NpEaa2P7qZI
+  image:
+    enabled: true
+    file: /img/why-hire-us-thumbnail.jpg
   markdown: >-
     Do you have this specific problem? Are you struggling to find a solution to
     your pain? Well, you're not alone - 57% of people in your situation feel the
