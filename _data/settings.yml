@@ -265,6 +265,8 @@ buttons:
   scroll_to_top_button_border_color: '#000'
   scroll_to_top_button_arrow_color: '#fff'
   transition: all 0.3s ease
+sidenav:
+  transparency: 0.96
 footer:
   background_color: '#0c0c0c'
   font_color: '#fff'
@@ -314,6 +316,9 @@ code:
     src="https://my.hellobar.com/3637f5c1b3822971be9cc062632ab7c7c1b1e46b.js"
     type="text/javascript" charset="utf-8" async="async"> </script>
 _inputs:
+  sidenav.transparency:
+    comment: >-
+      0.0 - 1.0 (0.96 default, 1.0 for solid color/no transparency)
   fb-admins:
     comment: (Optional) Facebook Admin ID
   about.background_image.image:
