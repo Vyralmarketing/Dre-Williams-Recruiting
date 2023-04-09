@@ -268,7 +268,6 @@ site_colors:
   main_body_text_color: '#212121'
   nav_color: '#0c0c0c'
   sidenav_color: '#0c0c0c'
-  
 header_shadow:
   h_shadow: 0px
   w_shadow: 2px
