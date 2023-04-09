@@ -1,0 +1,27 @@
+{% for item in site.data.settings.sidebar_ads.ads %}
+<div class="ad-card">
+
+  {% if item.video.enabled == true %}
+  <div class="video-container">
+    <div class="video-wrapper">
+      <video src="{{ item.video.file }}" playsinline autoplay muted loop></video>
+    </div>
+  </div>
+  {% else %}
+  <div class="ad-image-container">
+    <img src="{{ site.baseurl }}{{ item.image }}" alt="Dummy text" />
+  </div>
+  {% endif %}
+
+  <div class="ad-text-container">
+    <div class="ad-title">{{ item.title }}</div>
+    <div class="ad-text">{{ item.text }}</div>
+    <div class="ad-new-button">
+      <a href="{{ item.url }}">{{ item.button-text }}</a>
+    </div>
+    <div class="subtext">
+        <span>{{ site.data.settings.sidebar_ads.settings.subtext }}</span>
+    </div>
+  </div>
+</div>
+{% endfor %}

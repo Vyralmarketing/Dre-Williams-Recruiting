@@ -58,6 +58,33 @@ sidebar_CTAs:
     url: '#'
     show_sidenav_link: true 
     show_footer_link: true
+sidebar_ads:
+  settings:
+    border_thickness: 3
+    subtext: 'Sponsored'
+    ad_subtext_bg_color: '#e7bc25'
+    ad_subtext_font_color: 'white'
+  ads:
+    - title: 'Sample Ad #1'
+      video:
+        enabled: false 
+        file: /uploads/CTA2.mp4
+      image: /img/ad1.jpg
+      text: >-
+        You have under 160 characters to explain exactly what someone will get
+        when they take your call to an action.
+      button-text: 'CTA Button'
+      url: '#'
+    - title: 'Sample Ad #2'
+      video:
+        enabled: false 
+        file: /uploads/CTA3.mp4
+      image: /img/ad2.jpg
+      text: >-
+        You have under 160 characters to explain exactly what someone will get
+        when they take your call to an action.
+      button-text: 'CTA Button'
+      url: '#'
 nav_USP_statement:
   text: What Makes You Unique Goes Here
 hero:
@@ -241,6 +268,7 @@ site_colors:
   main_body_text_color: '#212121'
   nav_color: '#0c0c0c'
   sidenav_color: '#0c0c0c'
+  
 header_shadow:
   h_shadow: 0px
   w_shadow: 2px

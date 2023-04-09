@@ -24,7 +24,12 @@ $theme: {{site.data.settings.site_colors.theme_color}}
 $theme-text: {{ site.data.settings.site_colors.theme_text_color }}
 $theme-body-text: {{site.data.settings.site_colors.main_body_text_color}}
 $theme-body-color: {{site.data.settings.site_colors.main_body_color}}
-$transparent-black: rgba(0,0,0,0.5)
+
+//ad settings
+$ad_border_thickness: {{ site.data.settings.sidebar_ads.settings.border_thickness }}px
+$ad_border_radius: {{ site.data.settings.sidebar_ads.settings.border_radius }}px
+$ad_subtext_bg_color: {{ site.data.settings.sidebar_ads.settings.ad_subtext_bg_color }}
+$ad_subtext_font_color: {{ site.data.settings.sidebar_ads.settings.ad_subtext_font_color }}
 
 //section colors
 $nav-color: {{ site.data.settings.site_colors.nav_color }}
@@ -120,6 +125,7 @@ $icon-fill: $light-text
 @import "vendor/owl.carousel"
 
 @import "author-box"
+@import "ads-sidebar"
 @import "cta-sidebar"
 @import "cta-main-box"
 @import "cta-content-box"
