@@ -33,14 +33,21 @@
 
 		<a href="{{ site.baseurl }}/" aria-label="Home">Home</a>
 
-		<a href="{{ site.data.settings.hero.button_link }}" aria-label="{{ site.data.settings.hero.button_text }}">{{ site.data.settings.hero.button_text }}</a>
+		{% if site.data.settings.hero.show_sidenav_link %}
+			<a href="{{ site.data.settings.hero.button_link }}" aria-label="{{ site.data.settings.hero.button_text }}">{{ site.data.settings.hero.button_text }}</a>
+		{% endif %}
+
 
 		{% for item in site.data.settings.sidebar_CTAs %}
-		<a href="{{ site.baseurl }}{{ item.url }}" aria-label="{{ item.title }}">{{ item.title }}</a>
+			{% if item.show_sidenav_link %}
+				<a href="{{ site.baseurl }}{{ item.url }}" aria-label="{{ item.title }}">{{ item.title }}</a>
+			{% endif %}
 		{% endfor %}
 
 		{% for item in site.data.settings.CTAS %}
-		<a href="{{ site.baseurl }}{{ item.url }}" aria-label="{{ item.title }}">{{ item.title }}</a>
+			{% if item.show_sidenav_link %}
+				<a href="{{ site.baseurl }}{{ item.url }}" aria-label="{{ item.title }}">{{ item.title }}</a>
+			{% endif %}
 		{% endfor %}
 
 		<div class="sidenav-contact-container">

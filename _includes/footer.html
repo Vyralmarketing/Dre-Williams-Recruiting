@@ -9,26 +9,32 @@
 				</a>
 			</div>
 
+			{% if site.data.settings.hero.show_footer_link %}
 			<div class="link">
 				<a href="{{ site.data.settings.hero.button_link }}" aria-label="{{ site.data.settings.hero.button_text }}">
 					<p>{{ site.data.settings.hero.button_text }}</p>
 				</a>
 			</div>
+			{% endif %}
 
 			{% for item in site.data.settings.sidebar_CTAs %}
-			<div class="link">
-				<a href="{{ site.baseurl }}{{ item.url}}" aria-label="{{ item.title }}">
-					<p>{{ item.title}}</p>
-				</a>
-			</div>
+				{% if item.show_footer_link %}
+				<div class="link">
+					<a href="{{ site.baseurl }}{{ item.url}}" aria-label="{{ item.title }}">
+						<p>{{ item.title}}</p>
+					</a>
+				</div>
+				{% endif %}
 			{% endfor %}
 
 			{% for item in site.data.settings.CTAS %}
-			<div class="link">
-				<a href="{{ site.baseurl }}{{ item.url}}" aria-label="{{ item.title }}">
-					<p>{{ item.title}}</p>
-				</a>
-			</div>
+				{% if item.show_footer_link %}
+				<div class="link">
+					<a href="{{ site.baseurl }}{{ item.url}}" aria-label="{{ item.title }}">
+						<p>{{ item.title}}</p>
+					</a>
+				</div>
+				{% endif %}
 			{% endfor %}
 
 		</div>
