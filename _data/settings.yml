@@ -60,6 +60,7 @@ sidebar_CTAs:
     show_footer_link: true
 sidebar_ads:
   settings:
+    ads_enabled: true
     border_thickness: 3
     subtext: 'Sponsored'
     ad_subtext_bg_color: '#e7bc25'
