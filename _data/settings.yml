@@ -256,8 +256,8 @@ testimonials:
 images:
   hero_dark_logo_path: /img/logo-dark.png
   hero_light_logo_path: /img/logo-light.png
-  logo_width_number: 40
   sidenav-logo-width: 200
+  mobile-nav-logo-width: 125
   footer-logo-width: 250
 site_colors:
   brand_color: '#0c0c0c'
