@@ -29,18 +29,22 @@ CTAS:
     url: '#'
     show_sidenav_link: true
     show_footer_link: true
+    add_button_to_hero: false
   - title: Facebook
     url: '#'
     show_sidenav_link: true
     show_footer_link: true
+    add_button_to_hero: false
   - title: About Us
     url: '#'
     show_sidenav_link: true
     show_footer_link: true
+    add_button_to_hero: false
   - title: Reviews
     url: '#'
     show_sidenav_link: true
     show_footer_link: true
+    add_button_to_hero: false
 sidebar_CTAs:
   - title: 'Call to Action #2 '
     video:
@@ -54,6 +58,7 @@ sidebar_CTAs:
     url: '#'
     show_sidenav_link: true
     show_footer_link: true
+    add_button_to_hero: false
   - title: 'Call to Action #3'
     video:
       enabled: true
@@ -66,6 +71,7 @@ sidebar_CTAs:
     url: '#'
     show_sidenav_link: true
     show_footer_link: true
+    add_button_to_hero: false
 sidebar_ads:
   settings:
     ads_enabled: true
@@ -105,6 +111,7 @@ hero:
   button_link: '#'
   show_sidenav_link: true
   show_footer_link: true
+  add_button_to_hero: false
 5star_reviews:
   enabled: true
   excerpts:
@@ -335,6 +342,8 @@ code:
     src="https://my.hellobar.com/3637f5c1b3822971be9cc062632ab7c7c1b1e46b.js"
     type="text/javascript" charset="utf-8" async="async"> </script>
 _inputs:
+  sidebar_CTAs.video.file:
+    type: file
   REQUIRED_bottom_mobile:
     comment: REQUIRED. This must be filled out. 
   sidenav.transparency:
