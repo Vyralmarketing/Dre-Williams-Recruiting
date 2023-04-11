@@ -19,24 +19,24 @@ client:
 CTAS:
   - title: YouTube Channel
     url: '#'
-    show_sidenav_link: true 
+    show_sidenav_link: true
     show_footer_link: true
   - title: Facebook
     url: '#'
-    show_sidenav_link: true 
+    show_sidenav_link: true
     show_footer_link: true
   - title: About Us
     url: '#'
-    show_sidenav_link: true 
+    show_sidenav_link: true
     show_footer_link: true
   - title: Reviews
     url: '#'
-    show_sidenav_link: true 
+    show_sidenav_link: true
     show_footer_link: true
 sidebar_CTAs:
   - title: 'Call to Action #2 '
     video:
-      enabled: true 
+      enabled: true
       file: /uploads/CTA2.mp4
     image: /img/dummy-image.png
     text: >-
@@ -44,11 +44,11 @@ sidebar_CTAs:
       when they take your call to an action.
     button-text: 'CTA Button #2'
     url: '#'
-    show_sidenav_link: true 
+    show_sidenav_link: true
     show_footer_link: true
   - title: 'Call to Action #3'
     video:
-      enabled: true 
+      enabled: true
       file: /uploads/CTA3.mp4
     image: /img/dummy-image.png
     text: >-
@@ -56,35 +56,25 @@ sidebar_CTAs:
       when they take your call to an action.
     button-text: 'CTA Button #3'
     url: '#'
-    show_sidenav_link: true 
+    show_sidenav_link: true
     show_footer_link: true
 sidebar_ads:
   settings:
     ads_enabled: true
     border_thickness: 3
-    subtext: 'Sponsored'
+    subtext: Sponsored
     ad_subtext_bg_color: '#e7bc25'
-    ad_subtext_font_color: 'white'
+    ad_subtext_font_color: '#ffffff'
   ads:
     - title: 'Sample Ad #1'
       video:
-        enabled: false 
+        enabled: false
         file: /uploads/CTA2.mp4
       image: /img/ad1.jpg
       text: >-
         You have under 160 characters to explain exactly what someone will get
         when they take your call to an action.
-      button-text: 'CTA Button'
-      url: '#'
-    - title: 'Sample Ad #2'
-      video:
-        enabled: false 
-        file: /uploads/CTA3.mp4
-      image: /img/ad2.jpg
-      text: >-
-        You have under 160 characters to explain exactly what someone will get
-        when they take your call to an action.
-      button-text: 'CTA Button'
+      button-text: CTA Button
       url: '#'
 nav_USP_statement:
   text: What Makes You Unique Goes Here
@@ -208,7 +198,7 @@ about:
     started on the solution to your problem.&nbsp;
 benefits_section:
   enabled: true
-  background_color: 'white'
+  background_color: white
   font_color: '#212121'
   header: Main Benefit Statement Goes Here
   subheader: Repeat what makes you unique to customers here in this subheadline
@@ -222,7 +212,7 @@ testimonials:
   enabled: true
   header_text: Client Testimonials
   background_color_1: '#f2f2f2'
-  background_color_2: 'white'
+  background_color_2: white
   font_color: '#000'
   quotes:
     - markdown_quote: >
@@ -346,8 +336,7 @@ code:
     type="text/javascript" charset="utf-8" async="async"> </script>
 _inputs:
   sidenav.transparency:
-    comment: >-
-      0.0 - 1.0 (0.96 default, 1.0 for solid color/no transparency)
+    comment: 0.0 - 1.0 (0.96 default, 1.0 for solid color/no transparency)
   fb-admins:
     comment: (Optional) Facebook Admin ID
   about.background_image.image:
