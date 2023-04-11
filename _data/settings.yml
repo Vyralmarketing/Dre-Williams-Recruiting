@@ -342,8 +342,9 @@ code:
     src="https://my.hellobar.com/3637f5c1b3822971be9cc062632ab7c7c1b1e46b.js"
     type="text/javascript" charset="utf-8" async="async"> </script>
 _inputs:
-  sidebar_CTAs.video.file:
-    type: file
+  sidebar_CTAs:
+    - video.file:
+        type: file
   REQUIRED_bottom_mobile:
     comment: REQUIRED. This must be filled out. 
   sidenav.transparency:
