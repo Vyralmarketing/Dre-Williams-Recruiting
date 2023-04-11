@@ -4,7 +4,15 @@ description: >-
   characters.
 keywords: keyword1, keyword2, keyword3
 share_image: /img/share-image.jpg
-fb-admins:
+REQUIRED_bottom_mobile:
+  background_color: '#999'
+  button_color: '#0c0c0c'
+  font_color: '#fff'
+  CTAs:
+    cta_1_text: 'Call to Action #1'
+    cta_1_link: '#'
+    cta_2_text: 'Call to Action #2'
+    cta_2_link: '#'
 client:
   name: John Doe
   brand: Company Name, Inc.
@@ -309,15 +317,6 @@ footer:
       url: /test-url
     - title: Terms of Use
       url: /test-url
-bottom_mobile:
-  background_color: '#999'
-  button_color: '#0c0c0c'
-  font_color: '#fff'
-  CTAs:
-    cta_1_text: 'Call to Action #1'
-    cta_1_link: '#'
-    cta_2_text: 'Call to Action #2'
-    cta_2_link: '#'
 favicons:
   android-chrome-192x192.png: /android-chrome-192x192.png
   android-chrome-512x512.png: /android-chrome-512x512.png
@@ -328,6 +327,7 @@ favicons:
   favicon.ico: /favicon.ico
   mstile-150x150.png: /mstile-150x150.png
   site.webmanifest: /site.webmanifest
+fb-admins:
 code:
   meta_pixel_code:
   hellobar_code: >-
@@ -335,6 +335,8 @@ code:
     src="https://my.hellobar.com/3637f5c1b3822971be9cc062632ab7c7c1b1e46b.js"
     type="text/javascript" charset="utf-8" async="async"> </script>
 _inputs:
+  REQUIRED_bottom_mobile:
+    comment: REQUIRED. This must be filled out. 
   sidenav.transparency:
     comment: 0.0 - 1.0 (0.96 default, 1.0 for solid color/no transparency)
   fb-admins:
