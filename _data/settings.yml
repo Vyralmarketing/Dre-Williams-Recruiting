@@ -341,8 +341,6 @@ code:
     <script
     src="https://my.hellobar.com/3637f5c1b3822971be9cc062632ab7c7c1b1e46b.js"
     type="text/javascript" charset="utf-8" async="async"> </script>
-privacy_policy:
-  enabled_privacy_policy: true
 _inputs:
   REQUIRED_bottom_mobile:
     comment: REQUIRED. This must be filled out. 
