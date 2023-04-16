@@ -16,9 +16,9 @@
 				<div class="youtube-player" data-id="{{site.data.settings.about.video.youtube_code | remove: 'https://youtu.be/' | remove: 'https://www.youtube.com/watch?v='}}"></div>
 			</div>
 
-			{% elsif site.data.settings.about.image.enabled == true and site.data.settings.about.image.file != null %}
+			{% elsif site.data.settings.about.image.enabled == true and site.data.settings.about.image.path != null %}
 			<div class="image-container">
-				<img src="{{ site.baseurl }}{{ site.data.settings.about.image.file }}" alt="Why Hire Us">
+				<img src="{{ site.baseurl }}{{ site.data.settings.about.image.path }}" alt="Why Hire Us">
 			</div>
 
 			{% endif %}

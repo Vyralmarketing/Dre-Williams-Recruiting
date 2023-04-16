@@ -49,7 +49,7 @@ sidebar_CTAs:
   - title: 'Call to Action #2 '
     video:
       enabled: true
-      file: /uploads/CTA2.mp4
+      path: /uploads/CTA2.mp4
     image: /img/dummy-image.png
     text: >-
       You have under 160 characters to explain exactly what someone will get
@@ -62,7 +62,7 @@ sidebar_CTAs:
   - title: 'Call to Action #3'
     video:
       enabled: true
-      file: /uploads/CTA3.mp4
+      path: /uploads/CTA3.mp4
     image: /img/dummy-image.png
     text: >-
       You have under 160 characters to explain exactly what someone will get
@@ -83,7 +83,7 @@ sidebar_ads:
     - title: 'Sample Ad #1'
       video:
         enabled: false
-        file: /uploads/CTA2.mp4
+        path: /uploads/CTA2.mp4
       image: /img/ad1.jpg
       text: >-
         You have under 160 characters to explain exactly what someone will get
@@ -95,7 +95,7 @@ nav_USP_statement:
 hero:
   video:
     enabled: true
-    file: /uploads/houses-video.mp4
+    path: /uploads/houses-video.mp4
     use_overlay: true
     overlay-intensity: 0.5
   hero_image: /img/gray.png
@@ -178,7 +178,7 @@ about:
     youtube_code: NpEaa2P7qZI
   image:
     enabled: true
-    file: /img/why-hire-us-thumbnail.jpg
+    path: /img/why-hire-us-thumbnail.jpg
   markdown: >-
     Do you have this specific problem? Are you struggling to find a solution to
     your pain? Well, you're not alone - 57% of people in your situation feel the
@@ -237,7 +237,7 @@ testimonials:
       name: John Doe
       video:
         enabled: true
-        file: /uploads/testimonial-1.mp4
+        path: /uploads/testimonial-1.mp4
       image: /img/16x9-placeholder.png
       link: '#'
     - markdown_quote: >
@@ -247,7 +247,7 @@ testimonials:
       name: John Doe
       video:
         enabled: true
-        file: /uploads/testimonial-2.mp4
+        path: /uploads/testimonial-2.mp4
       image: /img/16x9-placeholder.png
       link: '#'
     - markdown_quote: >
@@ -257,7 +257,7 @@ testimonials:
       name: John Doe
       video:
         enabled: true
-        file: /uploads/testimonial-3.mp4
+        path: /uploads/testimonial-3.mp4
       image: /img/16x9-placeholder.png
       link: '#'
 images:
@@ -341,10 +341,9 @@ code:
     <script
     src="https://my.hellobar.com/3637f5c1b3822971be9cc062632ab7c7c1b1e46b.js"
     type="text/javascript" charset="utf-8" async="async"> </script>
+privacy_policy:
+  enabled_privacy_policy: true
 _inputs:
-  sidebar_CTAs:
-    - video.file:
-        type: file
   REQUIRED_bottom_mobile:
     comment: REQUIRED. This must be filled out. 
   sidenav.transparency:

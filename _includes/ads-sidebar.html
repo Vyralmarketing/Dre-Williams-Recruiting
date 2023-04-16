@@ -6,7 +6,7 @@
   {% if item.video.enabled == true %}
   <div class="video-container">
     <div class="video-wrapper">
-      <video src="{{ item.video.file }}" playsinline autoplay muted loop></video>
+      <video src="{{ item.video.path }}" playsinline autoplay muted loop></video>
     </div>
   </div>
   {% else %}
