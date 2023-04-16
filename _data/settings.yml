@@ -319,10 +319,21 @@ footer:
       url:
     - icon: /img/icons/gmb.png
       url: https://www.google.com/business
-  policies:
-    - title: Privacy Policy
+  custom_policies:
+    privacy:
+      enabled: true
+      title: Privacy Policy
+      url: /privacy-policy
+    terms:
+      enabled: true
+      title: Terms and Conditions
+      url: /terms-and-conditions
+  client_policies:
+    - enabled: false
+      title: Privacy Policy
       url: /test-url
-    - title: Terms of Use
+    - enabled: false
+      title: Terms of Use
       url: /test-url
 favicons:
   android-chrome-192x192.png: /android-chrome-192x192.png

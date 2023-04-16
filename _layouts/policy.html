@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body>
+	{% include navigation.html %}
+
+	<div class="container-fluid pt-7rem flex">
+		<div class="new-post-column">
+			<main>
+				<div class="row policy-container">
+				{{ content }}
+				</div>
+			</main>
+		</div>
+	</div>
+
+	{% include footer.html %}
+
+	{% if site.data.settings.code.hellobar_code %}
+	<!-- Hellobar -->
+	{{ site.data.settings.code.hellobar_code }}
+	{% endif %}
+</body>
+
+</html>

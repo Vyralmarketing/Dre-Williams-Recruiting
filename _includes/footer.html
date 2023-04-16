@@ -84,10 +84,30 @@
 				</div>
 			</div>
 			<div class="policies">
-				{% for policy in site.data.settings.footer.policies %}
+
+				{% if site.data.settings.footer.custom_policies.privacy.enabled == true %}
+				<div class="policy">
+					<a href="{{ site.data.settings.footer.custom_policies.privacy.url }}" aria-label="{{ site.data.settings.footer.custom_policies.privacy.title }}">{{ site.data.settings.footer.custom_policies.privacy.title }}</a>
+				</div>
+				{% endif %}
+
+				{% if site.data.settings.footer.custom_policies.privacy.enabled == true and site.data.settings.footer.custom_policies.terms.enabled == true %}
+				|
+				{% endif %}
+
+				{% if site.data.settings.footer.custom_policies.terms.enabled == true %}
+				<div class="policy">
+					<a href="{{ site.data.settings.footer.custom_policies.terms.url }}" aria-label="{{ site.data.settings.footer.custom_policies.terms.title }}">{{ site.data.settings.footer.custom_policies.terms.title }}</a>
+				</div>
+				{% endif %}
+				
+
+				{% for policy in site.data.settings.footer.client_policies %}
+				{% if policy.enabled == true %}
 				<div class="policy">
 					<a href="{{ policy.url }}" aria-label="{{ policy.title }}">{{ policy.title }}</a> {% unless forloop.last %}|{% endunless %}
 				</div>
+				{% endif %}
 				{% endfor %}
 
 			</div>

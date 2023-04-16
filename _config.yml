@@ -16,6 +16,11 @@ highlighter: rouge
 paginate: 3
 permalink: none
 
+collections:
+    policies:
+        output: true
+        permalink: /:name
+
 plugins:
     - jemoji
     - octopress-autoprefixer
