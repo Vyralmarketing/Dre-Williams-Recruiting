@@ -11,39 +11,50 @@
 	{% if loopindex == 1 %}
 	<div class="client-container off-color">
 		<div class="client-testimonial">
-	{% else %}
-	<div class="client-container">
-		<div class="client-testimonial flipped">
-	{% endif %}
+			{% else %}
+			<div class="client-container">
+				<div class="client-testimonial flipped">
+					{% endif %}
 
-			{% if item.video.enabled == true %}
-			<div class="video-container">
-				<div class="video-wrapper">
-					<!-- <a href="{{ item.link }}" aria-label="Client testimonial link"> -->
-						<video src="{{ item.video.path }}" playsinline autoplay muted loop></video>
-					<!-- </a> -->
+					{% if item.video.enabled == true %}
+					<div class="video-container" style="cursor: pointer;" onclick="lightbox_open('{{ forloop.index }}');">
+						<div class="video-wrapper">
+							<!-- <a href="{{ item.link }}" aria-label="Client testimonial link"> -->
+							<video src="{{ item.video.path }}" playsinline autoplay muted loop></video>
+							<!-- </a> -->
+						</div>
+					</div>
+
+					<div class="lightbox-{{ forloop.index }}">
+						<a class="boxclose" onClick="lightbox_close('{{ forloop.index }}');"></a>
+						<video class="video-{{ forloop.index }}" width="600" controls>
+							<source src="{{ item.video.path }}" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+
+					<div class="fade-{{ forloop.index }}" onClick="lightbox_close('{{ forloop.index }}');"></div>
+
+					{% else %}
+					<div class="image-container">
+						<a href="{{ item.link }}" aria-label="Client testimonial link">
+							<img src="{{ site.baseurl }}{{ item.image }}" alt="" />
+						</a>
+					</div>
+					{% endif %}
+
+					<div class="quote">
+						{{ item.markdown_quote | markdownify }}
+						<p class="name">- {{ item.name }}</p>
+					</div>
 				</div>
 			</div>
-			{% else %}
-			<div class="image-container">
-				<a href="{{ item.link }}" aria-label="Client testimonial link">
-					<img src="{{ site.baseurl }}{{ item.image }}" alt="" />
-				</a>
-			</div>
-			{% endif %}
+			{% endfor %}
 
-			<div class="quote">
-				{{ item.markdown_quote | markdownify }}
-				<p class="name">- {{ item.name }}</p>
+			<div class="cta-button-container">
+				{% include cta-button.html %}
 			</div>
-		</div>
-	</div>
-	{% endfor %}
 
-		<div class="cta-button-container">
-			{% include cta-button.html %}
 		</div>
 
-	</div>
-
-{% endif %}
+		{% endif %}
