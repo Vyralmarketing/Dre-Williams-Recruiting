@@ -4,6 +4,7 @@ function lightbox_open(index) {
     var fade = document.querySelector(`.fade-${index}`);
         
     lightbox.style.display = 'block';
+    lightbox.style.opacity = 1;
     fade.style.display = 'block';
     video.play();
 
@@ -20,6 +21,7 @@ function lightbox_close(index) {
     var fade = document.querySelector(`.fade-${index}`);
 
     lightbox.style.display = 'none';
+    lightbox.style.opacity = 0;
     fade.style.display = 'none';
     video.pause();
 }
