@@ -30,6 +30,16 @@
           {% endif %}
         {% endfor %}
 
+        {% for page in site.custom_pages %}
+            {% if page.has_hero_button == true %}
+              <div class="cta-button">
+                <a href="{{ page.url }}">
+                  <button>{{ page.button_text }}</button>
+                </a>
+              </div>
+            {% endif %}
+        {% endfor %}
+
       </div>
 
     </div>

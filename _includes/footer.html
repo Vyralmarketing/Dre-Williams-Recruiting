@@ -37,6 +37,16 @@
 				{% endif %}
 			{% endfor %}
 
+			{% for page in site.custom_pages %}
+				{% if page.has_footer_link == true %}
+					<div class="link">
+						<a href="{{ site.baseurl }}{{ page.url }}" aria-label="{{ page.title }}">
+							<p>{{ page.title }}</p>
+						</a>
+					</div>
+				{% endif %}
+			{% endfor %}
+
 		</div>
 
 		<div class="access-container">

@@ -20,6 +20,9 @@ collections:
     policies:
         output: true
         permalink: /:name
+    custom_pages:
+        output: true
+        permalink: /:name
 
 plugins:
     - jemoji

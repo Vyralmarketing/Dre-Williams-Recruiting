@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body>
+	{% include navigation.html %}
+
+	<div class="container-fluid pt-7rem flex">
+		<div class="new-post-column">
+
+			<main>
+				<div class="row post-container custom-page">
+
+					<h1 class="post-title custom-page" itemprop="name headline">{{page.title}}</h1>
+
+					{% if page.subtitle != null %}
+					<h2 class="post-subtitle custom-page" itemprop="description subheadline">{{page.subtitle}}</h2>
+					{% endif %}
+					
+					<article class="post custom-page" itemscope itemtype="http://schema.org/BlogPosting">
+						<div class="twelve columns post-content custom-page" itemprop="articleBody">
+							{{ content }}
+						</div>
+					</article>
+				</div>
+			</main>
+		</div>
+	</div>
+	{% include about.html%}
+	{% include benefits.html %}
+	{% include testimonials.html %}
+	{% include top-button.html %}
+	{% include bottom-navigation.html %}
+	{% include footer.html %}
+
+	{% if site.data.settings.code.hellobar_code %}
+	<!-- Hellobar -->
+	{{ site.data.settings.code.hellobar_code }}
+	{% endif %}
+</body>
+
+</html>

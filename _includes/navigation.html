@@ -50,6 +50,12 @@
 			{% endif %}
 		{% endfor %}
 
+		{% for page in site.custom_pages %}
+			{% if page.has_sidenav_link == true %}
+				<a href="{{ site.baseurl }}{{ page.url }}" aria-label="{{ page.title }}">{{ page.title }}</a>
+			{% endif %}
+		{% endfor %}
+
 		<div class="sidenav-contact-container">
 			<a class="ellipsis" href="mailto:{{site.data.settings.client.email}}" aria-label="Email">
 				<!-- <img src="{{ site.baseurl }}/img/envelope.svg" alt="Email icon" /> -->
