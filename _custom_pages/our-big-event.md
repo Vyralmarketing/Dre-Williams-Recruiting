@@ -2,10 +2,10 @@
 layout: custom_page
 title: Come To Our Big Event
 subtitle:
-has_hero_button: true
+has_hero_button: false
 hero_button_text: Our Big Event
-has_sidenav_link: true
-has_footer_link: true
+has_sidenav_link: false
+has_footer_link: false
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Velit egestas dui id ornare. Mattis vulputate enim nulla aliquet. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Id faucibus nisl tincidunt eget nullam non nisi est sit. A diam sollicitudin tempor id eu nisl nunc. Egestas sed sed risus pretium quam. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Vestibulum mattis ullamcorper velit sed.
 
