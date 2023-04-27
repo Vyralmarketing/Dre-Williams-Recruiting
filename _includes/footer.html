@@ -11,40 +11,41 @@
 
 			{% if site.data.settings.hero.show_footer_link %}
 			<div class="link">
-				<a href="{{ site.data.settings.hero.button_link }}" aria-label="{{ site.data.settings.hero.button_text }}">
+				<a href="{{ site.data.settings.hero.button_link }}"
+					aria-label="{{ site.data.settings.hero.button_text }}">
 					<p>{{ site.data.settings.hero.button_text }}</p>
 				</a>
 			</div>
 			{% endif %}
 
 			{% for item in site.data.settings.sidebar_CTAs %}
-				{% if item.show_footer_link %}
-				<div class="link">
-					<a href="{{ site.baseurl }}{{ item.url}}" aria-label="{{ item.title }}">
-						<p>{{ item.title}}</p>
-					</a>
-				</div>
-				{% endif %}
+			{% if item.show_footer_link %}
+			<div class="link">
+				<a href="{{ site.baseurl }}{{ item.url}}" aria-label="{{ item.title }}">
+					<p>{{ item.title}}</p>
+				</a>
+			</div>
+			{% endif %}
 			{% endfor %}
 
 			{% for item in site.data.settings.CTAS %}
-				{% if item.show_footer_link %}
-				<div class="link">
-					<a href="{{ site.baseurl }}{{ item.url}}" aria-label="{{ item.title }}">
-						<p>{{ item.title}}</p>
-					</a>
-				</div>
-				{% endif %}
+			{% if item.show_footer_link %}
+			<div class="link">
+				<a href="{{ site.baseurl }}{{ item.url}}" aria-label="{{ item.title }}">
+					<p>{{ item.title}}</p>
+				</a>
+			</div>
+			{% endif %}
 			{% endfor %}
 
 			{% for page in site.custom_pages %}
-				{% if page.has_footer_link == true %}
-					<div class="link">
-						<a href="{{ site.baseurl }}{{ page.url }}" aria-label="{{ page.title }}">
-							<p>{{ page.title }}</p>
-						</a>
-					</div>
-				{% endif %}
+			{% if page.has_footer_link == true %}
+			<div class="link">
+				<a href="{{ site.baseurl }}{{ page.url }}" aria-label="{{ page.title }}">
+					<p>{{ page.title }}</p>
+				</a>
+			</div>
+			{% endif %}
 			{% endfor %}
 
 		</div>
@@ -55,14 +56,15 @@
 				the accessibility of our website for everyone, and we welcome feedback and accommodation requests. If
 				you wish
 				to
-				report an issue or seek an accommodation, <a
-					href="mailto:{{ data.settings.footer.contact_info.email }}" aria-label="Email">please
+				report an issue or seek an accommodation, <a href="mailto:{{ data.settings.footer.contact_info.email }}"
+					aria-label="Email">please
 					let us know</a>.</p>
 		</div>
 
 		<div class="contact-container">
 			<h4><strong>Want to talk to a person?</strong> Call us now at <a
-					href="tel:1-{{ site.data.settings.client.phone }}" aria-label="Phone">{{ site.data.settings.client.phone }}</a> for a
+					href="tel:1-{{ site.data.settings.client.phone }}" aria-label="Phone">{{
+					site.data.settings.client.phone }}</a> for a
 				free, <span style="white-space: nowrap">no-obligation</span> consultation.</h4>
 			<p>
 				<b>{{ site.data.settings.client.brand }}</b> |
@@ -76,7 +78,7 @@
 		</div>
 
 		<div class="logo">
-			<img src="{{ site.baseurl }}{{ site.data.settings.images.hero_light_logo_path }}" alt="Company logo" />
+			<img src="{{ site.baseurl }}{{ site.data.settings.images.logo_path }}" alt="Company logo" />
 		</div>
 
 		<div class="socials-policy-container">
@@ -97,25 +99,31 @@
 
 				{% if site.data.settings.footer.custom_policies.privacy.enabled == true %}
 				<div class="policy">
-					<a href="{{ site.data.settings.footer.custom_policies.privacy.url }}" aria-label="{{ site.data.settings.footer.custom_policies.privacy.title }}">{{ site.data.settings.footer.custom_policies.privacy.title }}</a>
+					<a href="{{ site.data.settings.footer.custom_policies.privacy.url }}"
+						aria-label="{{ site.data.settings.footer.custom_policies.privacy.title }}">{{
+						site.data.settings.footer.custom_policies.privacy.title }}</a>
 				</div>
 				{% endif %}
 
-				{% if site.data.settings.footer.custom_policies.privacy.enabled == true and site.data.settings.footer.custom_policies.terms.enabled == true %}
+				{% if site.data.settings.footer.custom_policies.privacy.enabled == true and
+				site.data.settings.footer.custom_policies.terms.enabled == true %}
 				|
 				{% endif %}
 
 				{% if site.data.settings.footer.custom_policies.terms.enabled == true %}
 				<div class="policy">
-					<a href="{{ site.data.settings.footer.custom_policies.terms.url }}" aria-label="{{ site.data.settings.footer.custom_policies.terms.title }}">{{ site.data.settings.footer.custom_policies.terms.title }}</a>
+					<a href="{{ site.data.settings.footer.custom_policies.terms.url }}"
+						aria-label="{{ site.data.settings.footer.custom_policies.terms.title }}">{{
+						site.data.settings.footer.custom_policies.terms.title }}</a>
 				</div>
 				{% endif %}
-				
+
 
 				{% for policy in site.data.settings.footer.client_policies %}
 				{% if policy.enabled == true %}
 				<div class="policy">
-					<a href="{{ policy.url }}" aria-label="{{ policy.title }}">{{ policy.title }}</a> {% unless forloop.last %}|{% endunless %}
+					<a href="{{ policy.url }}" aria-label="{{ policy.title }}">{{ policy.title }}</a> {% unless
+					forloop.last %}|{% endunless %}
 				</div>
 				{% endif %}
 				{% endfor %}
@@ -125,7 +133,8 @@
 		</div>
 
 		<div class="vyral-container">
-			<p>Video Blog Website by <a href="https://www.getvyral.com" aria-label="Vyral Marketing">Vyral Marketing</a></p>
+			<p>Video Blog Website by <a href="https://www.getvyral.com" aria-label="Vyral Marketing">Vyral Marketing</a>
+			</p>
 		</div>
 
 	</div>

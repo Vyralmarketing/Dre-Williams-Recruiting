@@ -2,8 +2,8 @@
 	<div class="navbar-header">
 		<a href="{{ site.baseurl }}/" class="navbar-brand visible-xs" data-target="#navbarCollapse"
 			data-toggle="collapse" aria-label="Home">
-			<img src="{{ site.baseurl }}{{ site.data.settings.images.hero_light_logo_path }}"
-				class="nav-logo-small" alt="Home logo"></a>
+			<img src="{{ site.baseurl }}{{ site.data.settings.images.logo_path }}" class="nav-logo-small"
+				alt="Home logo"></a>
 		<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle"
 			onclick="toggleNav()">
 			<span class="sr-only">Toggle navigation</span>
@@ -11,15 +11,15 @@
 		</button>
 	</div>
 
-	<a href="{{ site.baseurl }}/" aria-label="Home" aria-label="Home"><img src="{{ site.baseurl }}{{ site.data.settings.images.hero_light_logo_path }}"
-			class="nav-logo" alt="Home logo"></a>
+	<a href="{{ site.baseurl }}/" aria-label="Home" aria-label="Home"><img
+			src="{{ site.baseurl }}{{ site.data.settings.images.logo_path }}" class="nav-logo" alt="Home logo"></a>
 
 	<div id="mySidenav" class="sidenav">
 		<a href="javascript:void(0)" class="close-button" onclick="toggleNav()" aria-label="Close">&times;</a>
 
 		<div class="sidenav-logo">
 			<a href="/" aria-label="Home">
-				<img src="{{ site.baseurl }}{{ site.data.settings.images.hero_light_logo_path }}" alt="Home logo">
+				<img src="{{ site.baseurl }}{{ site.data.settings.images.logo_path }}" alt="Home logo">
 			</a>
 		</div>
 
@@ -34,26 +34,27 @@
 		<a href="{{ site.baseurl }}/" aria-label="Home">Home</a>
 
 		{% if site.data.settings.hero.show_sidenav_link %}
-			<a href="{{ site.data.settings.hero.button_link }}" aria-label="{{ site.data.settings.hero.button_text }}">{{ site.data.settings.hero.button_text }}</a>
+		<a href="{{ site.data.settings.hero.button_link }}" aria-label="{{ site.data.settings.hero.button_text }}">{{
+			site.data.settings.hero.button_text }}</a>
 		{% endif %}
 
 
 		{% for item in site.data.settings.sidebar_CTAs %}
-			{% if item.show_sidenav_link %}
-				<a href="{{ site.baseurl }}{{ item.url }}" aria-label="{{ item.title }}">{{ item.title }}</a>
-			{% endif %}
+		{% if item.show_sidenav_link %}
+		<a href="{{ site.baseurl }}{{ item.url }}" aria-label="{{ item.title }}">{{ item.title }}</a>
+		{% endif %}
 		{% endfor %}
 
 		{% for item in site.data.settings.CTAS %}
-			{% if item.show_sidenav_link %}
-				<a href="{{ site.baseurl }}{{ item.url }}" aria-label="{{ item.title }}">{{ item.title }}</a>
-			{% endif %}
+		{% if item.show_sidenav_link %}
+		<a href="{{ site.baseurl }}{{ item.url }}" aria-label="{{ item.title }}">{{ item.title }}</a>
+		{% endif %}
 		{% endfor %}
 
 		{% for page in site.custom_pages %}
-			{% if page.has_sidenav_link == true %}
-				<a href="{{ site.baseurl }}{{ page.url }}" aria-label="{{ page.title }}">{{ page.title }}</a>
-			{% endif %}
+		{% if page.has_sidenav_link == true %}
+		<a href="{{ site.baseurl }}{{ page.url }}" aria-label="{{ page.title }}">{{ page.title }}</a>
+		{% endif %}
 		{% endfor %}
 
 		<div class="sidenav-contact-container">

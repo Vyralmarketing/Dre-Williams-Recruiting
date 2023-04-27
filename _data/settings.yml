@@ -261,8 +261,7 @@ testimonials:
           image: /img/16x9-placeholder.png
           link: "#"
 images:
-    hero_dark_logo_path: /img/logo-dark.png
-    hero_light_logo_path: /img/logo-light.png
+    logo_path: /img/logo-light.png
     navbar-logo-width: 129
     desktop-sidenav-logo-width: 200
     mobile-sidenav-logo-width: 125
