@@ -2,7 +2,7 @@
 layout: policy
 title: Privacy Policy
 ---
-# **ABC LIMITED** **PRIVACY POLICY**
+# **{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name | upcase }} PRIVACY POLICY**
 
 **1\. OVERVIEW OF THIS POLICY**
 
@@ -10,7 +10,7 @@ This Privacy Policy (this "Policy") relates to the personal information that you
 
 You are required to read, understand, and agree to how we process (collection, use, disclosure, security, etc.) your information in this Policy. You are also required to read our Terms and Conditions and print a copy each for future reference. By using the website and submitting the requested personal information, you agree to how we process your information as described in this Policy. If you disagree, you should not submit information.
 
-**2\. WHAT INFORMATION DOES** **ABC LIMITED** **COLLECT FROM YOU?**
+**2\. WHAT INFORMATION DOES {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name | upcase }} COLLECT FROM YOU?**
 
 **2\.1** We collect information from and about users of our website:
 
@@ -43,10 +43,10 @@ You are required to read, understand, and agree to how we process (collection, u
 * Information you provide us when you complete user surveys or surveys for research purposes, such as your Contact Information.
 * Information you provide us when you report a problem with the website, such as your first name, last name and e-mail address.
 * Records and copies of your correspondence (including e-mail addresses and phone numbers) if you contact us.
-* Details of transactions you carry out through the website when you make payment to Abc Limited.&nbsp;
+* Details of transactions you carry out through the website when you make payment to {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }}.&nbsp;
 * Your correspondence within the website with other users.
 
-​​​​​​​**3\. WHAT DOES** **ABC LIMITED** **USE THE INFORMATION COLLECTED FOR?**
+​​​​​​​**3\. WHAT DOES {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name | upcase }} USE THE INFORMATION COLLECTED FOR?**
 
 Any information collected by us is for a purpose in relation to your use of our website, including for providing the services.&nbsp;
 
@@ -119,7 +119,7 @@ What are the lawful bases for processing personal data? The lawful grounds for p
 
 **5\.7** Unfortunately, the transmission of information via the internet and mobile platforms is not completely secure. Although we do our best to protect your personal information, we cannot guarantee the security of your information transmitted through our website. Any transmission of personal information is at your own risk. We are not responsible for circumventing any privacy settings or security measures we provide.&nbsp;
 
-**5\.8** If you suspect that there has been a breach of the security of your data, you should contact us at: [admin@abclimited.com](mailto:admin@abclimited.com) and include details of:&nbsp;
+**5\.8** If you suspect that there has been a breach of the security of your data, you should contact us at: [{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_legal_email }}](mailto:{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_legal_email }}) and include details of:&nbsp;
 
 * the nature of the breach;&nbsp;
 * the date of the breach; and
@@ -131,13 +131,13 @@ This Privacy Policy is intended to cover the collection of information on our we
 
 **7\. TECHNICAL DATA**
 
-You acknowledge that Abc Limited may collect and use technical data, including but not limited to information about your mobile device and system, Internet connection or your use of the Abc Limited website. Collecting technical data ensures quality, increases comfort, and further analyses and develops Abc Limited and related services.
+You acknowledge that {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }} may collect and use technical data, including but not limited to information about your mobile device and system, Internet connection or your use of the {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }} website. Collecting technical data ensures quality, increases comfort, and further analyses and develops {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }} and related services.
 
 Technical data is anonymous and stored separately from Personal Data; therefore, it cannot be linked back to you in any way in order to identify you.
 
 **8\. HOW PERSONAL DATA IS SHARED AND WITH WHOM**
 
-Abc Limited does not sell or share your personal information with third parties but may share your information if the need arises, such as the following:&nbsp;
+{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }} does not sell or share your personal information with third parties but may share your information if the need arises, such as the following:&nbsp;
 
 * To a buyer or other successor in the event of a merger, divestiture, restructuring, reorganization, dissolution or other sale or transfer of some or all of the Company's assets, whether as a going concern or as part of bankruptcy, liquidation or similar proceeding, in which personal information held by the Company about our Website users is among the assets transferred.
 * For any other purpose disclosed by us when you provide the information.
@@ -159,7 +159,7 @@ We are committed to protecting your privacy and ensuring that your personal info
 **10\. YOUR RIGHTS WITH RESPECT TO PERSONAL DATA.**
 
 * You can review and change your personal information by logging into the website and visiting your account settings page.&nbsp;
-* You may also send us an e-mail at [admin@abclimited.com](mailto:admin@abclimited.com) to request access to, correct or delete any personal information free of charge that you have provided to us. We cannot delete your personal information except by deleting your user account.&nbsp;
+* You may also send us an e-mail at [{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_legal_email }}](mailto:{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_legal_email }}) to request access to, correct or delete any personal information free of charge that you have provided to us. We cannot delete your personal information except by deleting your user account.&nbsp;
 * We will respond to a request to access, correct or delete any data within 30 days of the date we receive the request.&nbsp;
 * We may not accommodate a request to change information if we believe the change would violate or breach any law or legal requirement or cause the information to be incorrect.&nbsp;
 * If, on your request, we refuse to amend, correct or delete your personal information, we will set out our reasons for not doing so and provide you with details of how you may complain about our refusal.
@@ -197,7 +197,7 @@ If you are under 18, reside in California, and have a registered account with th
 
 **15\. NEVADA RESIDENT RIGHTS**
 
-If you are a resident of Nevada, you have the right to opt out of the sale of certain Personal Data to third parties who intend to license or sell that Personal Data. You can exercise this right by contacting us at [admin@abclimited.com](mailto:admin@abclimited.com) with the subject line "Nevada Do Not Sell Request" and providing us with your name and the e-mail address associated with your account. We will not sell your Personal Data.
+If you are a resident of Nevada, you have the right to opt out of the sale of certain Personal Data to third parties who intend to license or sell that Personal Data. You can exercise this right by contacting us at [{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_legal_email }}](mailto:{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_legal_email }}) with the subject line "Nevada Do Not Sell Request" and providing us with your name and the e-mail address associated with your account. We will not sell your Personal Data.
 
 **16\. DATA SECURITY**
 
@@ -215,12 +215,10 @@ Our Policy is to post any changes we make to our privacy policy on this page wit
 
 If you have any questions or comments about this Privacy Policy, how we collect and use your Data or your choices and rights regarding such collection and use, please do not hesitate to contact us at:
 
-ABC Limited
-
-9923 Darrow Park Drive Mail Code 119-O
-
-Twinsburg, Ohio, 44087-2664
-
-United States
-
-[admin@abclimited.com](mailto:admin@abclimited.com)&nbsp;
+<div class="legal-contact">
+    <p>{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }}</p>
+    <p>{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.street }}</p>
+    <p>{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.city }}, {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.state }}, {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.zip }}</p>
+    <p>{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.country }}</p>
+</div>
+[{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_legal_email }}](mailto:{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_legal_email }})

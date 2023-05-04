@@ -320,6 +320,15 @@ footer:
         - icon: /img/icons/gmb.png
           url: https://www.google.com/business
     custom_policies:
+        REQUIRED_client_info:
+            company_name: ABC Limited
+            company_full_website: http://www.abclimited.com
+            company_legal_email: legal@abclimited.com
+            street: 12345 Main St.
+            zip: 44087-2664
+            city: Twinsburg
+            state: Ohio
+            country: United States
         privacy:
             enabled: true
             title: Privacy Policy
@@ -355,6 +364,8 @@ code:
 _inputs:
     REQUIRED_bottom_mobile:
         comment: REQUIRED. This must be filled out.
+    footer.custom_policies.REQUIRED_client_info:
+        comment: REQUIRED if using custom policies.
     sidenav.transparency:
         comment: 0.0 - 1.0 (0.96 default, 1.0 for solid color/no transparency)
     fb-admins:

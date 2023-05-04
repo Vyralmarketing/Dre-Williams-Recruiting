@@ -2,9 +2,9 @@
 layout: policy
 title: Terms and Conditions
 ---
-# **ABC LIMITED** **TERMS AND CONDITIONS**
+# **{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name | upcase }} TERMS AND CONDITIONS**
 
-Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the ** ** [**www.abclimited.com**](http://www.abclimited.com) ** ** Website (the "Service") operated by ABC Limited. ("us", "we", or "our"). Your access to and use of the Service is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all users and others who wish to access or use the Service.
+Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the [**{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_full_website }}**]({{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_full_website }}) Website (the "Service") operated by {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }}. ("us", "we", or "our"). Your access to and use of the Service is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all users and others who wish to access or use the Service.
 
 You agree to be bound by these Terms by accessing or using the Service. If you disagree with any part of the terms, you do not have permission to access the Service.
 
@@ -24,7 +24,7 @@ The terms “you,” “your” or “User(s)” refers to any individual access
 
 **Authorization to Use this Website**
 
-You hereby confirm to ABC Limited that: (a) you have reached the age of 13, (ii) are an emancipated minor under the laws of your jurisdiction of domicile or residence, (iii) have the consent of your parent or legal guardian, or (iv) otherwise have the power and authority to enter into and perform your obligations under these Terms and Conditions.
+You hereby confirm to {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }} that: (a) you have reached the age of 13, (ii) are an emancipated minor under the laws of your jurisdiction of domicile or residence, (iii) have the consent of your parent or legal guardian, or (iv) otherwise have the power and authority to enter into and perform your obligations under these Terms and Conditions.
 
 Users between the ages of 13 and 18 must (i) review these Terms and Conditions with a parent or legal guardian to ensure the parent or legal guardian acknowledge and agree to these Terms and Conditions, and (ii) not access the Website if his or her parent or legal guardian doesn’t agree to these Terms and Conditions.
 
@@ -46,7 +46,7 @@ Our company determines the types of services and resources that are available to
 
 **4\. TRADEMARKS**
 
-ABC Limited's stylized name and other related graphics, logos, service marks and trade names, collectively and any portion thereof used, are the trademarks of ABC Limited and may not be used in whole or in part, in any manner, without permission in connection with any third-party products or services. Other trademarks, service marks and trade names, whether registered or unregistered, may appear on or in ABC Limited Materials and are their respective owners' property.
+{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }}'s stylized name and other related graphics, logos, service marks and trade names, collectively and any portion thereof used, are the trademarks of {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }} and may not be used in whole or in part, in any manner, without permission in connection with any third-party products or services. Other trademarks, service marks and trade names, whether registered or unregistered, may appear on or in {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }} Materials and are their respective owners' property.
 
 
 
@@ -74,11 +74,11 @@ ABC Limited's stylized name and other related graphics, logos, service marks and
 
 **6\. INTELLECTUAL PROPERTY**
 
-The content available on the Website (“Website Content”), including the logos and trademarks (“Marks”), are licensed to ABC Limited and are subject copyright, trademark, and other intellectual property rights under the United States of America (“USA”), foreign laws, and international conventions. The Website Content includes, but are not limited to, the source codes, database, Website design, functionalities, videos, audios, texts, images, graphics, and items available on the Website.
+The content available on the Website (“Website Content”), including the logos and trademarks (“Marks”), are licensed to {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }} and are subject copyright, trademark, and other intellectual property rights under the United States of America (“USA”), foreign laws, and international conventions. The Website Content includes, but are not limited to, the source codes, database, Website design, functionalities, videos, audios, texts, images, graphics, and items available on the Website.
 
-The logos, designs, page headers, names, script, graphic, button icons and footers are registered trademarks or common law trade dress of ABC Limited in the US and other parts of the world. The ABC Limited trademarks and trade dress may not be used in combination with any other products, services, or goods in a manner that is likely to confuse. You do not also have our permission to copy, imitate, or use it without getting written approval from us.&nbsp;
+The logos, designs, page headers, names, script, graphic, button icons and footers are registered trademarks or common law trade dress of {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }} in the US and other parts of the world. The {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }} trademarks and trade dress may not be used in combination with any other products, services, or goods in a manner that is likely to confuse. You do not also have our permission to copy, imitate, or use it without getting written approval from us.&nbsp;
 
-ABC Limited provides the Website Content to users on “AS IS” basis for information and personal use purposes. Users may not copy, reproduce, distribute, advertise, transmit, license, sell, or exploit it for any other purposes without seeking written consent from us.
+{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }} provides the Website Content to users on “AS IS” basis for information and personal use purposes. Users may not copy, reproduce, distribute, advertise, transmit, license, sell, or exploit it for any other purposes without seeking written consent from us.
 
 **7\. THIRD-PARTY SERVICES**
 
@@ -106,7 +106,7 @@ Please note that even if your number is listed on a federal, state, or company-s
 
 **10\. TERMINATION**
 
-In addition to any other method of termination or suspension provided for in these Terms and Conditions, ABC Limited reserves the right to terminate, change, suspend or discontinue any aspect of the Website or the Website's services at any time. Further, you agree that ABC Limited shall not be liable to you or any third-party for any termination or suspension of your access to the Website or any part thereof, removal of Content.&nbsp; Any such termination, suspension or cancellation shall not affect any right or relief to which ABC Limited may be entitled at law or in equity.&nbsp; Upon any such termination, suspension or cancellation, you shall terminate all use of the Website, the Services, and any Content and you will not be entitled to any refund of any fees or other charges, if any, paid in connection with such use.
+In addition to any other method of termination or suspension provided for in these Terms and Conditions, {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }} reserves the right to terminate, change, suspend or discontinue any aspect of the Website or the Website's services at any time. Further, you agree that {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }} shall not be liable to you or any third-party for any termination or suspension of your access to the Website or any part thereof, removal of Content.&nbsp; Any such termination, suspension or cancellation shall not affect any right or relief to which {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }} may be entitled at law or in equity.&nbsp; Upon any such termination, suspension or cancellation, you shall terminate all use of the Website, the Services, and any Content and you will not be entitled to any refund of any fees or other charges, if any, paid in connection with such use.
 
 
 
@@ -126,7 +126,7 @@ IN NO EVENT SHALL WE, NOR OUR DIRECTORS, EMPLOYEES, AGENTS, PARTNERS, SUPPLIERS 
 
 **14\. GOVERNING LAW**
 
-You agree that the Website does not give rise to personal jurisdiction over ABC Limited, either specific or general, in jurisdictions other than the laws of the United States of America.&nbsp; Any claim or dispute between you and ABC Limited that arises in whole or in part from the Service will be decided exclusively by a court of competent jurisdiction located in the United State of America. Those who do not choose to access the ABC Limited do so at their initiative and are responsible for compliance with all applicable laws including any applicable local laws.
+You agree that the Website does not give rise to personal jurisdiction over {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }}, either specific or general, in jurisdictions other than the laws of the United States of America.&nbsp; Any claim or dispute between you and {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }} that arises in whole or in part from the Service will be decided exclusively by a court of competent jurisdiction located in the United State of America. Those who do not choose to access the {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }} do so at their initiative and are responsible for compliance with all applicable laws including any applicable local laws.
 
 **15\. CHILDREN'S ONLINE PRIVACY PROTECTION ACT&nbsp;**
 
@@ -152,7 +152,7 @@ We reserve the right, in our sole discretion, to modify or replace any of these 
 
 **17\.4 Agency*.*** No agency, partnership, joint venture, or employment relationship is created as a result of these Terms and Conditions, and neither party has any authority to bind the other in any respect.
 
-**17\.5 Notices.** Unless otherwise specified in these Terms and Conditions, all notices under these Terms and Conditions will be in writing and will be deemed to have been duly given when received, if personally delivered or sent by certified or registered mail, return receipt requested; when receipt is electronically confirmed, if transmitted by facsimile or e-mail; or the day after it is sent, if sent for next day delivery by recognized overnight delivery service. Electronic notices should be sent to [legal@abclimited.com](mailto:legal@abclimited.com). **&nbsp;**
+**17\.5 Notices.** Unless otherwise specified in these Terms and Conditions, all notices under these Terms and Conditions will be in writing and will be deemed to have been duly given when received, if personally delivered or sent by certified or registered mail, return receipt requested; when receipt is electronically confirmed, if transmitted by facsimile or e-mail; or the day after it is sent, if sent for next day delivery by recognized overnight delivery service. Electronic notices should be sent to [{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_legal_email }}](mailto:{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_legal_email }}). **&nbsp;**
 
 **17\.6 No Waiver.** Our failure to enforce any part of these Terms and Conditions shall not constitute a waiver of our right to enforce later that or any other part of these Terms and Conditions. Waiver of compliance in any particular instance does not mean we will waive compliance in the future. In order for any waiver of compliance with these Terms and Conditions to be binding, we must provide you with written notice of such waiver through one of our authorized representatives.
 
@@ -160,10 +160,10 @@ We reserve the right, in our sole discretion, to modify or replace any of these 
 
 **17\.8 Contact**
 
-ABC Limited
-
-9923 Darrow Park Drive Mail Code 119-O
-
-Twinsburg, Ohio, 44087-2664United States
-
-[admin@abclimited.com](mailto:admin@abclimited.com)&nbsp;
+<div class="legal-contact">
+    <p>{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_name }}</p>
+    <p>{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.street }}</p>
+    <p>{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.city }}, {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.state }}, {{ site.data.settings.footer.custom_policies.REQUIRED_client_info.zip }}</p>
+    <p>{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.country }}</p>
+</div>
+[{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_legal_email }}](mailto:{{ site.data.settings.footer.custom_policies.REQUIRED_client_info.company_legal_email }})
