@@ -2,120 +2,168 @@
 layout: policy
 title: Terms and Conditions
 ---
-# Terms and Conditions
+# **ABC LIMITED** **TERMS AND CONDITIONS**
 
-Last updated: April 13, 2023
+Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the ** ** [**www.abclimited.com**](http://www.abclimited.com) ** ** Website (the "Service") operated by ABC Limited. ("us", "we", or "our"). Your access to and use of the Service is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all users and others who wish to access or use the Service.
 
-Please read these terms and conditions carefully before using Our Service.
+You agree to be bound by these Terms by accessing or using the Service. If you disagree with any part of the terms, you do not have permission to access the Service.
 
-# Interpretation and Definitions
+**1\. ACCEPTANCE OF TERMS AND CONDITIONS**
 
-## Interpretation
+By registering for and/or using the Services in any manner, including but not limited to visiting or browsing the Website, you agree to these Terms and Conditions and all other operating rules, policies and procedures that may be published from time to time on the Website, each of which is incorporated by reference and each of which may be updated from time to time without notice to you.
 
-The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+Certain of the Services may be subject to additional Terms and Conditions specified by us from time to time; your use of such Services is subject to those additional Terms and Conditions, which are incorporated into these Terms and Conditions by this reference.
 
-## Definitions
+These Terms and Conditions apply to all Services users, including, without limitation, users who are contributors of content information and other materials or services, registered or otherwise.
 
-For the purposes of these Terms and Conditions:
+**2\. AUTHORIZED USERS & REGISTRATION**
 
-*   **Affiliate** means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
+**Definitions**
 
-*   **Country** refers to: Nebraska, United States
+The terms “you,” “your” or “User(s)” refers to any individual accessing the Website for his/her purposes, or on behalf of an entity or other person. In the event that you purport to be the agent of, represent, or otherwise act on behalf of an entity or any other person, references to “you,” “your” or “User(s)” shall include you individually and any such entity or person that you purport to represent, and you further represent and warrant that you are an authorized representative of such entity or another person, that you have the authority to bind such entity or another person to these Terms and Conditions, and that your acceptance of these Terms of Use shall constitute acceptance on behalf of such entity or person.
 
-*   **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Vyral Marketing, 6311 Ames Avenue, #1053 Omaha, NE 68104.
+**Authorization to Use this Website**
 
-*   **Device** means any device that can access the Service such as a computer, a cellphone or a digital tablet.
+You hereby confirm to ABC Limited that: (a) you have reached the age of 13, (ii) are an emancipated minor under the laws of your jurisdiction of domicile or residence, (iii) have the consent of your parent or legal guardian, or (iv) otherwise have the power and authority to enter into and perform your obligations under these Terms and Conditions.
 
-*   **Service** refers to the Website.
+Users between the ages of 13 and 18 must (i) review these Terms and Conditions with a parent or legal guardian to ensure the parent or legal guardian acknowledge and agree to these Terms and Conditions, and (ii) not access the Website if his or her parent or legal guardian doesn’t agree to these Terms and Conditions.
 
-*   **Terms and Conditions** (also referred as "Terms") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement has been created with the help of the [TermsFeed Terms and Conditions Generator](https://www.termsfeed.com/terms-conditions-generator/).
+**Accounts**
 
-*   **Third-party Social Media Service** means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.
+For certain aspects of the Website, you may be asked to register an account. In the event you agree to register an account, you will select or receive a username and password upon providing registration information and completing the registration process.
 
-*   **Website** refers to Vyral Marketing, accessible from [https://www.getvyral.com/](https://www.getvyral.com/)
+You are solely responsible for maintaining the confidentiality of your account, username, and password and for all activities and liabilities associated with or occurring under your account, username, and password. You must notify us immediately of any unauthorized use of your account, username or password and any other breach of security, and (b) ensure that you exit from your account(s) at the end of each session. We cannot and will not be responsible for any loss or damage arising from your failure to comply with this requirement or as a result of the use of your account, username, or password, either with or without your knowledge. However, you could be held liable for losses incurred by us or another party due to someone else using your account, username, or password.
 
-*   **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+You may not transfer your account, username, or password to another person, and you may not use anyone else's account, username or password at any time without the permission of the account holder. In cases where you have authorized or registered another individual, including a minor, to use your account, you are fully responsible for (i) the online conduct of such user; (ii) controlling the user's access to and use of the Services; and (iii) the consequences of any misuse.
 
-# Acknowledgment
+In consideration of your use of the Website, you agree to (a) provide true, accurate, current and complete information about yourself as prompted by the Service's registration form and to maintain and promptly update such information to keep it true, accurate, current and complete. If you provide any information that is untrue, inaccurate, not current or incomplete, or if we believe that such information is untrue, inaccurate, not current or incomplete, we reserve the right to suspend or terminate your account(s) and refuse all current or future use of the Website, or any portion thereof.
 
-These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.
+**3\. THE SERVICES**
 
-Your access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms and Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the Service.
+Our real estate company offers personalized and professional services to our clients through our team of licensed real estate agents. We guide our clients throughout the real estate process, providing them with access to our comprehensive network of resources, tools, and expertise to ensure they receive the best possible service and achieve their real estate goals.
 
-By accessing or using the Service You agree to be bound by these Terms and Conditions. If You disagree with any part of these Terms and Conditions then You may not access the Service.
+Our company determines the types of services and resources that are available to our clients, including property listings, home inspections, mortgage financing, and other related services. We strive to provide a high-quality service to our clients and are committed to adhering to industry best practices and ethical standards.
 
-You represent that you are over the age of 18\. The Company does not permit those under 18 to use the Service.
+**4\. TRADEMARKS**
 
-Your access to and use of the Service is also conditioned on Your acceptance of and compliance with the Privacy Policy of the Company. Our Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your personal information when You use the Application or the Website and tells You about Your privacy rights and how the law protects You. Please read Our Privacy Policy carefully before using Our Service.
+ABC Limited's stylized name and other related graphics, logos, service marks and trade names, collectively and any portion thereof used, are the trademarks of ABC Limited and may not be used in whole or in part, in any manner, without permission in connection with any third-party products or services. Other trademarks, service marks and trade names, whether registered or unregistered, may appear on or in ABC Limited Materials and are their respective owners' property.
 
-# Links to Other Websites
 
-Our Service may contain links to third-party web sites or services that are not owned or controlled by the Company.
 
-The Company has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that the Company shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods or services available on or through any such web sites or services.
+**5\. RULES OF CONDUCT**
 
-We strongly advise You to read the terms and conditions and privacy policies of any third-party web sites or services that You visit.
+**5\.1** As a condition of use, you promise not to use the Services for any purpose prohibited by these Terms and Conditions. You are responsible for all of your activity in connection with the Services, whether or not the actions were yours.
 
-# Termination
+**5\.2** You represent, warrant and agree that you shall not (and shall not permit any third party to) either (a) take any action, (b) upload, download, post, submit or otherwise distribute or facilitate distribution of any Content on or through the Service, including without limitation any User Content, or (c) otherwise use or interact with the Services in a manner that:
 
-We may terminate or suspend Your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if You breach these Terms and Conditions.
+* infringes any patent, trademark, trade secret, copyright, right of publicity or other right of any other person or entity or violates any law or contractual duty;
+* you know is false, misleading, untruthful or inaccurate;
+* is unlawful, threatening, abusive, harassing, defamatory, libelous, deceptive, fraudulent, invasive of another's privacy, tortious, obscene, vulgar, pornographic, offensive, profane, contains or depicts nudity, contains or depicts sexual activity, or is otherwise inappropriate as determined by us in our sole discretion;
+* constitutes unauthorized or unsolicited advertising, junk or bulk e-mail ("spamming");
+* contains software viruses or any other computer codes, files, or programs that are designed or intended to disrupt, damage, limit or interfere with the proper function of any software, hardware, or telecommunications equipment or to damage or obtain unauthorized access to any system, data, password or other information of ours or any third party;
+* impersonates any person or entity, including any of our employees or representatives;
+* includes anyone's identification documents or sensitive financial information;
+* jeopardizes the security of your or anyone else's Account; or
+* copies or stores any significant portion of the content
 
-Upon termination, Your right to use the Service will cease immediately.
+**5\.3** You shall not: (i) take any action that imposes or may impose (as determined by us in our sole discretion) an unreasonable or disproportionately large load on our (or our third-party providers') infrastructure; (ii) interfere or attempt to interfere with the proper working of the Services or any activities conducted on the Services; (iii) bypass, circumvent or attempt to bypass or circumvent any measures we may use to prevent or restrict access to the Services (or other accounts, computer systems or networks connected to the Services); (iv) run any form of auto-responder or "spam" on the Services; (v) use manual or automated software, devices, or other processes to "crawl" or "spider" any page of the Website) harvest or scrape any Content from the Services; or (vii) otherwise take any action violating our guidelines and policies.
 
-# Limitation of Liability
+**5\.4** You shall not (directly or indirectly): (i) decipher, decompile, disassemble, reverse engineer or otherwise attempt to derive any source code or underlying ideas or algorithms of any part of the Services (including without limitation any application), except to the limited extent applicable laws expressly prohibit such restriction, (ii) modify, translate, or otherwise create derivative works of any part of the Services, or (iii) copy, rent, lease, distribute, or otherwise transfer any of the rights that you receive hereunder. You shall abide by all applicable local, state, national and international laws and regulations.
 
-Notwithstanding any damages that You might incur, the entire liability of the Company and any of its suppliers under any provision of this Terms and Your exclusive remedy for all of the foregoing shall be limited to the amount actually paid by You through the Service or 100 USD if You haven't purchased anything through the Service.
+**5\.5** We also reserve the right to access, read, preserve, and disclose any information as we reasonably believe is necessary to (i) satisfy any applicable law, regulation, legal process or governmental request, (ii) enforce these Terms and Conditions, including investigation of potential violations hereof, (iii) detect, prevent, or otherwise address fraud, security or technical issues, (iv) respond to user support requests, or (v) protect the rights, property or safety of us, our users and the public.
 
-To the maximum extent permitted by applicable law, in no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits, loss of data or other information, for business interruption, for personal injury, loss of privacy arising out of or in any way related to the use of or inability to use the Service, third-party software and/or third-party hardware used with the Service, or otherwise in connection with any provision of this Terms), even if the Company or any supplier has been advised of the possibility of such damages and even if the remedy fails of its essential purpose.
+**6\. INTELLECTUAL PROPERTY**
 
-Some states do not allow the exclusion of implied warranties or limitation of liability for incidental or consequential damages, which means that some of the above limitations may not apply. In these states, each party's liability will be limited to the greatest extent permitted by law.
+The content available on the Website (“Website Content”), including the logos and trademarks (“Marks”), are licensed to ABC Limited and are subject copyright, trademark, and other intellectual property rights under the United States of America (“USA”), foreign laws, and international conventions. The Website Content includes, but are not limited to, the source codes, database, Website design, functionalities, videos, audios, texts, images, graphics, and items available on the Website.
 
-# "AS IS" and "AS AVAILABLE" Disclaimer
+The logos, designs, page headers, names, script, graphic, button icons and footers are registered trademarks or common law trade dress of ABC Limited in the US and other parts of the world. The ABC Limited trademarks and trade dress may not be used in combination with any other products, services, or goods in a manner that is likely to confuse. You do not also have our permission to copy, imitate, or use it without getting written approval from us.&nbsp;
 
-The Service is provided to You "AS IS" and "AS AVAILABLE" and with all faults and defects without warranty of any kind. To the maximum extent permitted under applicable law, the Company, on its own behalf and on behalf of its Affiliates and its and their respective licensors and service providers, expressly disclaims all warranties, whether express, implied, statutory or otherwise, with respect to the Service, including all implied warranties of merchantability, fitness for a particular purpose, title and non-infringement, and warranties that may arise out of course of dealing, course of performance, usage or trade practice. Without limitation to the foregoing, the Company provides no warranty or undertaking, and makes no representation of any kind that the Service will meet Your requirements, achieve any intended results, be compatible or work with any other software, applications, systems or services, operate without interruption, meet any performance or reliability standards or be error free or that any errors or defects can or will be corrected.
+ABC Limited provides the Website Content to users on “AS IS” basis for information and personal use purposes. Users may not copy, reproduce, distribute, advertise, transmit, license, sell, or exploit it for any other purposes without seeking written consent from us.
 
-Without limiting the foregoing, neither the Company nor any of the company's provider makes any representation or warranty of any kind, express or implied: (i) as to the operation or availability of the Service, or the information, content, and materials or products included thereon; (ii) that the Service will be uninterrupted or error-free; (iii) as to the accuracy, reliability, or currency of any information or content provided through the Service; or (iv) that the Service, its servers, the content, or e-mails sent from or on behalf of the Company are free of viruses, scripts, trojan horses, worms, malware, timebombs or other harmful components.
+**7\. THIRD-PARTY SERVICES**
 
-Some jurisdictions do not allow the exclusion of certain types of warranties or limitations on applicable statutory rights of a consumer, so some or all of the above exclusions and limitations may not apply to You. But in such a case the exclusions and limitations set forth in this section shall be applied to the greatest extent enforceable under applicable law.
+The Services may permit you to link to other Websites, services or resources on the Internet, and other Websites, services, or resources may contain links to the Services. You do so at your own risk when you access third-party resources online. These other resources are not under our control. You acknowledge that we are not responsible or liable for the content functions, accuracy, legality, appropriateness, or other aspects of such Websites or resources. Including any such link does not imply our endorsement or association between their operators and us. You further acknowledge and agree that we shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods or services available on or through any such Website or resource.
 
-# Governing Law
 
-The laws of the Country, excluding its conflicts of law rules, shall govern this Terms and Your use of the Service. Your use of the Application may also be subject to other local, state, national, or international laws.
 
-# Disputes Resolution
+**8\. TELEPHONE CONSUMER PROTECTION ACT &nbsp;**
 
-If You have any concern or dispute about the Service, You agree to first try to resolve the dispute informally by contacting the Company.
+By submitting your phone number on our website, you expressly consent to receive autodialed and/or pre-recorded telemarketing calls and/or text messages from us or our partners at the number provided. You understand and acknowledge that this consent is voluntary and not a condition of purchasing any goods or services from us.
 
-# For European Union (EU) Users
+Please note that standard message and data rates may apply for text messages. You also understand and acknowledge that you may receive marketing messages from us or our partners even if your number is listed on a federal, state, or company-specific Do Not Call registry.
 
-If You are a European Union consumer, you will benefit from any mandatory provisions of the law of the country in which you are resident in.
+If you wish to revoke your consent to receive telemarketing calls or text messages, you may do so at any time by notifying us in writing or by following the opt-out instructions provided in the messages. We will take reasonable steps to honor your request promptly.
 
-# United States Legal Compliance
+By submitting your phone number, you represent and warrant that you are the subscriber or authorized user of the phone number and that you have the authority to grant consent to receive telemarketing calls and text messages. You further agree to indemnify and hold harmless our company, its affiliates, and their respective directors, officers, employees, and agents from any and all claims, damages, losses, or expenses, including reasonable attorneys’ fees, arising out of or in connection with any breach of this representation and warranty.
 
-You represent and warrant that (i) You are not located in a country that is subject to the United States government embargo, or that has been designated by the United States government as a "terrorist supporting" country, and (ii) You are not listed on any United States government list of prohibited or restricted parties.
+**9\. DO NOT CALL (DNC) REGULATIONS**
 
-# Severability and Waiver
+Please note that we comply with all federal and state Do Not Call regulations, and we maintain a company-specific Do Not Call list. If your number is listed on a federal, state, or company-specific Do Not Call registry, we will not contact you for telemarketing purposes, unless you have given us prior express written consent to do so.
 
-## Severability
+If you wish to be added to our company-specific Do Not Call list, please notify us in writing or by following the opt-out instructions provided in the messages. We will take reasonable steps to add your number to our Do Not Call list promptly.
 
-If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.
+Please note that even if your number is listed on a federal, state, or company-specific Do Not Call registry, we may still contact you for non-telemarketing purposes, such as customer service or account-related communications.
 
-## Waiver
+**10\. TERMINATION**
 
-Except as provided herein, the failure to exercise a right or to require performance of an obligation under these Terms shall not effect a party's ability to exercise such right or require such performance at any time thereafter nor shall the waiver of a breach constitute a waiver of any subsequent breach.
+In addition to any other method of termination or suspension provided for in these Terms and Conditions, ABC Limited reserves the right to terminate, change, suspend or discontinue any aspect of the Website or the Website's services at any time. Further, you agree that ABC Limited shall not be liable to you or any third-party for any termination or suspension of your access to the Website or any part thereof, removal of Content.&nbsp; Any such termination, suspension or cancellation shall not affect any right or relief to which ABC Limited may be entitled at law or in equity.&nbsp; Upon any such termination, suspension or cancellation, you shall terminate all use of the Website, the Services, and any Content and you will not be entitled to any refund of any fees or other charges, if any, paid in connection with such use.
 
-# Translation Interpretation
 
-These Terms and Conditions may have been translated if We have made them available to You on our Service. You agree that the original English text shall prevail in the case of a dispute.
 
-# Changes to These Terms and Conditions
+**11\. NO WARRANTIES**
 
-We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. If a revision is material We will make reasonable efforts to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at Our sole discretion.
+**11\.1** You release us from all liability for you having or not acquiring content through the Services. We make no representations concerning any Content contained in or accessed through the Services. We will not be responsible or liable for the accuracy, copyright compliance, or legality of material or content contained in or accessed through the Services.
 
-By continuing to access or use Our Service after those revisions become effective, You agree to be bound by the revised terms. If You do not agree to the new terms, in whole or in part, please stop using the website and the Service.
+**11\.2** THE SERVICES AND CONTENT ARE PROVIDED "AS IS", "AS AVAILABLE", AND WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, AND ANY WARRANTIES IMPLIED BY ANY COURSE OF PERFORMANCE OR USAGE OF TRADE, ALL OF WHICH ARE EXPRESSLY DISCLAIMED. WE, AND OUR DIRECTORS, EMPLOYEES, AGENTS, SUPPLIERS, PARTNERS AND CONTENT PROVIDERS, DO NOT WARRANT THAT: (I) THE SERVICES WILL BE SECURE OR AVAILABLE AT ANY PARTICULAR TIME OR LOCATION; (II) ANY DEFECTS OR ERRORS WILL BE CORRECTED; (III) ANY CONTENT OR SOFTWARE AVAILABLE AT OR THROUGH THE SERVICES IS FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS, OR (IV) THE RESULTS OF USING THE SERVICES WILL MEET YOUR REQUIREMENTS. YOUR USE OF THE SERVICES IS SOLELY AT YOUR OWN RISK.
 
-# Contact Us
+**12\. INDEMNIFICATION**
 
-If you have any questions about these Terms and Conditions, You can contact us:
+You shall defend, indemnify, and hold harmless us, our affiliates and each of our and their respective employees, contractors, directors, suppliers and representatives from all liabilities, claims, and expenses, including reasonable attorneys' fees, that arise from or relate to your use or misuse of, or access to, the Services, Content, or otherwise from your User Content, violation of these Terms and Conditions, or infringement by you, or any third party using your Account or identity in the Services, of any intellectual property or other right of any person or entity. We reserve the right to assume the exclusive defense and control of any matter otherwise subject to indemnification by you. In this event, you will assist and cooperate with us in asserting any available defenses.
 
-*   By email: {{ site.data.settings.client.email }}
+**13\. LIMITATION OF LIABILITY**
+
+IN NO EVENT SHALL WE, NOR OUR DIRECTORS, EMPLOYEES, AGENTS, PARTNERS, SUPPLIERS OR CONTENT PROVIDERS, BE LIABLE UNDER CONTRACT, TORT, STRICT LIABILITY, NEGLIGENCE OR ANY OTHER LEGAL OR EQUITABLE THEORY WITH RESPECT TO THE SERVICES (I) FOR ANY LOST PROFITS, DATA LOSS, COST OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, OR SPECIAL, INDIRECT, INCIDENTAL, PUNITIVE, COMPENSATORY OR CONSEQUENTIAL DAMAGES OF ANY KIND WHATSOEVER (HOWEVER ARISING), (II) FOR ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE (REGARDLESS OF THE SOURCE OF ORIGINATION), OR (III) FOR ANY DIRECT DAMAGES IN EXCESS OF (IN THE AGGREGATE) OF THE GREATER OF (A) FEES PAID TO US FOR THE PARTICULAR SERVICES DURING THE IMMEDIATELY PREVIOUS THREE (3) MONTH PERIOD OR (B) $100.00.
+
+**14\. GOVERNING LAW**
+
+You agree that the Website does not give rise to personal jurisdiction over ABC Limited, either specific or general, in jurisdictions other than the laws of the United States of America.&nbsp; Any claim or dispute between you and ABC Limited that arises in whole or in part from the Service will be decided exclusively by a court of competent jurisdiction located in the United State of America. Those who do not choose to access the ABC Limited do so at their initiative and are responsible for compliance with all applicable laws including any applicable local laws.
+
+**15\. CHILDREN'S ONLINE PRIVACY PROTECTION ACT&nbsp;**
+
+To protect children's online privacy, we comply strictly with applicable laws and regulations, including the Children's Online Privacy Protection Act. We do not:
+
+* Collect online contact information from children under 13 without prior parental notification and consent, which will allow the parent to prevent the use of the information and the child's participation in the related activity. Without prior parental consent, online information will only be used to respond directly to a child's request and will not be used for other purposes.
+* Collect the personally identifiable offline contact information of a child under age 13 without prior parental consent.
+* Distribute to third parties any personally identifiable information relating to a child under age 13 without prior parental consent.
+* Give children under age 13 the ability to publicly post or otherwise distribute personally identifiable contact information without parental consent.
+* Entice any child by the prospect of a special game, prize, or other activity, to divulge more information than is needed to participate in the activity.
+
+**16\. MODIFICATION**
+
+We reserve the right, in our sole discretion, to modify or replace any of these Terms and Conditions or change, suspend, or discontinue the Services (including, without limitation, the availability of any feature, database, or content at any time by posting a notice on the Website by sending you notice through the Services, via e-mail or by another appropriate means of electronic communication. We may also limit certain features and services or restrict your access to parts or all services without notice or liability. While we will timely provide notice of modifications, you must check these Terms and Conditions periodically for changes. Your continued use of the Services following notification of any changes to these Terms and Conditions constitutes acceptance of those changes, which will apply to your continued use of the Services going forward. Your use of the Services is subject to the Terms and Conditions in effect at the time of such use.
+
+**17\. MISCELLANEOUS**
+
+**17\.1 Entire Agreement and Severability**. These Terms and Conditions are the entire Agreement between you and us with respect to the Services, including use of the Website, supersede all prior or contemporaneous communications and proposals (whether oral, written or electronic) between you and us with respect to the Services. Suppose any provision of these Terms and Conditions is found unenforceable or invalid. In that case, that provision will be limited or eliminated to the minimum extent necessary so that these Terms and Conditions will otherwise remain in full force and effect and enforceable.
+
+**17\.2 Force Majeure*.*** We shall not be liable for any failure to perform our obligations hereunder where such failure results from any cause beyond our reasonable control, including, without limitation, mechanical, electronic or communications failure or degradation.
+
+**17\.3 Assignment*.*** These Terms and Conditions are personal to you and are not assignable, transferable or sublicensable by you except with our prior written consent. We may assign, transfer, or delegate our rights and obligations without consent.
+
+**17\.4 Agency*.*** No agency, partnership, joint venture, or employment relationship is created as a result of these Terms and Conditions, and neither party has any authority to bind the other in any respect.
+
+**17\.5 Notices.** Unless otherwise specified in these Terms and Conditions, all notices under these Terms and Conditions will be in writing and will be deemed to have been duly given when received, if personally delivered or sent by certified or registered mail, return receipt requested; when receipt is electronically confirmed, if transmitted by facsimile or e-mail; or the day after it is sent, if sent for next day delivery by recognized overnight delivery service. Electronic notices should be sent to [legal@abclimited.com](mailto:legal@abclimited.com). **&nbsp;**
+
+**17\.6 No Waiver.** Our failure to enforce any part of these Terms and Conditions shall not constitute a waiver of our right to enforce later that or any other part of these Terms and Conditions. Waiver of compliance in any particular instance does not mean we will waive compliance in the future. In order for any waiver of compliance with these Terms and Conditions to be binding, we must provide you with written notice of such waiver through one of our authorized representatives.
+
+**17\.7 Heading*s.*** The section and paragraph headings in these Terms and Conditions are for convenience only and shall not affect their interpretation.
+
+**17\.8 Contact**
+
+ABC Limited
+
+9923 Darrow Park Drive Mail Code 119-O
+
+Twinsburg, Ohio, 44087-2664United States
+
+[admin@abclimited.com](mailto:admin@abclimited.com)&nbsp;
