@@ -2,208 +2,225 @@
 layout: policy
 title: Privacy Policy
 ---
-# Privacy Policy for {{ site.data.settings.client.name }}
+# **ABC LIMITED** **PRIVACY POLICY**
 
-Last updated: April 13, 2023
+**1\. OVERVIEW OF THIS POLICY**
 
-This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
+This Privacy Policy (this "Policy") relates to the personal information that you submit when you access and use our website and other information we automatically collect when you access the website. This Policy explains all activities regarding your information, including but not limited to how we collect, use, disclose, and secure it and the rights available to you.
 
-We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the [Free Privacy Policy Generator](https://www.freeprivacypolicy.com/free-privacy-policy-generator/).
+You are required to read, understand, and agree to how we process (collection, use, disclosure, security, etc.) your information in this Policy. You are also required to read our Terms and Conditions and print a copy each for future reference. By using the website and submitting the requested personal information, you agree to how we process your information as described in this Policy. If you disagree, you should not submit information.
 
-# Interpretation and Definitions
+**2\. WHAT INFORMATION DOES** **ABC LIMITED** **COLLECT FROM YOU?**
 
-## Interpretation
+**2\.1** We collect information from and about users of our website:
 
-The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+* Directly from you when you provide it to us.
+* Automatically, when you use the website.&nbsp;
 
-## Definitions
+**2\.2** We do not collect special categories of personal data such as information relating to or about the below or criminal records.
 
-For the purposes of this Privacy Policy:
+* Health&nbsp;
+* Racial or ethnic origin
+* Political opinions
+* Membership in a political association,&nbsp;
+* Membership in a trade union
+* Religious beliefs or affiliations
+* Philosophical beliefs
+* Sexual orientation or practices
+* Biometric information&nbsp;
 
-*   **Account** means a unique account created for You to access our Service or parts of our Service.
+**2\.3** Information that you provide to us ("personal information") when you register or join our website may include:&nbsp;
 
-*   **Affiliate** means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
+**Information we collect during user registration:**
 
-*   **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to BUSINESS NAME, ADDRESS.
+* Name;
+* Contact Address;
+* Phone Number;
 
-*   **Cookies** are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.
+**2\.4** This information may also include:
 
-*   **Country** refers to: Nevada, United States
+* Information you provide by registering on the website, such as first name, last name, e-mail address, telephone number and address ("Contact Information"). This includes information provided when registering for the website and requesting further services.&nbsp;
+* Information you provide us when you complete user surveys or surveys for research purposes, such as your Contact Information.
+* Information you provide us when you report a problem with the website, such as your first name, last name and e-mail address.
+* Records and copies of your correspondence (including e-mail addresses and phone numbers) if you contact us.
+* Details of transactions you carry out through the website when you make payment to Abc Limited.&nbsp;
+* Your correspondence within the website with other users.
 
-*   **Device** means any device that can access the Service such as a computer, a cellphone or a digital tablet.
+​​​​​​​**3\. WHAT DOES** **ABC LIMITED** **USE THE INFORMATION COLLECTED FOR?**
 
-*   **Personal Data** is any information that relates to an identified or identifiable individual.
+Any information collected by us is for a purpose in relation to your use of our website, including for providing the services.&nbsp;
 
-*   **Service** refers to the Website.
+* **Provide Services to you:** We collect information to send you an e-mail about your registration, perform tasks required to complete your registration, provide customer support, or provide other types of user relationship management. We may also use your information to optimize e our Services and operations, for example, training and quality assurance.
+* **Fulfilling legal and compliance obligations:** We collect information to fulfil our legal obligations. Examples may include satisfying regulatory screening requirements concerning entity formations, responding to subpoenas and other legal requests for information, and maintaining records as required. We may also collect information to detect fraud or other suspicious activity.
+* **Analytics:** We collect information for use in performing various types of analytics. For example, we use the information to analyze how visitors interact with our website, where visitors arrive from and exit, pages visited, links clicked, text entered and mouse movements to understand site usage, detect fraud and potential threats and improve our services.
+* **To communicate with you:** We collect your e-mail address and phone number to (i) contact you regarding your use of our website, (ii) respond to your questions, complaints, and queries, and (iii) send you updates regarding our services or this Policy and other agreements;
+* **For other purposes through your consent:** We may also process your information for other reasons for which your consent will be sought before we process such information. You may also withdraw your consent at any time.
 
-*   **Service Provider** means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.
+**4\. HOW PERSONAL INFORMATION COLLECTED.**
 
-*   **Usage Data** refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).
+**4\.1** **Automatic Information Collection and Tracking.****&nbsp; &nbsp;**
 
-*   **Website** refers to WEBSITE NAME, accessible from [WEBSITE URL](WEBSITE URL)
+When you access and use the website, it may use technology to collect automatically:
 
-*   **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+* **Usage Details**. When you access and use the website, we may automatically collect certain details of your access to and use, including traffic data, location data, logs and other communication data and the resources you access and use on or through the website.
 
-# Collecting and Using Your Personal Data
+**4\.2** If you do not want us to collect this information, please do not register with us.&nbsp;
 
-## Types of Data Collected
+**4\.3** We may also use these technologies to collect information about your activities over time and across third-party websites, Websites or other online services (behavioral tracking).&nbsp;
 
-### Personal Data
+**4\.4** **Information Collection and Tracking Technologies.**
 
-While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:
+The technologies we use for automatic information collection may include the following:
 
-*   Email address
+* **Cookies (or mobile cookies).** A cookie is a small file placed on your smartphone or device. It may be possible to refuse to accept mobile cookies by activating the setting on your browser. However, if you select this setting, you may be unable to access certain parts of our website.
 
-*   First name and last name
+The cookies we use include "analytical" cookies. They allow us to recognize and count the number of visitors and see how they move around the website. This helps us improve how our website works, for example, by ensuring that users find what they are looking for easily.
 
-*   Usage Data
+These cookies are used to collect information about how visitors use our website. We use the information to compile reports on general user traffic and conversion statistics and to help us improve the site. The cookies collect information anonymously.
 
-### Usage Data
+Please note that our advertisers may also use cookies, over which we have no control.
 
-Usage Data is collected automatically when using the Service.
+* **Web Beacons*.*** Pages of the Website and our e-mails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an e-mail and for other related Website statistics (for example, recording the popularity of certain Website content and verifying system and server integrity).
+* **Third-Party Cookies*.*** The website may link to other websites owned and operated by certain trusted third parties (for example, Facebook) who, for example, collect data that helps us to track conversions from Facebook ads. These other third-party websites may also use cookies or similar technologies in accordance with their separate policies. Please note that our advertisers may also use cookies, over which we have no control. For privacy information relating to these other third-party websites, please consult their policies as Appropriate.
 
-Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+**5\. HOW DO WE USE PERSONAL DATA AND LAWFUL BASES FOR PROCESSING**
 
-When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.
+**5\.1 Lawful Bases for Processing under the GDPR**
 
-We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.
+What are the lawful bases for processing personal data? The lawful grounds for processing are set out in Article 6 of the GDPR. &nbsp; At least one of these must apply whenever we process personal data. We mainly use consent, contract, legal obligations and legitimate interests as the bases to process your data in accordance with this privacy policy.
 
-### Tracking Technologies and Cookies
+* **Consent:** the individual has given explicit consent for us to process their data for a specific purpose.&nbsp;
+* **Contract:** the processing is necessary for a contract we have with the individual or because they have asked us to take specific steps before entering into a contract.&nbsp;
+* **Legal obligation:** the processing is necessary for us to comply with the law (not including contractual obligations).&nbsp;
+* **Legitimate interests:** the processing is necessary for our legitimate interests or the legitimate interests of a third party unless there is an excellent reason to protect the individual's data, which overrides those legitimate interests.
 
-We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include:
+**5\.2** We use information that we collect about you or that you provide to us, including any personal information, to:
 
-*   **Cookies or Browser Cookies.** A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.
-*   **Web Beacons.** Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).
+* To create an account (such processing is necessary for the performance of our contract with you).
+* To verify your identity and carry out security checks in order to set up your account (such processing is necessary for the performance of our contract with you and essential for us to comply with a legal obligation).
+* Provide you with the website and its contents and any other information, products or services you request from us (such processing is necessary to perform our contract with you).
+* Give you notices about your account and the account you create (such processing is necessary for the performance of our contract with you and for us to comply with a legal obligation).
+* Ensure that content from our website is presented most effectively for you and your computer or device for accessing the website (such processing is necessary for the performance of our contract with you).
+* Carry out our obligations and enforce our rights arising from any contracts between you and us, including billing and collection (such processing is necessary for our legitimate interests).
 
-Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. Learn more about cookies on the [Free Privacy Policy website](https://www.freeprivacypolicy.com/blog/sample-privacy-policy-template/#Use_Of_Cookies_And_Tracking) article.
+**5\.3** The usage information we collect helps us to improve our website and to deliver a better and more personalized experience by enabling us to:
 
-We use both Session and Persistent Cookies for the purposes set out below:
+* Estimate our audience size and usage patterns (such processing is necessary for our legitimate interests (running our services and studying how users use our website).
+* Store information about your preferences, allowing us to customize our website according to your interests (such processing is necessary for our legitimate interests (in running our services).
+* Speed up your searches (such processing is necessary for our legitimate interests (in running our services).
+* Recognize you when you use the website (such processing is necessary for the performance of our contract).
+* To provide us with information about how the website is running or whether there are any faults or issues with our products and services (such processing is necessary for our legitimate interests (for us to deliver a better service to you).
 
-*   **Necessary / Essential Cookies**
+**5\.4** We may also use your information to contact you about news, offers, notifications, surveys, information that we think may be of interest to you (such processing is done with your consent and is necessary for our legitimate interests (to develop our products/services and grow our business)). We allow you to consent to such e-mails when you sign up for the website. If you do not want us to use your information this way, please do not consent. You may adjust your user preferences in your account profile.
 
-    Type: Session Cookies
+**5\.5** We have implemented reasonable measures to secure your personal information from accidental loss and unauthorized access, use, alteration and disclosure.
 
-    Administered by: Us
+**5\.6** The safety and security of your information also depend on you. Where we have given you (or where you have chosen) a password for access to certain parts of our website, you are responsible for keeping this password confidential. We ask you not to share your password with anyone. We urge you to be careful about giving out information in public areas of the website, like message boards. Any website user may view the information you share in public areas.
 
-    Purpose: These Cookies are essential to provide You with services available through the Website and to enable You to use some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services.
+**5\.7** Unfortunately, the transmission of information via the internet and mobile platforms is not completely secure. Although we do our best to protect your personal information, we cannot guarantee the security of your information transmitted through our website. Any transmission of personal information is at your own risk. We are not responsible for circumventing any privacy settings or security measures we provide.&nbsp;
 
-*   **Cookies Policy / Notice Acceptance Cookies**
+**5\.8** If you suspect that there has been a breach of the security of your data, you should contact us at: [admin@abclimited.com](mailto:admin@abclimited.com) and include details of:&nbsp;
 
-    Type: Persistent Cookies
+* the nature of the breach;&nbsp;
+* the date of the breach; and
+* the full circumstances of the breach.&nbsp;
 
-    Administered by: Us
+**6\. INTERNATIONAL USE OF THE WEBSITE&nbsp;**
 
-    Purpose: These Cookies identify if users have accepted the use of cookies on the Website.
+This Privacy Policy is intended to cover the collection of information on our website from residents of the United States. If you are using the website from outside the United States, please be aware that your information may be transferred to, stored, and processed in the United States, where our servers are located, and our central database is operated. The data protection and other laws of the United States and other countries might not be as comprehensive as those in your country. Please be assured that we seek to take reasonable steps to protect your privacy. By using our services, you understand that your information may be transferred to our facilities and those third parties with whom we share it as described in this privacy policy.
 
-*   **Functionality Cookies**
+**7\. TECHNICAL DATA**
 
-    Type: Persistent Cookies
+You acknowledge that Abc Limited may collect and use technical data, including but not limited to information about your mobile device and system, Internet connection or your use of the Abc Limited website. Collecting technical data ensures quality, increases comfort, and further analyses and develops Abc Limited and related services.
 
-    Administered by: Us
+Technical data is anonymous and stored separately from Personal Data; therefore, it cannot be linked back to you in any way in order to identify you.
 
-    Purpose: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.
+**8\. HOW PERSONAL DATA IS SHARED AND WITH WHOM**
 
-For more information about the cookies we use and your choices regarding cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy.
+Abc Limited does not sell or share your personal information with third parties but may share your information if the need arises, such as the following:&nbsp;
 
-## Use of Your Personal Data
+* To a buyer or other successor in the event of a merger, divestiture, restructuring, reorganization, dissolution or other sale or transfer of some or all of the Company's assets, whether as a going concern or as part of bankruptcy, liquidation or similar proceeding, in which personal information held by the Company about our Website users is among the assets transferred.
+* For any other purpose disclosed by us when you provide the information.
+* For academic research.
+* For any other purpose with your consent.&nbsp;
+* To comply with any court order, law or legal process, including responding to any government or regulatory request.
+* To enforce our rights arising from any contracts between you and us.
 
-The Company may use Personal Data for the following purposes:
+If we believe disclosure is necessary or appropriate to protect the Company's rights, property, or safety, our customers or others. This includes exchanging information for fraud protection and credit risk reduction with other companies and organizations.&nbsp;
 
-*   **To provide and maintain our Service**, including to monitor the usage of our Service.
+**9\. OPTING OUT OF E-MAIL MARKETING**
 
-*   **To manage Your Account:** to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.
+In accordance with applicable data protection laws, you have the right to unsubscribe from our marketing email list at any time. To do so, you may either click on the unsubscribe link provided in our marketing emails or contact us using the details provided below.
 
-*   **For the performance of a contract:** the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.
+Once you have unsubscribed from our marketing email list, we will promptly remove your email address from our marketing list. Please note, however, that we may still need to send you service-related emails that are necessary for the administration and use of your account, as well as any other communications that are required by law.
 
-*   **To contact You:** To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.
+We are committed to protecting your privacy and ensuring that your personal information is processed in accordance with applicable data protection laws. As such, we will only use your personal information for the purposes for which it was collected and will not share it with any third parties without your explicit consent, except as required by law or as necessary to provide our services to you.
 
-*   **To provide You** with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.
+**10\. YOUR RIGHTS WITH RESPECT TO PERSONAL DATA.**
 
-*   **To manage Your requests:** To attend and manage Your requests to Us.
+* You can review and change your personal information by logging into the website and visiting your account settings page.&nbsp;
+* You may also send us an e-mail at [admin@abclimited.com](mailto:admin@abclimited.com) to request access to, correct or delete any personal information free of charge that you have provided to us. We cannot delete your personal information except by deleting your user account.&nbsp;
+* We will respond to a request to access, correct or delete any data within 30 days of the date we receive the request.&nbsp;
+* We may not accommodate a request to change information if we believe the change would violate or breach any law or legal requirement or cause the information to be incorrect.&nbsp;
+* If, on your request, we refuse to amend, correct or delete your personal information, we will set out our reasons for not doing so and provide you with details of how you may complain about our refusal.
+* Suppose you delete your User Contributions from the website. In that case, copies of your User Contributions may remain viewable in cached and archived pages or have been copied or stored by other Website users. Our Terms and Conditions govern the proper access and use of information provided on the website, including User Contributions.
 
-*   **For business transfers:** We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.
+**11\. CHILDREN'S PRIVACY**
 
-*   **For other purposes**: We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.
+The Children's Online Privacy Protection Act was created to protect children under 13 from unsuspecting acts or practices in conjunction with collecting, using, and disclosing information about them. Our Services are not intended for anyone under the age of 13. If you are under 13, do not use or provide any information on or through our Services. If we learn we have collected or received personal information from a child under 13 without verification of parental consent, we will delete that information. If you are a parent or guardian or believe we might have any information from or about a child under 13, please contact us so we can delete the child's information. The Services will never knowingly accept, collect, maintain or use any information from a child under 13. If a child whom we know to be under the age of 13 sends personal information to us online, we will only use that information to respond directly to that child or notify parents
 
-We may share Your personal information in the following situations:
+**12\. HOW LONG IS PERSONAL DATA KEPT?**
 
-*   **With Service Providers:** We may share Your personal information with Service Providers to monitor and analyze the use of our Service, to contact You.
-*   **For business transfers:** We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.
-*   **With Affiliates:** We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.
-*   **With business partners:** We may share Your information with Our business partners to offer You certain products, services or promotions.
-*   **With other users:** when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.
-*   **With Your consent**: We may disclose Your personal information for any other purpose with Your consent.
+We will only retain personal data for as long as is reasonably necessary. Upon deletion of an account, all personal data will be removed as soon as possible, and always within 90 days of the deletion.
 
-## Retention of Your Personal Data
+**13\. LEGAL BASIS FOR THE PROCESSING OF PERSONAL INFORMATION**
 
-The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
+**13\.1** We rely upon consent and legitimate business interests to process personal information. For example, we may process personal information with a user's consent when they agree to place cookies on their devices or process information, they enter into a form on one of our sites.
 
-The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.
+**13\.2** It is in our interest as a business to enhance the services that we provide, which may include processing your information to enable us to:
 
-## Transfer of Your Personal Data
+* Respond to User enquiries and fulfil User requests
+* Send Customers or Potential Customers relevant marketing information and offers
+* Complete transactions
+* Provide customer service
+* Send administrative information
+* Personalize Users' experiences with our sites
+* Do so where we are required to by law
 
-Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
+**13\.3** We may also process personal information when it is in our or a User's legitimate interests to do so and when an individual's data protection rights do not override these interests.&nbsp;
 
-Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.
+**14\. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?**
 
-The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.
+California Civil Code Section 1798.83, also known as the "Shine the Light" law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing using the contact information provided below.
 
-## Delete Your Personal Data
+If you are under 18, reside in California, and have a registered account with the Services or Websites, you have the right to request the removal of unwanted data that you publicly post on the Services or Websites. To request the removal of such data, please contact us using the contact information below. Include the e-mail address associated with your account and a statement that you reside in California. We will ensure the data is not publicly displayed on the Services or Websites, but please be aware that the data may not be completely or comprehensively removed from our systems.
 
-You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.
+**15\. NEVADA RESIDENT RIGHTS**
 
-Our Service may give You the ability to delete certain information about You from within the Service.
+If you are a resident of Nevada, you have the right to opt out of the sale of certain Personal Data to third parties who intend to license or sell that Personal Data. You can exercise this right by contacting us at [admin@abclimited.com](mailto:admin@abclimited.com) with the subject line "Nevada Do Not Sell Request" and providing us with your name and the e-mail address associated with your account. We will not sell your Personal Data.
 
-You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any personal information that You have provided to Us.
+**16\. DATA SECURITY**
 
-Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.
+We have implemented multiple security measures to secure your personal information from accidental loss and unauthorized access, use, alteration, and disclosure. All information you provide is stored on our secure servers behind firewalls. Any payment transactions will be encrypted using SSL technology.
 
-## Disclosure of Your Personal Data
+The safety and security of your information also depend on you. Where we have given you (or where you have chosen) a password for access to certain parts of our website, you are responsible for keeping this password confidential. We ask you not to share your password with anyone.
 
-### Business Transactions
+Unfortunately, the transmission of information via the internet is not completely secure. Although we do our best to protect your personal information, we cannot guarantee the security of your information transmitted to our website. Any transmission of personal information is at your own risk. We are not responsible for circumventing any privacy settings or security measures on the website.
 
-If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.
+**17\. CHANGES TO OUR PRIVACY POLICY**
 
-### Law enforcement
+Our Policy is to post any changes we make to our privacy policy on this page with a notice that the privacy policy has been updated on the Website home page. Suppose we change how we treat our users' personal information. In that case, we will notify you by e-mail to the primary e-mail address specified in your account and/or through a notice on the Website home page. The date the privacy policy was last revised is at the top of the page. You are responsible for ensuring we have an up-to-date active and deliverable e-mail address for you and for periodically visiting our website and this privacy policy to check for any changes.
 
-Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).
+**18\. CONTACT INFORMATION**
 
-### Other legal requirements
+If you have any questions or comments about this Privacy Policy, how we collect and use your Data or your choices and rights regarding such collection and use, please do not hesitate to contact us at:
 
-The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:
+ABC Limited
 
-*   Comply with a legal obligation
-*   Protect and defend the rights or property of the Company
-*   Prevent or investigate possible wrongdoing in connection with the Service
-*   Protect the personal safety of Users of the Service or the public
-*   Protect against legal liability
+9923 Darrow Park Drive Mail Code 119-O
 
-## Security of Your Personal Data
+Twinsburg, Ohio, 44087-2664
 
-The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.
+United States
 
-# Children's Privacy
-
-Our Service does not address anyone under the age of 13\. We do not knowingly collect personally identifiable information from anyone under the age of 13\. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.
-
-If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.
-
-# Links to Other Websites
-
-Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.
-
-We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
-
-# Changes to this Privacy Policy
-
-We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.
-
-We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.
-
-You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
-
-# Contact Us
-
-If you have any questions about this Privacy Policy, You can contact us:
-
-*   By email: {{ site.data.settings.client.email }}
+[admin@abclimited.com](mailto:admin@abclimited.com)&nbsp;
