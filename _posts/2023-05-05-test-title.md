@@ -6,10 +6,10 @@ date: 2023-05-05 17:00:00
 tags:
 excerpt: 'This is a test excerpt here. '
 enclosure:
-pullquote:
+pullquote: This is a pull quote
 enclosure_type: video/mp4
-enclosure_time:
-use_youtube_image: false
+enclosure_time: 5:00 pm
+use_youtube_image: true
 youtube_alternate_image:
 youtube_code: NpEaa2P7qZI
 ---
