@@ -4,7 +4,7 @@ title: Test Title
 subtitle: This is a test subtitle
 date: 2023-05-05 17:00:00
 tags:
-excerpt:
+excerpt: 'This is a test excerpt here. '
 enclosure:
 pullquote:
 enclosure_type: video/mp4
