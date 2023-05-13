@@ -13,6 +13,54 @@
 
       <video src="{{ site.data.settings.hero.video.path }}" playsinline autoplay muted loop></video>
     </div>
+
+    {% if site.data.settings.hero.hero_tabs.enabled == true %}
+    <div class="hero-tabs-container">
+
+      <div class="tabs-desktop">
+        <ul>
+
+          {% for tab in site.data.settings.hero.hero_tabs.tabs %}
+        	{% assign loopindex = forloop.index + 1 %}
+          <li class="tab {% if loopindex == 1 %}active{% endif %}">
+            <a href="#content-{{ forloop.index + 1 }}">{{ tab.title | upcase }}</a>
+          </li>
+          {% endfor %}
+
+        </ul>
+      </div>
+
+      <div class="tabs-select-container-mobile">
+        <select aria-label="Select Category" id="select-tabs">
+
+          {% for tab in site.data.settings.hero.hero_tabs.tabs %}
+          <option value="content-{{ forloop.index + 1 }}">{{ tab.title }}</option>
+          {% endfor %}
+
+        </select>
+      </div>
+
+      <div class="tabs-content-container">
+
+        {% for tab in site.data.settings.hero.hero_tabs.tabs %}
+        {% assign loopindex = forloop.index + 1 %}
+        <div class="tab-content content-{{ forloop.index + 1 }} {% if loopindex == 1 %}active{% endif %}">
+          <h1>{{ tab.headline }}</h1>
+          <p>{{ tab.subheadline }}</p>
+          <div class="cta-button">
+            <a href="{{ tab.button_link }}">
+              <button>{{ tab.button_text }}</button>
+            </a>
+          </div>
+        </div>
+        {% endfor %}
+
+      </div>
+      
+    </div>
+
+    {% else %}
+
     <div class="hero-text">
       <h1>{{ site.data.settings.hero.header }}</h1>
       <p>{{ site.data.settings.hero.subheader }}</p>
@@ -43,6 +91,9 @@
       </div>
 
     </div>
+
+    {% endif %}
+
   </div>
 
   {% else %}

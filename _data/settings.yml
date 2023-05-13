@@ -101,6 +101,14 @@ hero:
     hero_image: /img/gray.png
     use_overlay: true
     overlay-intensity: 0.5
+    hero_tabs:
+        enabled: false
+        tabs:
+            - title:
+              headline:
+              subheadline:
+              button_text:
+              button_link:
     header: Main Benefit Driven Headline Goes Here
     header_color: white
     subheader: >-
@@ -427,3 +435,6 @@ _inputs:
         type: file
         options:
             uploads_dir: /
+    hero.hero_tabs.tabs:
+        comment: >-
+            4 tabs max.
