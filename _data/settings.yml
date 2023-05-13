@@ -104,11 +104,26 @@ hero:
     hero_tabs:
         enabled: false
         tabs:
-            - title:
-              headline:
-              subheadline:
-              button_text:
-              button_link:
+            - title: Selling
+              headline: Selling Sample Headline
+              subheadline: This is a sample selling headline that goes here.
+              button_text: Selling Button
+              button_link: "#"
+            - title: Buying
+              headline: Buying Sample Headline
+              subheadline: This is a sample buying headline that goes here.
+              button_text: Buying Button
+              button_link: "#"
+            - title: Home Estimate
+              headline: Home Estimate Sample Headline
+              subheadline: This is a sample home estimate headline that goes here.
+              button_text: Home Estimate Button
+              button_link: "#"
+            - title: Instant Offer
+              headline: Instant Offer Sample Headline
+              subheadline: This is a sample instant offer headline that goes here.
+              button_text: Instant Offer Button
+              button_link: "#"
     header: Main Benefit Driven Headline Goes Here
     header_color: white
     subheader: >-
