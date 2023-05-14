@@ -104,25 +104,25 @@ hero:
   hero_tabs:
     enabled: true
     tabs:
-      - title: Selling
-        headline: Selling Sample Headline
-        subheadline: This is a sample selling headline that goes here.
-        button_text: Selling Button
+      - title: "Call to Action #1"
+        headline: A Benefit-Driven Headlines Goes Here
+        subheadline: Write a sentence about what they will get from you.
+        button_text: "CTA Button #1"
         button_link: '#'
-      - title: Buying
-        headline: Buying Sample Headline
-        subheadline: This is a sample buying headline that goes here.
-        button_text: Buying Button
+      - title: "Call to Action #2"
+        headline: Tell Them The Benefit of Your Offer
+        subheadline: Write a sentence about what they will get from you.
+        button_text: "CTA Button #2"
         button_link: '#'
-      - title: Home Estimate
-        headline: Home Estimate Sample Headline
-        subheadline: This is a sample home estimate headline that goes here.
-        button_text: Home Estimate Button
+      - title: "Call to Action #3"
+        headline: Capture Their Attention With a Headline
+        subheadline: Write a sentence about what they will get from you.
+        button_text: "CTA Button #3"
         button_link: '#'
-      - title: Instant Offer
-        headline: Instant Offer Sample Headline
-        subheadline: This is a sample instant offer headline that goes here.
-        button_text: Instant Offer Button
+      - title: "Call to Action #4"
+        headline: Give Them a Great Reason to Respond
+        subheadline: Write a sentence about what they will get from you.
+        button_text: "CTA Button #4"
         button_link: '#'
   header: Main Benefit Driven Headline Goes Here
   header_color: '#ffffff'
