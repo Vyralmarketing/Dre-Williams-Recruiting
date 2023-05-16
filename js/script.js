@@ -32,9 +32,27 @@ function initHeroTabs() {
   const tabsContents = document.querySelectorAll('.tab-content');
   const select = document.querySelector('#select-tabs')
 
-  tabs.forEach((tab, index) => {
-    tab.addEventListener('click', () => {
-      const content = document.querySelector(`.tabs-content-container .content-${index + 1}`);
+  if (tabs.length > 0) {
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => {
+        const content = document.querySelector(`.tabs-content-container .content-${index + 1}`);
+
+        tabs.forEach(tab => {
+          tab.classList.remove('active');
+        })
+
+        tabsContents.forEach(tabContent => {
+          tabContent.classList.remove('active');
+        })
+
+        tab.classList.add('active');
+        content.classList.add('active');
+        select.value = `content-${index + 1}`
+      })
+    });
+
+    select.addEventListener('change', (e) => {
+      const content = document.querySelector(`.tabs-content-container .${e.target.value}`);
 
       tabs.forEach(tab => {
         tab.classList.remove('active');
@@ -44,26 +62,10 @@ function initHeroTabs() {
         tabContent.classList.remove('active');
       })
 
-      tab.classList.add('active');
       content.classList.add('active');
-      select.value = `content-${index + 1}`
+      tabs[e.target.selectedIndex].classList.add('active');
     })
-  });
-
-  select.addEventListener('change', (e) => {
-    const content = document.querySelector(`.tabs-content-container .${e.target.value}`);
-
-    tabs.forEach(tab => {
-      tab.classList.remove('active');
-    })
-
-    tabsContents.forEach(tabContent => {
-      tabContent.classList.remove('active');
-    })
-
-    content.classList.add('active');
-    tabs[e.target.selectedIndex].classList.add('active');
-  })
+  }
 }
 
 function initAll() {
