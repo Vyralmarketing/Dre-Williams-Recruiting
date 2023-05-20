@@ -402,6 +402,8 @@ _inputs:
     options:
       format: rgb
       alpha: true
+  about.image.file:
+    type: file
   footer.socials:
     comment: Leave the URL blank to hide that specific social network
   code.meta_pixel_code:
