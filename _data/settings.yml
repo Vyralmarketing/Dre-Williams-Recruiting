@@ -202,6 +202,7 @@ about:
   image:
     enabled: true
     path: /img/why-hire-us-thumbnail.jpg
+    width: 800
   markdown: >-
     Do you have this specific problem? Are you struggling to find a solution to
     your pain? Well, you're not alone - 57% of people in your situation feel the
