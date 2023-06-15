@@ -68,9 +68,22 @@
 				free, <span style="white-space: nowrap">no-obligation</span> consultation.</h4>
 			<p>
 				<b>{{ site.data.settings.client.brand }}</b> |
-				{{ site.data.settings.client.address }} |
-				{{ site.data.settings.client.city }}, {{ site.data.settings.client.state }} {{
-				site.data.settings.client.zip }} |
+
+				{% if site.data.settings.client.address != null %}
+					{{ site.data.settings.client.address }} |
+				{% endif %}
+
+				{% if site.data.settings.client.city != null %}
+					{{ site.data.settings.client.city }}, 
+				{% endif %}
+				
+				{% if site.data.settings.client.state != null %}
+					{{ site.data.settings.client.state }} 
+				{% endif %}
+
+				{% if site.data.settings.client.zip != null %}
+					{{ site.data.settings.client.zip }} |
+				{% endif %}
 
 				<a href="mailto:{{ site.data.settings.client.email }}" aria-label="Email">{{
 					site.data.settings.client.email }}</a>
