@@ -20,7 +20,7 @@ client:
   address: 123 Elm Street
   city: Omaha
   state: Nebraska
-  zip: "68116"
+  zip: '68116'
   phone: 1-999-555-1234
   email: info@companyname.com
   url: www.clientwebsite.com
@@ -104,25 +104,25 @@ hero:
   hero_tabs:
     enabled: false
     tabs:
-      - title: "Call to Action #1"
+      - title: 'Call to Action #1'
         headline: A Benefit-Driven Headlines Goes Here
         subheadline: Write a sentence about what they will get from you.
-        button_text: "CTA Button #1"
+        button_text: 'CTA Button #1'
         button_link: '#'
-      - title: "Call to Action #2"
+      - title: 'Call to Action #2'
         headline: Tell Them The Benefit of Your Offer
         subheadline: Write a sentence about what they will get from you.
-        button_text: "CTA Button #2"
+        button_text: 'CTA Button #2'
         button_link: '#'
-      - title: "Call to Action #3"
+      - title: 'Call to Action #3'
         headline: Capture Their Attention With a Headline
         subheadline: Write a sentence about what they will get from you.
-        button_text: "CTA Button #3"
+        button_text: 'CTA Button #3'
         button_link: '#'
-      - title: "Call to Action #4"
+      - title: 'Call to Action #4'
         headline: Give Them a Great Reason to Respond
         subheadline: Write a sentence about what they will get from you.
-        button_text: "CTA Button #4"
+        button_text: 'CTA Button #4'
         button_link: '#'
   header: Main Benefit Driven Headline Goes Here
   header_color: '#ffffff'
@@ -292,14 +292,14 @@ images:
   footer-logo-width: 250
 site_colors:
   brand_color: '#0c0c0c'
-  theme_color: '#999'
-  theme_text_color: black
-  main_body_color: white
+  theme_color: '#999999'
+  theme_text_color: '#000000'
+  main_body_color: '#ffffff'
   main_body_text_color: '#212121'
   nav_color: '#0c0c0c'
-  nav_font_color: '#FF0000'
+  nav_font_color: '#ffffff'
   sidenav_color: '#0c0c0c'
-  sidenav_font_color: '#FF0000'
+  sidenav_font_color: '#ffffff'
 header_shadow:
   h_shadow: 0px
   w_shadow: 2px
