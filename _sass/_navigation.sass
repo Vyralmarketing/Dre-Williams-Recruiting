@@ -8,6 +8,9 @@
 .navbar-toggle
 	display: block
 
+	i
+		color: $nav-font-color
+
 .navbar-collapse
 	max-height: none !important
 	border-top: 1px solid transparent
@@ -95,7 +98,7 @@
 		border: 1px solid $nav-color-very-dark
 
 .phone, .fa-phone
-	color: #fff
+	color: $nav-font-color
 
 .navbar-right
 	margin-top: 1.5rem
@@ -153,7 +156,6 @@
 	padding: 0
 	font-size: 2rem
 	font-weight: 500
-	color: #fff
 	white-space: nowrap
 	width: fit-content
 	height: fit-content
@@ -164,10 +166,10 @@
 		top: 0.1rem
 
 	a
-		color: #fff
+		color: $nav-font-color
 
 	a:hover
-		color: #e2e2e2
+		color: $nav-font-color-dark
 
 .sidenav
 	height: 100%
@@ -192,7 +194,7 @@
 	text-decoration: none
 	font-size: 2rem
 	font-weight: 400
-	color: #fff
+	color: $sidenav-font-color
 	display: block
 
 a.ellipsis
@@ -204,7 +206,7 @@ a.ellipsis
 	text-overflow: ellipsis
 
 .sidenav a:hover
-	color: #f1f1f1
+	color: $sidenav-font-color-dark
 
 .sidenav .close-button
 	position: absolute
@@ -215,14 +217,14 @@ a.ellipsis
 	font-size: 5rem
 	font-weight: 300
 	background: $nav-color-dark
-	color: #fff
+	color: $sidenav-font-color
 	width: 5rem
 	height: 5rem
 	line-height: .7
 	border-radius: 1rem 0 0 1rem
 
 .sidenav .close-button:hover
-	color: #e2e2e2
+	color: $sidenav-font-color-dark
 	background: $nav-color-very-light
 
 .sidenav .call-button
@@ -295,7 +297,6 @@ a.ellipsis
 			text-decoration: none
 			font-size: 1.8rem
 			font-weight: 400
-			color: #fff
 			display: block
 
 		a.ellipsis
@@ -311,7 +312,6 @@ a.ellipsis
 			padding: 0.1rem 0rem 0rem 1.3rem
 			font-size: 7rem
 			font-weight: 300
-			color: #fff
 			width: 6rem
 			height: 6rem
 			line-height: .7

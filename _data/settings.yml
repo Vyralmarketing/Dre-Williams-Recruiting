@@ -297,7 +297,9 @@ site_colors:
   main_body_color: white
   main_body_text_color: '#212121'
   nav_color: '#0c0c0c'
+  nav_font_color: '#FF0000'
   sidenav_color: '#0c0c0c'
+  sidenav_font_color: '#FF0000'
 header_shadow:
   h_shadow: 0px
   w_shadow: 2px
