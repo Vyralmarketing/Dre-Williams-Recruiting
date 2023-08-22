@@ -62,12 +62,12 @@ sidebar_CTAs:
     video:
       enabled: true
       path: /uploads/CTA2.mp4
-    image: /img/dummy-image.png
+    image: /uploads/ctas-400-×-400-8.png
     text: >-
       Book a one-on-one meeting to write a clear business plan to get more
       listings and sell them with less stress.
     button-text: Book A Free Call
-    url: '#'
+    url: https://bookafreecall-dre-williams.paperform.co/
     show_sidenav_link: true
     show_footer_link: true
     add_button_to_hero: false
