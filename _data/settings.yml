@@ -165,12 +165,12 @@ hero:
         customer.
       name: John Doe
 blog:
-  CTA_main_box_markdown: >
+  CTA_main_box_markdown: >-
     **Primary Call to Action Here.** There is where you can explain your primary
     call to action again so they see it when the website loads on mobile.
   CTA_main_box_link:
-    title: Click Call To Action
-    url: '#'
+    title: Attend a Free Training
+    url: https://kwrealtyprofessionalspdx.com/
   author:
     name: John Doe
     name_link: mailto:johndoe@test.com
