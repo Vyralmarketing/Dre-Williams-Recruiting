@@ -251,16 +251,16 @@ about:
     can’t wait to hear from you.
 benefits_section:
   enabled: true
-  background_color: white
+  background_color: '#ffffff'
   font_color: '#212121'
   header: Main Benefit Statement Goes Here
   subheader: Repeat what makes you unique to customers here in this subheadline
-  benefit_1: A top benefit of your service goes here
-  benefit_2: A top benefit of your service goes here
-  benefit_3: A top benefit of your service goes here
-  benefit_4: A top benefit of your service goes here
+  benefit_1: Collaboration
+  benefit_2: Efficiency
+  benefit_3: Profit
+  benefit_4: Community
   icon_image: /img/checkmark.png
-  svg_icon_color: gray
+  svg_icon_color: '#808080'
 testimonials:
   enabled: true
   header_text: Client Testimonials
