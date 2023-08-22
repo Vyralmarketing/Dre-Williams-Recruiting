@@ -86,7 +86,7 @@ sidebar_CTAs:
     add_button_to_hero: false
 sidebar_ads:
   settings:
-    ads_enabled: true
+    ads_enabled: false
     border_thickness: 3
     subtext: Sponsored
     ad_subtext_bg_color: '#e7bc25'
