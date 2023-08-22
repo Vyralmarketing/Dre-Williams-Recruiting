@@ -185,24 +185,24 @@ blog:
       me. The real estate industry isn't just transactions; it's about nurturing
       relationships, and I'm all in.
   CTA_content_box:
-    title_markdown: |
-      **Want to work with us?** Here are some ways to get involved.
+    title_markdown: '**Want to work with us?** Here are some ways to get involved.'
     items:
-      - title: How Much Is My Home Worth?
-        url: '#'
+      - title: Attend Free Training
+        url: https://kwrealtyprofessionalspdx.com/
         markdown: >-
-          **Call to Action #1** is where you can explain what someone will get
-          when they click the call to action button.
-      - title: Latest Housing Market Insights
-        url: '#'
+          **Are you thinking about working with us**? We’re hiring real estate
+          agents! Get the culture, leads, accountability, and training you need
+          to make $100,000+ a year selling real estate.
+      - title: Book a Free Call
+        url: https://bookafreecall-dre-williams.paperform.co/
         markdown: >-
-          **Call to Action #2** is where you can explain what someone will get
-          when they click the call to action button. a house.
-      - title: Get a Cash Offer Now
-        url: '#'
+          **Book a one-on-one meeting**&nbsp;to write a clear business plan to
+          get more listings and sell them with less stress.
+      - title: Sign Up Now
+        url: https://app.e2ma.net/app2/audience/signup/1990209/1967401/
         markdown: >-
-          **Call to Action #3** is where you can explain what someone will get
-          when they click the call to action button.
+          **Sign up**&nbsp;for our free agent training e-newsletter insights,
+          tips, and Q&A to sell more homes with less work.
 about:
   enabled: true
   background_image:
