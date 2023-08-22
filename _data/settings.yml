@@ -1,9 +1,19 @@
-title: Your Website Title Goes Here
+title: 'Empowering Connections: Real Estate Redefined'
 description: >-
-  This is where you put a short description of your website, between 150-160
-  characters.
-keywords: keyword1, keyword2, keyword3
-share_image: /img/share-image.jpg
+  Welcome to our dynamic real estate journey! At Keller Williams Realty
+  Professionals, we're not just about properties; we're about building
+  connections and fostering community. Experience a revolutionary approach where
+  collaboration thrives, transcending the boundaries of online and in-person
+  interactions. Our hybrid environment offers you the flexibility to engage in a
+  way that suits your lifestyle, ensuring you're always part of the
+  conversation. Join us as we redefine real estate, placing community at the
+  heart of every transaction. Explore spaces where innovation meets tradition,
+  where neighbors become friends, and where your dreams find their perfect home.
+keywords: >-
+  Best real estate brokerages near me, Top real estate companies to work for,
+  Highest commission split brokerages, Real estate office with training and
+  support,  Brokerages with strong local market presence 
+share_image: ''
 REQUIRED_bottom_mobile:
   background_color: '#999'
   button_color: '#0c0c0c'
@@ -14,16 +24,16 @@ REQUIRED_bottom_mobile:
     cta_2_text: 'Call to Action #2'
     cta_2_link: '#'
 client:
-  name: John Doe
-  brand: Company Name, Inc.
-  market: Test Market
-  address: 123 Elm Street
-  city: Omaha
-  state: Nebraska
-  zip: '68116'
-  phone: 1-999-555-1234
-  email: info@companyname.com
-  url: www.clientwebsite.com
+  name: 'Dre Williams '
+  brand: Dre Williams - Keller Williams Realty Professionals
+  market: Portland OR
+  address: 9755 Southwest  Barnes Rd
+  city: Portland
+  state: Oregon
+  zip: '97225'
+  phone: 971-263-9400
+  email: Dre.Williams@kw.com
+  url: https://kwrealtyprofessionalspdx.com/
 CTAS:
   - title: YouTube Channel
     url: '#'
