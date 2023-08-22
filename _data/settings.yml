@@ -47,7 +47,8 @@ CTAS:
     show_footer_link: true
     add_button_to_hero: false
   - title: About Us
-    url: '#'
+    url: >-
+      https://thrive.kw.com/?utm_source=KW_Headquarters&utm_medium=referral&utm_content=Join_KW
     show_sidenav_link: true
     show_footer_link: true
     add_button_to_hero: false
