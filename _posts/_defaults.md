@@ -1,9 +1,10 @@
 ---
 layout: post
 title:
-subtitle:
 date:
+hidden: false
 tags:
+subtitle:
 excerpt:
 enclosure:
 pullquote:
@@ -19,4 +20,11 @@ youtube_code:
 
 {% include cta-main-box.html %}
 
+First half of blog post
+
 {% include pullquote.html %}
+
+Second half of blog post
+
+{% include cta-content-box.html %}
+
