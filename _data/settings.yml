@@ -136,14 +136,12 @@ hero:
         subheadline: Write a sentence about what they will get from you.
         button_text: 'CTA Button #4'
         button_link: '#'
-  header: Main Benefit Driven Headline Goes Here
+  header: We Can Get Further Faster Together
   header_color: '#ffffff'
-  subheader: >-
-    This is where you put a clear description of your primary offer and why they
-    should click the call to action button below.
+  subheader: Attend my free real estate training to grow your business
   subheader_color: '#ffffff'
-  button_text: 'Call to Action #1'
-  button_link: '#'
+  button_text: ATTEND A FREE TRAINING
+  button_link: https://kwrealtyprofessionalspdx.com/
   show_sidenav_link: true
   show_footer_link: true
   add_button_to_hero: false
