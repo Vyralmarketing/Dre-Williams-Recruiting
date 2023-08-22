@@ -210,47 +210,45 @@ about:
     image: /uploads/ctas-400-×-400-11.png
     overlay_color: rgba(0, 0, 0, 0.8)
   background_color: '#000000'
-  headline: Why Hire Us Headline
-  subheadline: Explain what you do in 1 short sentence
+  headline: What We Can Do for You
+  subheadline: Our team is built from the ground up to work for you
   video:
     enabled: false
     youtube_code: NpEaa2P7qZI
   image:
     enabled: true
-    path: /img/why-hire-us-thumbnail.jpg
+    path: /uploads/august-29-2018-430-600-pm-room-204-1800-×-900-px.png
     width: 800
   markdown: >-
-    Do you have this specific problem? Are you struggling to find a solution to
-    your pain? Well, you're not alone - 57% of people in your situation feel the
-    same way. In fact, you can expect a lot of bad things to happen to you if
-    you don't solve this problem. You may find yourself dealing with this bad
-    thing or that bad thing. I've heard stories even that this terrible,
-    terrible thing has happened when the problem does not go unsolved. My name
-    is Bob and I'm here to help you solve this problem. This is what makes my
-    solution different from everyone else's. I have a story here where I can
-    relate to your situation and it's why I do what I do. Here is a list of the
-    specific things we'll do for you:
+    What are your real estate goals? Do you need to move ASAP? Maybe you’re
+    looking to get the most money possible for your property. No matter what
+    your situation is, know that you’re not alone. Our team is built from the
+    ground up to work for you and help you achieve your goals. We’re passionate
+    about real estate here, but we’re even more passionate about people. We know
+    that for you, a move isn’t just a financial transaction—it’s an emotional
+    experience. If you feel overwhelmed or confused about what step to take
+    next, don’t worry: We have you covered. Here are just a few things we
+    provide to help our clients achieve their dreams:
 
 
-    1. Killer benefit goes here.
+    * **Up-to-date information on the state of our market**
 
-    2. Killer benefit goes here.
+    * **Professional marketing designed to achieve your selling goals**
 
-    3. Killer benefit goes here.
+    * **Local connections that could net you an amazing deal**
 
-    4. Killer benefit goes here.
+    * **Years of negotiating experience**
 
-    5. Killer benefit goes here.
+    * **Partnerships and discounts with local businesses**
 
 
-    The whole goal is for you to live a happier and easier life with less stress
-    and hassle and without any worries. Those are the benefits. But don't take
-    my word for it - we have several happy customers who have the same problem
-    you may have who hired us to solve and can vouch for our systems. In fact,
-    we even offer a 100% money-back guarantee to remove all the risk - you won't
-    lose any money. I invite you to take **Call to Action \#3** to learn more,
-    **call to action \#2** to really go deeper, or **Call to action \#1** to get
-    started on the solution to your problem.&nbsp;
+    We want to help you live the best life you can, one where you find your
+    dream home, move to the perfect location, or receive a life-changing deal.
+    We’ve done this for countless clients in the past, and we’d love to do it
+    for you too. After all, there’s a reason why we’re one of the most trusted
+    real estate teams in our area. Check out the rest of our website or reach
+    out to us via the contact information below if you’d like to learn more. We
+    can’t wait to hear from you.
 benefits_section:
   enabled: true
   background_color: white
