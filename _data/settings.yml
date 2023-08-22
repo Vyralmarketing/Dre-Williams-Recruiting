@@ -58,15 +58,15 @@ CTAS:
     show_footer_link: true
     add_button_to_hero: false
 sidebar_CTAs:
-  - title: 'Call to Action #2 '
+  - title: Free Business Planning Call
     video:
       enabled: true
       path: /uploads/CTA2.mp4
     image: /img/dummy-image.png
     text: >-
-      You have under 160 characters to explain exactly what someone will get
-      when they take your call to an action.
-    button-text: 'CTA Button #2'
+      Book a one-on-one meeting to write a clear business plan to get more
+      listings and sell them with less stress.
+    button-text: Book A Free Call
     url: '#'
     show_sidenav_link: true
     show_footer_link: true
