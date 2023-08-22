@@ -185,7 +185,7 @@ blog:
       me. The real estate industry isn't just transactions; it's about nurturing
       relationships, and I'm all in.
   CTA_content_box:
-    title_markdown: '**Want to work with us?** Here are some ways to get involved.'
+    title_markdown: ''
     items:
       - title: Attend Free Training
         url: https://kwrealtyprofessionalspdx.com/
