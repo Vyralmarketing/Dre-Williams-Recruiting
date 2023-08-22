@@ -60,7 +60,7 @@ CTAS:
 sidebar_CTAs:
   - title: Free Business Planning Call
     video:
-      enabled: true
+      enabled: false
       path: /uploads/CTA2.mp4
     image: /uploads/ctas-400-×-400-8.png
     text: >-
@@ -73,7 +73,7 @@ sidebar_CTAs:
     add_button_to_hero: false
   - title: Agent Training e-Newsletter
     video:
-      enabled: true
+      enabled: false
       path: /uploads/CTA3.mp4
     image: /uploads/ctas-400-×-400-9.png
     text: >-
