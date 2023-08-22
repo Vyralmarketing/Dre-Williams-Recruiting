@@ -166,18 +166,24 @@ hero:
       name: John Doe
 blog:
   CTA_main_box_markdown: >-
-    **Primary Call to Action Here.** There is where you can explain your primary
-    call to action again so they see it when the website loads on mobile.
+    **Are you thinking about working with us**? We’re hiring real estate agents!
+    Get the culture, leads, accountability, and training you need to make
+    $100,000+ a year selling real estate
   CTA_main_box_link:
     title: Attend a Free Training
     url: https://kwrealtyprofessionalspdx.com/
   author:
-    name: John Doe
-    name_link: mailto:johndoe@test.com
-    image: /img/john-doe.png
+    name: Dre Williams
+    name_link: mailto:Dre.Williams@kw.com
+    image: /uploads/ctas-400-×-400-8.png
     bio: >-
-      This is where you have 1-2 sentences to explain why someone should listen
-      to you.
+      I'm a go-getter with a heart for growth and innovation. With a Bachelor's
+      in Human Development and an MBA in Organization and Leadership, I've spent
+      over two decades carving my path as an entrepreneur. Real estate became my
+      new frontier, driven by my desire to empower others, mirroring my journey
+      in the fitness realm. Learning is my jam, and connecting with people fuels
+      me. The real estate industry isn't just transactions; it's about nurturing
+      relationships, and I'm all in.
   CTA_content_box:
     title_markdown: |
       **Want to work with us?** Here are some ways to get involved.
