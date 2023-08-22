@@ -207,7 +207,7 @@ about:
   enabled: true
   background_image:
     enabled: true
-    image: /img/stone-wall.jpg
+    image: /uploads/ctas-400-×-400-11.png
     overlay_color: rgba(0, 0, 0, 0.8)
   background_color: '#000000'
   headline: Why Hire Us Headline
