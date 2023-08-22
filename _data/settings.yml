@@ -71,16 +71,16 @@ sidebar_CTAs:
     show_sidenav_link: true
     show_footer_link: true
     add_button_to_hero: false
-  - title: 'Call to Action #3'
+  - title: Agent Training e-Newsletter
     video:
       enabled: true
       path: /uploads/CTA3.mp4
-    image: /img/dummy-image.png
+    image: /uploads/ctas-400-×-400-10.png
     text: >-
-      You have under 160 characters to explain exactly what someone will get
-      when they take your call to an action.
-    button-text: 'CTA Button #3'
-    url: '#'
+      Sign up for our free agent training newsletter right insights, tips, and
+      Q&A to sell more homes with less work.
+    button-text: Subscribe Now
+    url: https://app.e2ma.net/app2/audience/signup/1990209/1967401/
     show_sidenav_link: true
     show_footer_link: true
     add_button_to_hero: false
