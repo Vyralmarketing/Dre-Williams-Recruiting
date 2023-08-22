@@ -15,14 +15,14 @@ keywords: >-
   support,  Brokerages with strong local market presence 
 share_image: ''
 REQUIRED_bottom_mobile:
-  background_color: '#999'
-  button_color: '#0c0c0c'
-  font_color: '#fff'
+  background_color: '#999999'
+  button_color: '#ce011f'
+  font_color: '#ffffff'
   CTAs:
-    cta_1_text: 'Call to Action #1'
-    cta_1_link: '#'
-    cta_2_text: 'Call to Action #2'
-    cta_2_link: '#'
+    cta_1_text: Attend a Free Training
+    cta_1_link: https://kwrealtyprofessionalspdx.com/
+    cta_2_text: Book a Free Call
+    cta_2_link: https://bookafreecall-dre-williams.paperform.co/
 client:
   name: 'Dre Williams '
   brand: Dre Williams - Keller Williams Realty Professionals
