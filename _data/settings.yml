@@ -107,7 +107,7 @@ nav_USP_statement:
 hero:
   video:
     enabled: true
-    path: /uploads/houses-video.mp4
+    path: /uploads/hero-pictures-2000-×-1000-px.mp4
     use_overlay: true
     overlay-intensity: 0.5
   hero_image: /img/gray.png
