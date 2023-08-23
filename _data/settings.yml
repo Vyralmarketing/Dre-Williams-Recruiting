@@ -257,10 +257,10 @@ benefits_section:
   svg_icon_color: '#808080'
 testimonials:
   enabled: true
-  header_text: Client Testimonials
+  header_text: Agent Testimonials
   background_color_1: '#f2f2f2'
   background_color_2: white
-  font_color: '#000'
+  font_color: '#000000'
   quotes:
     - markdown_quote: >
         ### "You'll put a client testimonial here of one of your best customers
