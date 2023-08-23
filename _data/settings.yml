@@ -338,7 +338,7 @@ buttons:
 sidenav:
   transparency: 0.96
 footer:
-  background_color: '#0c0c0c'
+  background_color: '#ce011f'
   font_color: '#ffffff'
   socials:
     - icon: /img/icons/youtube.png
