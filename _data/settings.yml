@@ -340,20 +340,20 @@ footer:
   font_color: '#ffffff'
   socials:
     - icon: /img/icons/youtube.png
-      url: https://www.youtube.com/
+      url:
     - icon: /img/icons/facebook.png
       url: >-
         https://www.facebook.com/kwrealtyprofessionalspdx/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0
     - icon: /img/icons/linkedin.png
-      url: https://www.linkedin.com/
+      url:
     - icon: /img/icons/instagram.png
       url: https://www.instagram.com/kwrealtyprofessionals/
     - icon: /img/icons/tiktok.png
-      url: https://www.tiktok.com/
+      url:
     - icon: /img/icons/twitter.png
       url:
     - icon: /img/icons/gmb.png
-      url: https://www.google.com/business
+      url:
   custom_policies:
     REQUIRED_client_info:
       company_name: ABC Limited
