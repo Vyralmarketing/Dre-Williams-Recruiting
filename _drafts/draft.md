@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Draft
-tags:
 excerpt:
 enclosure:
 pullquote:
