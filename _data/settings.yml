@@ -306,7 +306,7 @@ site_colors:
   theme_text_color: '#000000'
   main_body_color: '#ffffff'
   main_body_text_color: '#212121'
-  nav_color: '#0c0c0c'
+  nav_color: '#ce011f'
   nav_font_color: '#ffffff'
   sidenav_color: '#0c0c0c'
   sidenav_font_color: '#ffffff'
