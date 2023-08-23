@@ -53,9 +53,9 @@ CTAS:
     show_footer_link: true
     add_button_to_hero: false
   - title: Reviews
-    url: '#'
-    show_sidenav_link: true
-    show_footer_link: true
+    url:
+    show_sidenav_link: false
+    show_footer_link: false
     add_button_to_hero: false
 sidebar_CTAs:
   - title: Free Business Planning Call
