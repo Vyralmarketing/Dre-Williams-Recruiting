@@ -295,7 +295,7 @@ testimonials:
 images:
   logo_path: /uploads/qt-q-95.webp
   navbar-logo-width: 175
-  desktop-sidenav-logo-width: 200
+  desktop-sidenav-logo-width: 240
   mobile-sidenav-logo-width: 125
   footer-logo-width: 250
 site_colors:
