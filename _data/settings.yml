@@ -251,10 +251,10 @@ benefits_section:
   font_color: '#212121'
   header: The Team That Can Help You Reach Your Goals
   subheader: We can help you take your real estate career to new heights
-  benefit_1: 'Training and coaching to generate and convert leads '
-  benefit_2: Systems and leverage to help you focus on money-making activities
-  benefit_3: Wealth building and investment opportunities
-  benefit_4: 'A top-tier marketing system '
+  benefit_1: Get more listing opportunities
+  benefit_2: Get buyer contracts accepted
+  benefit_3: Differentiate yourself to a seller
+  benefit_4: Multiply your income with investments
   icon_image: /img/checkmark.png
   svg_icon_color: '#808080'
 testimonials:
