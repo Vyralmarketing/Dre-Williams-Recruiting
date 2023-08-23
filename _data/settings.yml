@@ -356,13 +356,13 @@ footer:
       url:
   custom_policies:
     REQUIRED_client_info:
-      company_name: ABC Limited
-      company_full_website: http://www.abclimited.com
-      company_legal_email: legal@abclimited.com
-      street: 12345 Main St.
-      zip: 44087-2664
-      city: Twinsburg
-      state: Ohio
+      company_name: Keller Williams Realty Professionals
+      company_full_website: https://kwrealtyprofessionalspdx.com/
+      company_legal_email: Dre.Williams@kw.com
+      street: 9755 Southwest Barnes Road
+      zip: '97225'
+      city: Portland
+      state: Oregon
       country: United States
     privacy:
       enabled: true
