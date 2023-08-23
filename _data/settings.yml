@@ -296,7 +296,7 @@ testimonials:
       link: '#'
 images:
   logo_path: /uploads/untitled-500-×-200-px-500-×-150-px-1.png
-  navbar-logo-width: 175
+  navbar-logo-width: 160
   desktop-sidenav-logo-width: 240
   mobile-sidenav-logo-width: 125
   footer-logo-width: 280
