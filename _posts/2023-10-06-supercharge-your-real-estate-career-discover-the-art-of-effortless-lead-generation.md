@@ -16,7 +16,7 @@ youtube_code: 3wffy6hHVrY
 ---
 {% include youtube.html %}
 
-{% include excerpt.html %}
+
 
 Are you tired of tirelessly searching for leads without much success? In today's digital age, there are proven methods that can bring leads to you, effortlessly leveraging your social media and YouTube presence, and expanding your sphere of influence. We specialize in modern marketing strategies, ensuring that every aspect, from your captivating hook to your compelling pitch and irresistible call to action, is finely tuned to attract and engage potential clients. It's time to transform yourself from a mere real estate agent into a community ambassador.
 
