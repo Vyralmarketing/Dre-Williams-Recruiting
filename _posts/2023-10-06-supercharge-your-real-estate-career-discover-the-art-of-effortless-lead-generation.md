@@ -12,7 +12,7 @@ enclosure_type:
 enclosure_time:
 use_youtube_image: true
 youtube_alternate_image: /uploads/welcome-to-my-blog-600-×-400-px-4.png
-youtube_code: 3wffy6hHVrY
+youtube_code: HN1urhp56gA
 ---
 {% include youtube.html %}
 
