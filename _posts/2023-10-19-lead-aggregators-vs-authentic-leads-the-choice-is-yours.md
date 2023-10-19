@@ -12,7 +12,7 @@ tags:
 subtitle:
 excerpt:
 enclosure:
-pullquote:
+pullquote: It's essential to stand out and connect with potential clients authentically
 enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: false
