@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Mastering YouTube: 5 Tips for Real Estate Agents'
-date: 2023-11-09 00:00:00
+date: 2023-11-08 00:00:00
 hidden: false
 tags:
   - youtube
