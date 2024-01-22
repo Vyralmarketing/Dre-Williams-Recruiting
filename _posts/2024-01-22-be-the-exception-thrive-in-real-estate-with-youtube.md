@@ -22,7 +22,7 @@ youtube_code: 6Gt1B5bHWz0
 
 {% include cta-main-box.html %}
 
-Did you know that in 2023, more than 70,000 real estate agents exited the industry? Let's make sure you're not one of them. **We can help you leverage YouTube to highlight your value in addition to your services.** Click this [link](https://form.jotform.com/233515972167159){: target="_blank" rel="noopener"} if you're interested, and let's set you up to capture market share and become the real estate agent you aspire to be.
+Did you know that in 2023, more than 70,000 real estate agents left the industry? Let's make sure you're not one of them. **We can help you leverage YouTube to highlight your value in addition to your services.** Click this [link](https://form.jotform.com/233515972167159){: target="_blank" rel="noopener"} if you're interested, and let's set you up to capture market share and become the real estate agent you aspire to be.
 
 If you need more help on how you can become a better agent, call or email us. We’re here to help.
 
