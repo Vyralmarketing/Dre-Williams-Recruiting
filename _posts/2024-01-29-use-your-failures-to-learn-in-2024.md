@@ -6,7 +6,7 @@ hidden: false
 tags:
   - Entrepreneurship
 subtitle: 'Here’s what you need to know about learning from past failures. '
-excerpt:
+excerpt: 'Here’s what you need to know about learning from past failures. '
 enclosure:
 pullquote:
 enclosure_type: video/mp4
